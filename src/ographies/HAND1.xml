@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="5.0" xml:lang="en" xml:id="HAND1">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">LEMDO Scribal Hands</title>
+                <respStmt>
+                    <resp ref="resp:edt_mrk">Encoder</resp>
+                    <name ref="pers:HOLM1">Martin Holmes</name>
+                </respStmt>
+                <respStmt>
+                    <resp ref="resp:edt_mrk">Encoder</resp>
+                    <name ref="pers:JENS1">Janelle Jenstad</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Linked Early Modern Drama Online</publisher>
+            </publicationStmt>
+            <sourceDesc>
+                <p>This is a central repository for the collection of scribal hands identified in
+                    various manuscript sources. All hands are described here in <gi>handNote</gi>
+                    elements, and pointed to using the prefix <ident>hand:</ident>.</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+
+
+            <handNotes xml:id="HAND1_DOUAI">
+
+                <handNote xml:id="DOUH1">
+                    <name>Douai MS Hand 1</name>
+                    <p>The primary scribal hand used in the Douai MS, which is MS 787 in the
+                        Bibliothèque Marceline Desbordes-Valmore repository. The scribe made changes
+                        and additions at a later stage. </p>
+                </handNote>
+
+                <handNote xml:id="DOUH2">
+                    <name>Douai MS Hand 2</name>
+                    <p>A second, later hand is used in the Douai MS, which is MS 787 in the
+                        Bibliothèque Marceline Desbordes-Valmore repository. It is responsible
+                        for the insertion of stage directions. This later hand is smaller,
+                        thinner, and more slanting than the main scribal hand. It does not appear in
+                            <title level="m">Macbeth</title>.</p>
+                </handNote>
+
+                <handNote xml:id="DOUH3">
+                    <name>Douai MS Hand 3</name>
+                    <p>A word by a third hand is added to the text of <title level="m">Julius
+                            Caesar</title> in the Douai MS, which is MS 787 in the Bibliothèque
+                        Marceline Desbordes-Valmore repository.</p>
+                </handNote>
+                
+                <handNote xml:id="DOUH4">
+                    <name>Douai MS Hand 4</name>
+                    <p>A fourth hand appears in the Douai MS, that of the Librarian, in <title level="m">Twelfth Night</title>.</p>
+                </handNote>
+                <handNote xml:id="DOUH5">
+                    <name>Douai MS Hand 5</name>
+                    <p>A fifth hand in the Douai MS numbers a previously unnumbered folio in <title level="m">As You Like It</title> (<quote>37Bis</quote>).</p>
+                </handNote>
+
+            </handNotes>
+
+            <textClass>
+                <catRef scheme="tax:emdDocumentTypes" target="cat:ldtBornDigDatabase"/>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <p>Encoding description coming soon.</p>
+        </encodingDesc>
+        <revisionDesc status="draft">
+            <change who="pers:HOUL3" when="2025-07-02">Added names for each of the hands</change>
+            <change who="pers:HOLM1" when="2021-10-14">Created file.</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <p>All relevant content is in the profileDesc.</p>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" version="5.0" xml:lang="en" xml:id="PROD1">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">LEMDO Production Database</title>
+                <respStmt>
+                    <resp ref="resp:edt_mrk">Encoder</resp>
+                    <name ref="pers:JENS1">Janelle Jenstad</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt><publisher>Linked Early Modern Drama Online</publisher></publicationStmt>
+            <sourceDesc>
+                <p>Born digital.</p>
+                <!--<p>Initial entries were seeded from the ISE2 database.</p>-->
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <catRef scheme="tax:emdDocumentTypes" target="cat:ldtBornDigDatabase"/>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+<p>Encoding description coming soon.</p>
+            <!--<listPrefixDef copyOf="global:listPrefixDef"/>-->
+            <!--<projectDesc copyOf="global:projectDesc"/>-->
+            <!--<editorialDecl copyOf="global:editorialDecl_documentation"/>-->
+        </encodingDesc>
+        <revisionDesc status="draft">
+            <change who="pers:ELHA1" when="2020-09-30">Created file.</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <listBibl>
+                <bibl xml:id="ARMF1"><author>Armfield, Neil</author>, dir. <title level="m">Twelfth Night</title>.
+                    <distributor>Australian Film Institute</distributor>, <date when="1986">1986</date>. WSB
+                    <idno type="WSB">ch696</idno>.</bibl>
+                
+                <bibl xml:id="BOGD1"><author>Bogdanov, Michael</author>, dir. <title level="m">Henry V</title>.
+                    <pubPlace>Plymouth</pubPlace>: <publisher>The English Shakespeare Company</publisher>,
+                    <date>1986</date>.</bibl>
+                
+                <bibl xml:id="BLOS2"><author>Blostein, David</author>, dir. <title level="m">The Old Wives Tale</title>. <pubPlace>Toronto</pubPlace>, <date>1969</date>.</bibl>
+                
+                <bibl xml:id="BRAN3"><author>Branagh, Kenneth</author> and <author>Paul Kafno</author>, dir. <title level="m">Twelfth
+                    Night</title>. <distributor>Thames
+                        Television</distributor>, <date when="1987">1987</date>. WSB <idno type="WSB"
+                            >cg31</idno>.</bibl>
+                
+                <bibl xml:id="BRAN2"><author>Branagh, Kenneth</author>, dir. <title level="m">Henry V</title>.
+                    <distributor>Renaissance Films</distributor>,
+                    <date>1989</date>.</bibl>
+                
+                <bibl xml:id="DONN2"><author>Donnelan, Declan</author>, dir. <title level="m">Twelfth
+                    Night</title>. <distributor>Programme for Sydney Festival</distributor>,
+                    <date>2006</date>.</bibl>
+                
+                <bibl xml:id="FRIE2"> <author>Fried, Yakov</author>, dir. <title level="m"
+                    >Dvenadtsataya noch</title>. <distributor>Lenfilm</distributor>,
+                    <date>1955</date>.</bibl>
+                
+                <bibl xml:id="GORR1"><author>Gorrie, John</author>, dir. <title level="m">Twelfth
+                    Night</title>. <distributor>BBC</distributor>, <date>1980</date>. WSB <idno type="WSB"
+                        >cr176</idno>.</bibl>
+                
+                <bibl xml:id="HALL12"><author>Hall, Edward</author>, dir. <title level="m">Henry V</title>. By
+                    <author>William Shakespeare</author>. <pubPlace>Stratford</pubPlace>: <publisher>Royal Shakespeare Company</publisher>, <date>2000</date>.</bibl>
+               
+                
+                <bibl xml:id="HYTN1"><author>Hytner, Nicholas</author>, dir. <title level="m">Henry V</title>. <pubPlace>London</pubPlace>: <publisher>National
+                    Theatre</publisher>, <date>2003</date>.</bibl>
+                
+                <bibl xml:id="MUAT1"><author>Muat, Maria</author>, dir. <title level="m">Twelfth
+                    Night</title>. <title level="s">Shakespeare: The Animated Tales</title>. <distributor>Christmas
+                        Films</distributor>, <date>1992</date>. WSB <idno type="WSB">cb22</idno>.</bibl>
+                
+                <bibl xml:id="NOBL1"><author>Noble, Adrian</author>, dir. <title level="m">Henry V</title>. <pubPlace>Stratford</pubPlace>: <publisher>Royal
+                    Shakespeare Company</publisher>, <date>1984</date>.</bibl>
+                
+                <bibl xml:id="NUNN1"><author>Nunn, Trevor</author>, dir. <title level="m">Twelfth
+                    Night</title>. <distributor>Fine Line</distributor>, <date>1996</date>. WSB <idno
+                        type="WSB">co193</idno>.</bibl>
+                
+              <bibl xml:id="OLIV1"><author>Olivier, Laurence</author>, dir. <title level="m">The Chronicle History of King Henry the Fift with his Battell fought at Agincourt in France</title>. <distributor>Two
+                  Cities Films</distributor>, <date>1944</date>.</bibl>
+                
+              <bibl xml:id="PDDD1"><author>PLACEHOLDER PRODUCTION</author>, dir. <title level="m">Placeholder production item</title>. 
+                The purpose of this item is to allow encoders to link to a production item when they do not have 
+                access to PROD1 or cannot add a new entry. When linking to this item, please include a comment 
+                explaining the details of the item the link should really point to.</bibl>
+                
+                <bibl xml:id="SICH1"><author>Sichel, John</author>, dir. <title level="m">Twelfth
+                    Night</title>. <distributor>ATV</distributor>, <date>1970</date>. WSB <idno type="WSB"
+                        >ccg104</idno>.</bibl>
+                
+                <bibl xml:id="SUPP1"><author>Supple, Tim</author>, dir. <title level="m">Twelfth
+                    Night</title>. <distributor>Channel Four</distributor>, <date>2003</date>. WSB <idno
+                        type="WSB">ccl574</idno>.</bibl>
+                
+                <bibl xml:id="TUCK2"><author>Tucker, Patrick</author>, dir. <title level="m">The Taming of the
+                    Shrew</title>. <title level="s">World Stage Festival</title>. <pubPlace>Toronto</pubPlace>: <publisher>Original Shakespeare Company</publisher>, <date>25-17 April 1996</date>.</bibl>
+                
+                <bibl xml:id="WARC1"><author>Warchus, Matthew</author>, dir. <title level="m">Henry V</title>. <pubPlace>Stratford-upon-Avon</pubPlace>: <publisher>Royal Shakespeare Co.</publisher>, <date>1994</date>.</bibl>
+            </listBibl>
+        </body>
+    </text>
+</TEI>

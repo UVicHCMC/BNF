@@ -1,0 +1,3072 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="emdSpCu_M_annotation">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Annotations for emdSpCu_M</title>
+            <respStmt>
+               <resp ref="resp:aut">Author</resp>
+               <persName><!--Insert ref attribute to persName and add author name here--></persName>
+            </respStmt>
+            <respStmt>
+               <resp ref="resp:edt_gen">Editor in Chief</resp>
+               <persName ref="pers:BOUR10">Claire M. L. Bourne</persName>
+            </respStmt>
+            <respStmt>
+               <resp ref="resp:rtm">Project Manager</resp>
+               <persName ref="pers:FROE2">Heather Froehlich</persName>
+            </respStmt>
+            <respStmt>
+               <resp ref="resp:rtm_ra">Graduate Research Assistant</resp>
+               <persName ref="pers:CENC1">Lauren M. Cenci</persName>
+            </respStmt>
+            <respStmt>
+               <resp ref="resp:edt_mrk">Remediation</resp>
+               <orgName ref="org:LEMD1">LEMDO Team</orgName>
+            </respStmt>
+            <respStmt>
+               <resp ref="resp:edt_mrk">Remediation</resp>
+               <persName ref="pers:JENS1">Janelle Jenstad</persName>
+            </respStmt>
+            <respStmt>
+               <resp ref="resp:prg">Conversion</resp>
+               <persName ref="pers:NOKH1">Illya Nokhrin (HCMC)</persName>
+            </respStmt>
+            <respStmt>
+               <resp ref="resp:edt_mrk">Original TEI Markup</resp>
+               <orgName ref="org:DBNF">Digital Beaumont and Fletcher</orgName>
+            </respStmt>
+            <sponsor ref="org:CWBJ1"/>
+            <funder>
+               <ref target="https://www.sshrc-crsh.gc.ca/">Social Sciences and Humanities Research Council of Canada</ref>
+            </funder>
+            <funder>
+               <ref target="https://www.cambridge.org/governance">Cambridge University Press Syndicate</ref>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Victoria on the Linked Early Modern Drama Online Platform</publisher>
+            <availability>
+               <licence from="2026-04-30" resp="pers:BUTL4" corresp="anth:cwbj"/>
+               <licence from="2026-04-30" resp="pers:BUTL4" corresp="anth:lemdo"/>
+               <p>Intellectual copyright in this edition is held by the surviving General Editor, <persName ref="pers:BUTL4">Martin Butler</persName>. Copyright on the TEI-XML markup is held by the <orgName ref="org:UVIC1">University of Victoria</orgName> on behalf of the <orgName ref="org:LEMD1">LEMDO Team</orgName>. The content and TEI-XML markup in this file are licensed under a <ref target="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC_ND 4.0 license</ref>. This file is freely downloadable without permission under the following conditions: (1) credit must be given to the editor, CEWBJO, and LEMDO in any subsequent use of the files and/or data; (2) this availability statement must remain in the file; (3) the content cannot be adapted or repurposed (except for quotations for the purposes of academic review and citation); and (4) commercial uses are not permitted without the knowledge and consent of the editor, CEWBJO, and LEMDO. Neither the content nor the code in this file is licensed for training large language models (LLMs), ingestion into an LLM, or any use in any artificial intelligence applications; such uses are considered to be commercial uses and are strictly prohibited.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Cambridge Edition of the Works of Ben Jonson Online</p>
+         </seriesStmt>
+         <notesStmt>
+            <relatedItem target="doc:emdSpCu_M"/>
+         </notesStmt>
+         <sourceDesc>
+            <p>Annotations extracted from CEWBJ’s TEI-XML</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <catRef scheme="tax:emdDocumentTypes" target="cat:ldtBornDigParatextAnnotation"/>
+            <catRef scheme="tax:emdDocumentHist" target="cat:edhSourceCBJ"/>
+         </textClass>
+      </profileDesc>
+      <encodingDesc>
+         <p>Encoded in TEI P5 according to the LEMDO Customization and Encoding Guidelines.</p>
+      </encodingDesc>
+      <revisionDesc status="TEI_INP">
+         <change who="pers:NOKH1" when="2026-03-11" status="prgGenerated">Converted file from CEWBJO to LEMDO TEI</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="annotations">
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_1"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_2">
+               <note type="label">Play</note>
+               <note type="editorial">This cast list has been adapted from the 1679 folio edition of Beaumont and Fletcher’s <title>Fifty Comedies and Tragedies</title>. Spelling has been regularized based on how names appear in the dialogue. Descriptions have been updated.</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_3"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_4">
+               <note type="label">launched</note>
+               <note type="commentary">both presenting a play and therefore launching it, but also the imagery of a boat</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_5"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_6">
+               <note type="label">stream</note>
+               <note type="commentary">prevailing direction of opinion</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_7"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_8">
+               <note type="label">attend</note>
+               <note type="commentary">listen to</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_9"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_10">
+               <note type="label">conceive</note>
+               <note type="gloss">understand</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_11"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_12">
+               <note type="label">bark</note>
+               <note type="commentary">small ship</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_13"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_14">
+               <note type="label">proof</note>
+               <note type="commentary">act of testing</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_15"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_16">
+               <note type="label">lie aloof</note>
+               <note type="commentary">nautical term, to the windward side</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_17"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_18">
+               <note type="label">vantage</note>
+               <note type="commentary">profit</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_19"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_20">
+               <note type="label">give wind at will</note>
+               <note type="commentary">to avail oneself of (wind) for sailing</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_21"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_22">
+               <note type="label">crown the play</note>
+               <note type="commentary">confer the highest praise on</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_23"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_24">
+               <note type="label">funeral black</note>
+               <note type="commentary">clothes to mark someone as grieving</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_25"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_26">
+               <note type="label">sires</note>
+               <note type="gloss">people of distinction</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_27"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_28">
+               <note type="label">heap muck together</note>
+               <note type="gloss">collect manure</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_29"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_30">
+               <note type="label">Fie</note>
+               <note type="commentary">exclamation expressing disgust or indignant reproach</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_31"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_32">
+               <note type="label">profane</note>
+               <note type="gloss">unholy</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_33"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_34">
+               <note type="label">tenet</note>
+               <note type="gloss">opinion in religion, philosophy, politics, etc.</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_35"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_36">
+               <note type="label">estate</note>
+               <note type="gloss">property, pocessions, fortune</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_37"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_38">
+               <note type="label">Grandee</note>
+               <note type="gloss">Spanish nobleman of highest rank</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_41"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_42">
+               <note type="label">jars</note>
+               <note type="gloss">disagreements</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_43"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_44">
+               <note type="label">bears</note>
+               <note type="commentary">supports something/someone</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_45"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_46">
+               <note type="label">affable</note>
+               <note type="commentary">easy to approach/converse with</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_47"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_48">
+               <note type="label">courtesy</note>
+               <note type="gloss">favour or indulgence</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_49"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_50">
+               <note type="label">cast-captain</note>
+               <note type="gloss">valued or respected captain</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_51"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_52">
+               <note type="label">esteemed</note>
+               <note type="gloss">valued or respected</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_55"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_56">
+               <note type="label">repair</note>
+               <note type="gloss">return to specific place or person</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_57"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_58">
+               <note type="label">untutored</note>
+               <note type="gloss">uneducated</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_59"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_60">
+               <note type="label">saucy</note>
+               <note type="gloss">rude or cheeky</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_61"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_62">
+               <note type="label">presages</note>
+               <note type="gloss">warnings or omens of future events</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_63"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_64">
+               <note type="label">patron</note>
+               <note type="gloss">server or protector</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_65"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_66">
+               <note type="label">page</note>
+               <note type="gloss">boy or servant</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_67"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_68">
+               <note type="label">I’ll not receive thee…a kinder master</note>
+               <note type="commentary">Jamie claims that he would not treat Ascanio as a servant, which would be expected given Ascanio’s status as a page, but as a son. There is a certain level of privilage with Jamie’s statement. In terms of Jamie’s authority, he has the ability to treat those who work for him as he pleases. In terms of Ascanio’s status, because he is well-behaved, likely due to a certain level of education, and because he counts on gentlemen as his friends, he will likely be treated differently than other people in a similar role as him.</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_69"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_70">
+               <note type="label">abject</note>
+               <note type="gloss">low repute; despicable</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_73"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_74">
+               <note type="label">Salamanca</note>
+               <note type="commentary">Referring to la Universidad de Salamanca. It was founded in 1218 and is the oldest university in the Hispanic world.</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_75"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_76">
+               <note type="label">brook</note>
+               <note type="gloss">endure or tolerate</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_79"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_80">
+               <note type="label">more</note>
+               <note type="editorial">The lines <q>Here, sweetheart…were more</q> are originally assigned to Milanes, while the lines <q>This is…broker charitable</q> are assigned to Angelo. Since Angelo Milanes is one character, I joined the four lines into a single speech in the modernization.</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_83"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_84">
+               <note type="label">slip</note>
+               <note type="commentary">twig taken from plant or tree to graft or plant</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_85"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_86">
+               <note type="label">hinds</note>
+               <note type="gloss">household or domestic workers</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_87"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_88">
+               <note type="label">exchequer</note>
+               <note type="gloss">treasurer</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_89"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_90">
+               <note type="label">gull</note>
+               <note type="gloss">fool</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_91"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_92">
+               <note type="label">yoke</note>
+               <note type="gloss">restrain, burden</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_93"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_94">
+               <note type="label">issue</note>
+               <note type="gloss">offspring, children</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_95"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_96">
+               <note type="label">opposed meteors</note>
+               <note type="commentary">shooting stars facing each other with the potential to crash</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_97"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_98">
+               <note type="label">cozening</note>
+               <note type="gloss">deceitful, frightful</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_99"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_100">
+               <note type="label">rack</note>
+               <note type="gloss">stretch, pull out</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_101"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_102">
+               <note type="label">pistolet</note>
+               <note type="gloss">small bread bun</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_103"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_104">
+               <note type="label">Pluto’s flame-coloured daughter</note>
+               <note type="commentary">Likely a reference to Edmund Spenser’s <title>The Faerie Queene</title> (1590s) in which Spenser imagines a dauther for Pluto, the Greek ruler of the underworld. Spenser calls the daughter Lucifera, which bears a close resembalance to Lucifer, which translates to <q>light bearer.</q>
+               </note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_105"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_106">
+               <note type="label">masques, and revels</note>
+               <note type="gloss">performances and entertainments</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_107"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_108">
+               <note type="label">dumb</note>
+               <note type="gloss">mute</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_109"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_110">
+               <note type="label">You have given him a heat</note>
+               <note type="commentary">You have made him angry.</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_111"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_112">
+               <note type="label">wars</note>
+               <note type="commentary">Likely referring to the Ottoman-Habsburg wars, which were fought from the 16th century to the 18th century. The main parties of these wars were the Ottoman Empire and the Habsburg Monarchy, which included a Habsburg-lead Spain</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_113"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_114">
+               <note type="label">gallants</note>
+               <note type="gloss">fine gentlemen</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_115"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_116">
+               <note type="label">Turk</note>
+               <note type="commentary">
+                  <q>Turkish people regarded collectively; the Turkish power. Also: the Turkish Sultan, the Grand Turk</q> (OED).</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_117"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_118">
+               <note type="label">moony-standards</note>
+               <note type="commentary">Referring to flags (standards) with the image of a moon.</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_119"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_120">
+               <note type="label">Polonia</note>
+               <note type="gloss">Poland</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_121"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_122">
+               <note type="label">state-worms</note>
+               <note type="commentary">miserable people involved in politics</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_123"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_124">
+               <note type="label">conceited</note>
+               <note type="gloss">fancifully elaborated</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_125"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_126">
+               <note type="label">bonas-robas</note>
+               <note type="gloss">sexually available women</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_127"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_128">
+               <note type="label">gamster</note>
+               <note type="gloss">gambler</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_129"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_130">
+               <note type="label">mean</note>
+               <note type="gloss">low social status; not of nobility or gentry</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_131"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_132">
+               <note type="label">climate yields</note>
+               <note type="commentary">Different climates were believed to influence the emotions of people.</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_133"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_134">
+               <note type="label">fired</note>
+               <note type="gloss">burning</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_135"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_136">
+               <note type="label">advocate</note>
+               <note type="gloss">person employed to plead a cause for someone else in court</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_137"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_138">
+               <note type="label">knave</note>
+               <note type="gloss">unpleasant or disagreeable man</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_139"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_140">
+               <note type="label">Old Argus</note>
+               <note type="commentary">a mythical character with 100 eyes</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_141"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_142">
+               <note type="label">Mercury</note>
+               <note type="commentary">messenger for the Roman Gods</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_143"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_144">
+               <note type="label">Jove</note>
+               <note type="commentary">supreme God in the Roman mythology</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_147"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_148">
+               <note type="label">Tush</note>
+               <note type="gloss">to scoff or express impatience</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_149"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_150">
+               <note type="label">engines</note>
+               <note type="gloss">cunning plans</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_151"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_152">
+               <note type="label">on the anvil</note>
+               <note type="commentary">being dealt with</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_157"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_158">
+               <note type="label">tie</note>
+               <note type="commentary">something that connects two things</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_159"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_160">
+               <note type="label">centuplied</note>
+               <note type="gloss">multiplied by a hundred</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_165"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_166">
+               <note type="label">store</note>
+               <note type="gloss">sufficent or abundant supply</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_167"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_168">
+               <note type="label">brave</note>
+               <note type="gloss">showy, grand, fine</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_169"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_170">
+               <note type="label">gainer</note>
+               <note type="gloss">person to makes profits</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_173"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_174">
+               <note type="label">steward</note>
+               <note type="gloss">manager</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_177"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_178">
+               <note type="label">calamity</note>
+               <note type="commentary">deep distress arising from some adverse event</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_179"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_180">
+               <note type="label">vicious</note>
+               <note type="gloss">depraved, immoral, bad</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_181"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_182">
+               <note type="label">quiddit</note>
+               <note type="gloss">subtle argument</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_183"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_184">
+               <note type="label">half-pinned-puppy</note>
+               <note type="gloss">half-confined puppy</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_185"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_186">
+               <note type="label">buxom</note>
+               <note type="commentary">youthful, large in stature, and indulgent</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_189"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_190">
+               <note type="label">vicar</note>
+               <note type="commentary">earthly representative of God</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_191"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_192">
+               <note type="label">dead-sick in love</note>
+               <note type="commentary">completely in love; as in love as one can be</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_193"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_194">
+               <note type="label">Thou art dead-sick in love, and he’ll pray for thee.</note>
+               <note type="editorial">In the first folio, this line is assigned to Leandro. However, since Leandro is the one in love, and has been made fun of by Arsenio in the lines prior, this line should actually be assigned to Arsenio. The line is assigned to Arsenio in the second folio and in Bowers’ scholarly edition, an editorial choice that I agree with and thus have implimented in this modernization.</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_195"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_196">
+               <note type="label">make no doubt…and home</note>
+               <note type="commentary">I will work carefully, cleverly, and head home</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_197"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_198">
+               <note type="label">Difficilia pulchra</note>
+               <note type="commentary">Troublesome beauty is the literal translation, but Leandro is referring to Amaranta’s beauty being worth the difficulty of the task of getting to her.</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_201"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_202">
+               <note type="label">daily</note>
+               <note type="editorial">In the first folio, the lines <q>A fools head if I fail and so forsake me. / You shall heare from me daily.</q> are assigned to Arsenio. However, since Leandro is the one attempting to seduce Amaranta, he is the one that could fail. Leandro has also come up with an alternative identity and would be away from Arsenio and Milanes; he promises to give them daily updates here. These lines are assigned to Leandro in the second folio and in Bowers’ scholarly edition, an editorial choice that I agree with and thus have implimented in this modernization.</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_203"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_204">
+               <note type="label">sextons</note>
+               <note type="commentary">church managers</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_205"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_206">
+               <note type="label">arrant dunces</note>
+               <note type="commentary">wandering idiots</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_207"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_208">
+               <note type="label">Christening</note>
+               <note type="gloss">administered baptism</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_209"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_210">
+               <note type="label">pinned-Butter-prints</note>
+               <note type="commentary">(slang) weak babies or children</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_211"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_212">
+               <note type="label">courtesans</note>
+               <note type="gloss">sex workers, prostitutes</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_213"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_214">
+               <note type="label">airs</note>
+               <note type="commentary">humeralism</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_215"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_216">
+               <note type="label">canons</note>
+               <note type="commentary">rules of the Catholic Church</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_217"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_218">
+               <note type="label">pence</note>
+               <note type="commentary">monetary unity and coin of England</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_219"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_220">
+               <note type="label">earth</note>
+               <note type="commentary">Diego is lamenting that the people of the parish will not die, and thus cannot be buried, which would earn him money.</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_221"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_222">
+               <note type="label">How merrily…go then</note>
+               <note type="commentary">Diego is referring to the death-bell, a bell tolled to announce a death.</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_223"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_224">
+               <note type="label">muddy air</note>
+               <note type="gloss">polluted air</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_225"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_226">
+               <note type="label">possets</note>
+               <note type="commentary">drinks made from hot milk curdled with alcohol often drunk for medicinal purposes</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_227"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_228">
+               <note type="label">plasters</note>
+               <note type="commentary">bandages covered in a medicinal substance applied to the skin</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_229"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_230">
+               <note type="label">Gouts…palsies</note>
+               <note type="commentary">arthritis and paralysis or weakness</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_231"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_232">
+               <note type="label">marl</note>
+               <note type="gloss">ground-up</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_233"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_234">
+               <note type="label">wills…season</note>
+               <note type="commentary">Lopez is referring to the wills and funerals that come after people’s death, which benefit him as the Curate.</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_235"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_236">
+               <note type="label">pulpit</note>
+               <note type="commentary">
+                  <q>A raised, enclosed platform in a church or chapel (or sometimes on the outside of the building), sometimes with a canopy and usually with a desk, seat, etc., from which the preacher delivers a sermon, or from which (in some denominations) the officiating minister conducts the service.</q> (OED)</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_237"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_238">
+               <note type="label">Nova Hispania</note>
+               <note type="commentary">Literally translates to <q>New Spain</q>. Explain the relationship between Spain and the New World.</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_239"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_240">
+               <note type="label">ancient friend</note>
+               <note type="gloss">old friend</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_241"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_242">
+               <note type="label">snap</note>
+               <note type="gloss">swindler</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_243"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_244">
+               <note type="label">cozening countenance</note>
+               <note type="gloss">deceitful expression</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_245"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_246">
+               <note type="label">Cantabit Vacuus</note>
+               <note type="commentary">Cantabit Vacuus is a refrence to the longer Latin phrase, <q>Cantabit vacuus coram latrone viator</q> which translates to <q>the empty-handed traveler sings in front of the robber.</q> Lopez is telling Diego to take the chance in trusting Leandro as they have little to lose.</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_247"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_248">
+               <note type="label">nutshell</note>
+               <note type="commentary">something of little value</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_249"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_250">
+               <note type="label">Alonzo Tiveria</note>
+               <note type="commentary">The character Alonzo Tiveria is character made up by Leandro to trick Diego and Lopez into helping him into Bartolus’ house so he can meet Amaranta.</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_251"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_252">
+               <note type="label">Spanish colony in the Caribbean</note>
+               <note type="gloss">India</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_253"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_254">
+               <note type="label">Salamanca</note>
+               <note type="gloss">city in Northwestern Spain</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_255"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_256">
+               <note type="label">chamber-fellows</note>
+               <note type="gloss">roommates</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_257"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_258">
+               <note type="label">Cathay</note>
+               <note type="gloss">China</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_259"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_260">
+               <note type="label">succeed</note>
+               <note type="gloss">inherited</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_261"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_262">
+               <note type="label">sir</note>
+               <note type="editorial">In the first folio, the lines <q>Good sir, let me think; / I oray ye be patient.</q> are assigned to Leandro’s speech above. However, the second folio assigns the the lines to Lopez, combining the lines previously assigned to Leandro to Lopez’s original lines, <q>Pray ye stay a little, / Nay, let me remember, I beseech ye stay, sir.</q> I decided to follow the second folio’s edits. Turner also changes the lines to follow the second folio’s arrangment.</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_263"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_264">
+               <note type="label">grave, staid Gentleman</note>
+               <note type="commentary">serious man settled in his character</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_265"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_266">
+               <note type="label">manifestly</note>
+               <note type="gloss">unmistakably</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_267"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_268">
+               <note type="label">masques</note>
+               <note type="commentary">A form of courtly dramatic entertainment, often richly symbolic, in which music and dancing played a substantial part, costumes and stage machinery tended to be elaborate, and the audience might be invited to contribute to the action or the dancing.</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_269"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_270">
+               <note type="label">sports</note>
+               <note type="gloss">diversions or entertainments</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_271"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_272">
+               <note type="label">impudents</note>
+               <note type="gloss">shameless individuals</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_273"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_274">
+               <note type="label">Gra’-mercy</note>
+               <note type="gloss">many thanks</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_275"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_276">
+               <note type="label">dandled</note>
+               <note type="commentary">moved a child up and down in their arms or knees</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_279"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_280">
+               <note type="label">defray</note>
+               <note type="gloss">meet the expense of</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_281"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_282">
+               <note type="label">pittance</note>
+               <note type="gloss">allowance</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_283"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_284">
+               <note type="label">unlade</note>
+               <note type="gloss">remove a burden from</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_285"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_286">
+               <note type="label">tender</note>
+               <note type="gloss">affectionate</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_289"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_290">
+               <note type="label">stale</note>
+               <note type="gloss">past its prime</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_291"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_292">
+               <note type="label">slobbered</note>
+               <note type="gloss">drooled over</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_295"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_296">
+               <note type="label">mewed</note>
+               <note type="gloss">confined</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_297"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_298">
+               <note type="label">greatness</note>
+               <note type="gloss">inherent nobility</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_299"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_300">
+               <note type="label">covetous</note>
+               <note type="gloss">greedy</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_301"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_302">
+               <note type="label">Binds</note>
+               <note type="gloss">ties; unites through obligation</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_303"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_304">
+               <note type="label">observance</note>
+               <note type="gloss">attentive care</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_305"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_306">
+               <note type="label">retinue</note>
+               <note type="commentary">group of people in the service of another</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_307"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_308">
+               <note type="label">chambermaid</note>
+               <note type="commentary">assistant to a Lady</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_309"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_310">
+               <note type="label">kitchen maid</note>
+               <note type="commentary">assistant to a cook</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_313"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_314">
+               <note type="label">Egla</note>
+               <note type="editorial">Because, in a later scene, a servant is called by his given name, I decided to do the same elsewhere in the play. This stage direction originally marked an entrance by a <q>Woman-Moore</q>, but I have changed this stage direction and subsequent stage directions and speakers accordingly.</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_317"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_318">
+               <note type="label">maid</note>
+               <note type="gloss">a female servant</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_319"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_320">
+               <note type="label">duck</note>
+               <note type="commentary">A term of endearment, also used in Shakespeare’s Midsummer Night’s Dream.</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_321"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_322">
+               <note type="label">fast bind, fast find</note>
+               <note type="commentary">(proverb) by locking something up, you can find it quickly.</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_325"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_326">
+               <note type="label">carriage</note>
+               <note type="gloss">manner</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_327"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_328">
+               <note type="label">pains</note>
+               <note type="gloss">troubles, difficulties</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_329"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_330">
+               <note type="label">riper</note>
+               <note type="gloss">richer</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_331"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_332">
+               <note type="label">defray</note>
+               <note type="gloss">cover, pay</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_333"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_334">
+               <note type="label">prove</note>
+               <note type="gloss">try, endeavour</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_335"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_336">
+               <note type="label">bred-wanton</note>
+               <note type="commentary">raised to be unmanageable</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_337"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_338">
+               <note type="label">confines</note>
+               <note type="gloss">boundaries, limits</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_339"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_340">
+               <note type="label">Ever</note>
+               <note type="gloss">Always</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_341"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_342">
+               <note type="label">cell</note>
+               <note type="gloss">room</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_343"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_344">
+               <note type="label">founder</note>
+               <note type="gloss">supporter, maintainer</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_345"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_346">
+               <note type="label">lubbers</note>
+               <note type="gloss">clumsy, stupid people</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_347"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_348">
+               <note type="label">condition</note>
+               <note type="gloss">circumstance</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_351"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_352">
+               <note type="label">law</note>
+               <note type="gloss">litigate</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_353"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_354">
+               <note type="label">prefer</note>
+               <note type="gloss">promote</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_355"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_356">
+               <note type="label">turn trade</note>
+               <note type="gloss">change occupation</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_357"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_358">
+               <note type="label">dog-bolt</note>
+               <note type="gloss">worthless person</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_359"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_360">
+               <note type="label">arrant worm</note>
+               <note type="gloss">miserable creature</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_361"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_362">
+               <note type="label">worshipful</note>
+               <note type="gloss">outstanding in respect</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_363"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_364">
+               <note type="label">canonized cuckold</note>
+               <note type="commentary">a good husband, <q>sainted</q>, with an unfaithful wife</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_365"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_366">
+               <note type="label">dub</note>
+               <note type="gloss">name; knight</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_367"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_368">
+               <note type="label">sting her home</note>
+               <note type="gloss">make her angry</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_369"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_370">
+               <note type="label">lusty sack</note>
+               <note type="commentary">strong white wine from Spain</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_371"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_372">
+               <note type="label">prophesy</note>
+               <note type="commentary">think about what may come</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_377"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_378">
+               <note type="label">sowed</note>
+               <note type="gloss">planted</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_381"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_382">
+               <note type="label">reached at</note>
+               <note type="gloss">attempted to get</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_383"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_384">
+               <note type="label">our wishes…white heifer</note>
+               <note type="commentary">Crude joke about Leandro having sex with Amaranta, who, in this line, is equated to a white cow.</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_387"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_388">
+               <note type="label">charged</note>
+               <note type="commentary">burdened</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_393"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_394">
+               <note type="label">spew</note>
+               <note type="gloss">cast out</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_395"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_396">
+               <note type="label">Be still at hand</note>
+               <note type="commentary">stay close by</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_399"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_400">
+               <note type="label">repine</note>
+               <note type="gloss">grumble, complain</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_401"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_402">
+               <note type="label">courses</note>
+               <note type="gloss">customs, habits</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_403"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_404">
+               <note type="label">try ye</note>
+               <note type="gloss">tempt you</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_405"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_406">
+               <note type="label">out-room</note>
+               <note type="gloss">outhouse</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_409"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_410">
+               <note type="label">disquiet</note>
+               <note type="gloss">disturb</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_413"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_414">
+               <note type="label">troth</note>
+               <note type="gloss">truth, reality</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_423"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_424">
+               <note type="label">scurvily</note>
+               <note type="gloss">shabbily, meanly</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_425"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_426">
+               <note type="label">pelting</note>
+               <note type="gloss">petty, insignificant</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_427"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_428">
+               <note type="label">slenderly</note>
+               <note type="commentary">Amaranta is observing that Leandro’s choice to study the law and live in such hardship is suspicious.</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_435"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_436">
+               <note type="label">Lute and Song.</note>
+               <note type="commentary">See introduction to <title>The Spanish Curate</title>
+               </note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_439"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_440">
+               <note type="label">I had forgot my tongue clean</note>
+               <note type="commentary">I became speechless</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_441"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_442">
+               <note type="label">whiteness</note>
+               <note type="commentary">innocence, purity</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_443"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_444">
+               <note type="label">apparition</note>
+               <note type="gloss">spectre; ghost</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_445"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_446">
+               <note type="label">kennell</note>
+               <note type="gloss">small, dirty dwelling</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_447"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_448">
+               <note type="label">heartily</note>
+               <note type="gloss">earnestly</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_449"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_450">
+               <note type="label">Mark</note>
+               <note type="gloss">note</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_451"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_452">
+               <note type="label">penurious</note>
+               <note type="gloss">people in need</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_453"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_454">
+               <note type="label">be provident</note>
+               <note type="commentary">be prepared for future events</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_455"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_456">
+               <note type="label">heart</note>
+               <note type="gloss">vital part</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_457"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_458">
+               <note type="label">blockheads</note>
+               <note type="gloss">stupid people</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_459"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_460">
+               <note type="label">murren sticks</note>
+               <note type="commentary">Murrian refers to the flesh of animals that have died die to disease. Lopez is calling the parishioners dead flesh.</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_461"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_462">
+               <note type="label">mangy</note>
+               <note type="gloss">shabby, diseased</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_463"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_464">
+               <note type="label">cassock</note>
+               <note type="commentary">piece of clothing worn by a clergyman</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_465"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_466">
+               <note type="label">bowling</note>
+               <note type="commentary">Parishioner 3 is talking about the game of bowls, similar in play to bocce ball, in which players take turn throwing or rolling balls to a specific target. The player whose ball is closest to the target wins the round.</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_467"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_468">
+               <note type="label">edify</note>
+               <note type="gloss">instruct</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_469"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_470">
+               <note type="label">beseeming</note>
+               <note type="gloss">befitting</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_471"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_472">
+               <note type="label">rout</note>
+               <note type="gloss">group</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_473"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_474">
+               <note type="label">dunces</note>
+               <note type="gloss">dim-witted people</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_475"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_476">
+               <note type="label">tithes</note>
+               <note type="commentary">taxes payed to clergymen</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_477"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_478">
+               <note type="label">smith</note>
+               <note type="gloss">blacksmith</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_479"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_480">
+               <note type="label">tenth horse I prick</note>
+               <note type="commentary">To prick a horse means to pierce the foot of a horse with a nail while putting a shoe on the horse, causing lameness.</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_481"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_482">
+               <note type="label">sextons</note>
+               <note type="commentary">church managers</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_483"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_484">
+               <note type="label">offices</note>
+               <note type="gloss">positions</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_485"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_486">
+               <note type="label">capon</note>
+               <note type="commentary">capons refer to castrated penises. Diego is referring to the men around him as eunuchs, castrated men.</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_487"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_488">
+               <note type="label">surplice</note>
+               <note type="gloss">long, white linen robe worn by clergymen</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_489"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_490">
+               <note type="label">dearth of linen</note>
+               <note type="gloss">costly piece of clothing</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_491"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_492">
+               <note type="label">cutwork cope</note>
+               <note type="gloss">long embroidered cloak worn by clergymen during services</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_493"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_494">
+               <note type="label">zeals</note>
+               <note type="gloss">devotiona</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_495"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_496">
+               <note type="label">poor man’s box</note>
+               <note type="gloss">collection boz</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_497"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_498">
+               <note type="label">poesy</note>
+               <note type="gloss">short encription</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_499"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_500">
+               <note type="label">gambols</note>
+               <note type="gloss">playful gestures</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_501"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_502">
+               <note type="label">font</note>
+               <note type="gloss">basin used for baptisms</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_509"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_510">
+               <note type="label">mirth</note>
+               <note type="gloss">lightness of mind</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_513"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_514">
+               <note type="label">Dance</note>
+               <note type="commentary">For information about the song and dance, see introduction to <title>The Spanish Curate</title>
+               </note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_519"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_520">
+               <note type="label">prebend</note>
+               <note type="commentary">refers to a percentage of the revenues of the church that would be used as a clergyman’s stipend.</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_523"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_524">
+               <note type="label">crusty-handed fellows</note>
+               <note type="gloss">short tempered men</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_525"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_526">
+               <note type="label">remembrances</note>
+               <note type="commentary">greetings sent to a person</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_527"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_528">
+               <note type="label">factor</note>
+               <note type="gloss">agent or representative</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_531"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_532">
+               <note type="label">penitent</note>
+               <note type="gloss">repetant</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_535"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_536">
+               <note type="label">cited</note>
+               <note type="gloss">summoned</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_539"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_540">
+               <note type="label">fleece</note>
+               <note type="gloss">woolly covering</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_541"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_542">
+               <note type="label">talons…law</note>
+               <note type="gloss">Octavio claims that they should not be worried about the summoning as there is nothing that the court can take from them.</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_543"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_544">
+               <note type="label">sued</note>
+               <note type="gloss">chased</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_547"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_548">
+               <note type="label">proroguing knave</note>
+               <note type="commentary">someone who makes things more difficult than necessary</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_549"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_550">
+               <note type="label">lawless</note>
+               <note type="gloss">ignorant of laws</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_551"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_552">
+               <note type="label">buckram</note>
+               <note type="gloss">stiff</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_553"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_554">
+               <note type="label">scribe</note>
+               <note type="commentary">A scribe could be employed in different ways, with the two most usual ways being a professional worker employed to copy texts or to write down written words.</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_555"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_556">
+               <note type="label">asper</note>
+               <note type="commentary">silver Turkish coin</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_557"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_558">
+               <note type="label">stock</note>
+               <note type="gloss">sum of money</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_559"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_560">
+               <note type="label">covetous</note>
+               <note type="gloss">greedy</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_561"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_562">
+               <note type="label">poor in practise</note>
+               <note type="gloss">needy for work</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_563"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_564">
+               <note type="label">bawd</note>
+               <note type="commentary">someone employed to do dirty/unethical work</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_565"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_566">
+               <note type="label">eminent</note>
+               <note type="gloss">distinguished</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_567"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_568">
+               <note type="label">assistant’s</note>
+               <note type="gloss">deputy judge’s</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_569"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_570">
+               <note type="label">sessions…suit</note>
+               <note type="gloss">The assistant asks Don Henrique to explain the purpose of the meeting as he is the one that began the litigation process by hiring Bartolus.</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_571"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_572">
+               <note type="label">preface</note>
+               <note type="gloss">introduction</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_573"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_574">
+               <note type="label">deck</note>
+               <note type="gloss">adorn</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_575"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_576">
+               <note type="label">rhetorician</note>
+               <note type="gloss">eloquent speaker</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_577"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_578">
+               <note type="label">Adulterate metals</note>
+               <note type="commentary">Refers to the practice of mixing pure metals with lesser substances, lessening the quality.</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_579"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_580">
+               <note type="label">contemns</note>
+               <note type="gloss">rejects</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_581"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_582">
+               <note type="label">maiden fort</note>
+               <note type="gloss">virginity</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_583"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_584">
+               <note type="label">winked</note>
+               <note type="gloss">partially blinded</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_585"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_586">
+               <note type="label">impartial judge</note>
+               <note type="gloss">God</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_587"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_588">
+               <note type="label">prevail</note>
+               <note type="gloss">win</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_589"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_590">
+               <note type="label">impious</note>
+               <note type="gloss">wrong, wicked</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_591"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_592">
+               <note type="label">won</note>
+               <note type="gloss">have</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_593"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_594">
+               <note type="label">borne</note>
+               <note type="gloss">carried</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_595"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_596">
+               <note type="label">fame</note>
+               <note type="gloss">reputation</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_599"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_600">
+               <note type="label">open court</note>
+               <note type="gloss">in public</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_601"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_602">
+               <note type="label">Confederacy</note>
+               <note type="gloss">conspiracy</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_603"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_604">
+               <note type="label">Chimeras</note>
+               <note type="gloss">unfounded thoughts</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_605"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_606">
+               <note type="label">out of spleen</note>
+               <note type="gloss">out of maliciousness</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_607"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_608">
+               <note type="label">stranger-issue</note>
+               <note type="gloss">illegitimate child</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_609"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_610">
+               <note type="label">recorded</note>
+               <note type="gloss">put on record</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_611"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_612">
+               <note type="label">rape</note>
+               <note type="gloss">Here, Jacinta is not using rape to necessarily mean sexual assult. Instead, she’s using the term to describe Henrique taking something from her by force. Their previous sexual relationship was dishonest on Henrique’s end, knowing that he had no intentions of marrying her, and Jacinta is again betrayed by Henrique.</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_613"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_614">
+               <note type="label">poor remnant of content</note>
+               <note type="gloss">last feelings of happiness</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_615"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_616">
+               <note type="label">impudent</note>
+               <note type="gloss">shameless</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_617"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_618">
+               <note type="label">maintenance</note>
+               <note type="gloss">allowance</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_619"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_620">
+               <note type="label">doom’s passed</note>
+               <note type="gloss">judgement</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_623"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_624">
+               <note type="label">cozened</note>
+               <note type="gloss">defrauded, cheater</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_629"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_630">
+               <note type="label">gleanings</note>
+               <note type="commentary">produced gathered after reapers (equipment that helps gather produce). Bartolus is painting himself as someone content to only help wealthy clients.</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_631"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_632">
+               <note type="label">litigious</note>
+               <note type="commentary">Refering to someone that eagerly sues others.</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_633"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_634">
+               <note type="label">brawlings</note>
+               <note type="gloss">noisy arguments</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_635"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_636">
+               <note type="label">violent</note>
+               <note type="gloss">intense</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_641"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_642">
+               <note type="label">hatching</note>
+               <note type="gloss">happening</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_643"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_644">
+               <note type="label">booties</note>
+               <note type="gloss">prizes</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_649"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_650">
+               <note type="label">blast</note>
+               <note type="gloss">embarrass</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_659"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_660">
+               <note type="label">hard by</note>
+               <note type="gloss">close to</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_661"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_662">
+               <note type="label">blow him off</note>
+               <note type="gloss">get rid of</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_665"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_666">
+               <note type="label">forsooth</note>
+               <note type="gloss">truly</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_667"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_668">
+               <note type="label">set round</note>
+               <note type="gloss">surrounded</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_671"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_672">
+               <note type="label">hedge</note>
+               <note type="gloss">block</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_673"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_674">
+               <note type="label">perpetual</note>
+               <note type="gloss">eternal</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_679"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_680">
+               <note type="label">atoning</note>
+               <note type="gloss">reconciling</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_681"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_682">
+               <note type="label">Exenuate</note>
+               <note type="gloss">Make light of</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_683"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_684">
+               <note type="label">woeful</note>
+               <note type="gloss">sorrowful</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_685"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_686">
+               <note type="label">loose dalliance</note>
+               <note type="gloss">casual sexual relationship</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_687"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_688">
+               <note type="label">empty veins</note>
+               <note type="commentary">Violante is claiming that Henrique, through his sexual relationship with Jacinta, came to her bed with empty viens, or, in other words, having used his sperm before they had sex.</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_689"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_690">
+               <note type="label">fruitful</note>
+               <note type="commentary">fruitful in the sense of having had children.</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_691"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_692">
+               <note type="label">say</note>
+               <note type="editorial">I follow Turner’s reassigning of this line to Henrique instead of leaving it at the end of Violante’s speech above.</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_693"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_694">
+               <note type="label">basilisk</note>
+               <note type="commentary">Mythical large reptile who can kill with a single glance.</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_695"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_696">
+               <note type="label">dark ends</note>
+               <note type="gloss">sinister goals</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_697"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_698">
+               <note type="label">Vouchsafe to hear me</note>
+               <note type="commentary">Do me the pleasure of listening to me</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_699"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_700">
+               <note type="label">coursest office</note>
+               <note type="gloss">inferior duty</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_701"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_702">
+               <note type="label">trencher</note>
+               <note type="gloss">tray</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_703"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_704">
+               <note type="label">pantofles</note>
+               <note type="gloss">slippers</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_705"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_706">
+               <note type="label">In all…your feet</note>
+               <note type="commentary">Ascanio is making himself as lowly as possible by stating it would be an honor if he were able to touch the basest part of Violante, her feet.</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_707"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_708">
+               <note type="label">upbraided</note>
+               <note type="gloss">insulted</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_709"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_710">
+               <note type="label">All offices…a wife</note>
+               <note type="commentary">All duties of a wife</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_711"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_712">
+               <note type="label">fury</note>
+               <note type="commentary">An avenging god in the Green tradition. Generally used to refer to an avenging/tormenting spirit.</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_713"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_714">
+               <note type="label">piety</note>
+               <note type="commentary">compassion</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_715"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_716">
+               <note type="label">before…yourselves</note>
+               <note type="commentary">before you visibily age may you have children</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_717"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_718">
+               <note type="label">false glass</note>
+               <note type="commentary">Ascanio is referring himself to false in continuing the metaphor of images in this speech. He cannot be a true glass because he is not Violante’s child, and therefore is a illegitimate child.</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_719"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_720">
+               <note type="label">cast-off</note>
+               <note type="commentary">sent-off</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_721"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_722">
+               <note type="label">Unfurnished and unfriended</note>
+               <note type="gloss">unprovided for in both means and family</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_725"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_726">
+               <note type="label">blubber</note>
+               <note type="commentary">weep</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_727"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_728">
+               <note type="label">leper</note>
+               <note type="commentary">A person suffering from leprosy. Leprosy often caused very visible effects, such as scaliness and scabbiness of the skin. In untreated cases, leprosy can effect sensory and motor function. Because leprosy is such a visible disease, it is commonly used to express repulsion at someone, as Violante does here with Henrique.</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_729"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_730">
+               <note type="label">They shall…aspic’s mild</note>
+               <note type="commentary">A woman that has been disappointed is like a venomous serpent or snake.</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_733"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_734">
+               <note type="label">to a hair</note>
+               <note type="gloss">very well</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_735"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_736">
+               <note type="label">honeyed</note>
+               <note type="gloss">delighted</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_737"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_738">
+               <note type="label">horned</note>
+               <note type="gloss">made a cuckhold</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_739"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_740">
+               <note type="label">precious beast</note>
+               <note type="commentary">referring to Amaranta</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_741"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_742">
+               <note type="label">fleshed</note>
+               <note type="commentary">prepared for battle</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_743"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_744">
+               <note type="label">set his band handsomely</note>
+               <note type="gloss">fixed his neck-band</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_745"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_746">
+               <note type="label">monstrous vexed and musty at my chess-play</note>
+               <note type="commentary">Amaranta claims Landro is angry at her chess play because he is old fashioned.</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_747"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_748">
+               <note type="label">private ends</note>
+               <note type="gloss">selfish reasons</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_751"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_752">
+               <note type="label">essence</note>
+               <note type="commentary">reason for being</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_759"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_760">
+               <note type="label">In not…second offer</note>
+               <note type="gloss">If not, do not expect a second offer</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_761"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_762">
+               <note type="label">great design’s on foot</note>
+               <note type="commentary">something is happening</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_765"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_766">
+               <note type="label">been long</note>
+               <note type="commentary">been alive for a long time</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_767"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_768">
+               <note type="label">Accounted</note>
+               <note type="gloss">Estimated</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_769"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_770">
+               <note type="label">close</note>
+               <note type="commentary">private</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_771"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_772">
+               <note type="label">Both close…the bags</note>
+               <note type="commentary">A person that is both private and frugal saves money.</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_775"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_776">
+               <note type="label">a surfeit</note>
+               <note type="gloss">an over-indulgence</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_777"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_778">
+               <note type="label">Milo…progress</note>
+               <note type="commentary">Lopez is using the example of Milo, a wrestler from the Greek city of Croton. Dated to 6th century B.C.E, Milo was said to have carried a bull on his shoulders. Lopez states that Milo would first carried a calf before he could carry a bull, focusing on the progress of Milo’s strenght to make an analogy of Diego’s supposed wealth.</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_779"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_780">
+               <note type="label">th’brewis of an eggshell</note>
+               <note type="gloss">eggshell broth</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_783"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_784">
+               <note type="label">Would smell…that fever</note>
+               <note type="gloss">In smelling food, would overindulge so much that he would have to fast for a month. Lopez is continuing the facade that Diego was a very frugal man, to the point of humor.</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_785"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_786">
+               <note type="label">executor</note>
+               <note type="gloss">manager of will</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_787"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_788">
+               <note type="label">draws</note>
+               <note type="commentary">writes</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_793"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_794">
+               <note type="label">fleeting</note>
+               <note type="gloss">dying</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_795"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_796">
+               <note type="label">wandering fancy</note>
+               <note type="gloss">wild imagination</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_797"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_798">
+               <note type="label">Now spur…friend time</note>
+               <note type="commentary">Milanes impores Diego to begin the prank they have planned in order to give Leandro time with Amaranta.</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_799"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_800">
+               <note type="label">served first…seldom cozened</note>
+               <note type="gloss">The worms must eat first as they are really cheated out of their meals due to their quick work. Diego anticipated that his body will be buried before the rest of his requests are met.</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_801"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_802">
+               <note type="label">For nothing…most natural</note>
+               <note type="gloss">Possible play on 1 Timothy 6:7, <q>For we brought nothing into this world, and it is certain we can carry nothing out</q> (King James Bible). Diego may be using this verse to say that it would be most natural for the poor to remain poor, and thus he’ll leave them nothing.</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_803"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_804">
+               <note type="label">coins</note>
+               <note type="gloss">has money</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_805"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_806">
+               <note type="label">controversies</note>
+               <note type="gloss">advice that will cause difference of opinions</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_807"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_808">
+               <note type="label">I would give…pipe’em out</note>
+               <note type="commentary">Diego would leave the church a new organ, but he believes that the clergymen would steal them.</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_809"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_810">
+               <note type="label">chancel</note>
+               <note type="commentary">part of the church near the altar, typically used by clergymen during the service. In older churches, the chancel is typically divided from the rest of the church with a screen or steps.</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_811"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_812">
+               <note type="label">orthography</note>
+               <note type="commentary">system of correct/accepted spelling</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_813"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_814">
+               <note type="label">paint true…is abominable</note>
+               <note type="gloss">Diego refers to wanting to give money to teach people to spell, as they write sunt (Latin for they are) as cunt, a slang word referring to female genitals.</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_815"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_816">
+               <note type="label">meritorious</note>
+               <note type="gloss">deserving of gratitude</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_817"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_818">
+               <note type="label">per annum</note>
+               <note type="gloss">Latin for yearly</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_819"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_820">
+               <note type="label">ells of lockram</note>
+               <note type="gloss">45 inches of linen fabric</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_821"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_822">
+               <note type="label">straight dealings…their burdens</note>
+               <note type="gloss">each will be given what they need</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_823"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_824">
+               <note type="label">legacy</note>
+               <note type="gloss">specified article in will</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_825"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_826">
+               <note type="label">pins</note>
+               <note type="gloss">thorns</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_827"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_828">
+               <note type="label">brown papers, pack-threads</note>
+               <note type="commentary">paper and thread often used to wrap merchandise</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_829"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_830">
+               <note type="label">Jew’s trumps</note>
+               <note type="gloss">small, lyre-shaped instrument</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_831"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_832">
+               <note type="label">penny pipes…mouldy pepper</note>
+               <note type="commentary">penny whistle and antiquated spices</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_833"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_834">
+               <note type="label">Take <q>em…th</q>law</note>
+               <note type="commentary">Diego is calling doctors and sugeons deceitful, noting that their practices and solutions are so antiquated that they would be found guilty of fraud if tried, and sentenced to death.</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_835"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_836">
+               <note type="label">fatal dames</note>
+               <note type="commentary">the fates, agents that control men’s destinies</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_837"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_838">
+               <note type="label">militant</note>
+               <note type="gloss">combative</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_839"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_840">
+               <note type="label">our own affliction</note>
+               <note type="commentary">those with bad fates according to astrology</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_841"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_842">
+               <note type="label">church-yard…room up</note>
+               <note type="gloss">Churchyards were typically reserved for the wealthy and <q>religiously-sound</q>, meaning that poor people and criminals were often buried elsewhere.</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_843"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_844">
+               <note type="label">mad legacies</note>
+               <note type="commentary">foolish things to will out</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_845"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_846">
+               <note type="label">My sheep…no heir.</note>
+               <note type="gloss">Diego claims to have a foolish amount of livestock, furniture, land, and other valuables and no-one to leave them to.</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_847"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_848">
+               <note type="label">honest mind</note>
+               <note type="gloss">truthful person</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_849"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_850">
+               <note type="label">Even where…am reasonable</note>
+               <note type="commentary">The prank is coming to an end, with Diego telling Bartolus to raise the funds from where ever he wishes, as Diego trusts him to do so. Bartolus begins to understand he has been fooled.</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_851"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_852">
+               <note type="label">packed</note>
+               <note type="gloss">put together (the prank)</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_853"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_854">
+               <note type="label">Baffled and bored</note>
+               <note type="gloss">confused and become a source of entertainment</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_855"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_856">
+               <note type="label">noses wiped</note>
+               <note type="commentary">deceived</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_857"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_858">
+               <note type="label">derision above sufferance</note>
+               <note type="commentary">ridicule beyond what is reasonable</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_859"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_860">
+               <note type="label">canker, a maggot-pate</note>
+               <note type="gloss">corrupter and silly/whimsical person</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_861"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_862">
+               <note type="label">pit-falls</note>
+               <note type="gloss">traps</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_863"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_864">
+               <note type="label">caper</note>
+               <note type="gloss">dance</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_865"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_866">
+               <note type="label">deserve</note>
+               <note type="editorial">I follow the second folio’s reassignment of the line, <q>Do you deserve?</q> from Diego’s speech below to Lopez’s speech here.</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_867"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_868">
+               <note type="label">cataplasm</note>
+               <note type="gloss">poultice</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_869"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_870">
+               <note type="label">lenifies</note>
+               <note type="gloss">lessens</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_871"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_872">
+               <note type="label">May-game</note>
+               <note type="gloss">form of entertainment</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_873"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_874">
+               <note type="label">My wife…some rogue</note>
+               <note type="gloss">Bartolus begins to wonder whether the prank has implications for his wife.</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_877"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_878">
+               <note type="label">officiousness</note>
+               <note type="gloss">readiness to work</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_879"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_880">
+               <note type="label">varlets</note>
+               <note type="gloss">attendants</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_881"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_882">
+               <note type="label">I have…your buttocks</note>
+               <note type="gloss">I will get back at you all.</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_883"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_884">
+               <note type="label">gall</note>
+               <note type="commentary">gall bladder. Referring to the imbalance of bile (anger).</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_885"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_886">
+               <note type="label">crucify</note>
+               <note type="gloss">finish</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_889"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_890">
+               <note type="label">Pewter</note>
+               <note type="gloss">Alloy of tin, likely referring to a drum.</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_895"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_896">
+               <note type="label">crotchets and strange fits</note>
+               <note type="gloss">whimsical thoughts and struggles</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_897"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_898">
+               <note type="label">scruple</note>
+               <note type="gloss">hesitation</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_903"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_904">
+               <note type="label">dish-clout</note>
+               <note type="gloss">dishcloth</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_909"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_910">
+               <note type="label">sticklers</note>
+               <note type="gloss">moderators</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_911"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_912">
+               <note type="label">maw</note>
+               <note type="commentary">previously eaten food. Milanes things Bartolus may throw up.</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_915"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_916">
+               <note type="label">codexes o’th’law</note>
+               <note type="gloss">systems of law</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_921"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_922">
+               <note type="label">stinks</note>
+               <note type="gloss">acts offensively</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_923"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_924">
+               <note type="label">law-tempest</note>
+               <note type="gloss">anger</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_927"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_928">
+               <note type="label">leviathan</note>
+               <note type="gloss">sea monster</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_929"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_930">
+               <note type="label">boy’s tongues and ballads</note>
+               <note type="gloss">songs and performances</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_933"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_934">
+               <note type="label">pulled his ears down</note>
+               <note type="gloss">dragged him</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_935"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_936">
+               <note type="label">fleer</note>
+               <note type="gloss">shun</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_937"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_938">
+               <note type="label">Then first…into dreaming</note>
+               <note type="gloss">Amaranta recalls the emberassment of having Leandro fall asleep and snore loudly during a church service.</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_939"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_940">
+               <note type="label">carriage</note>
+               <note type="gloss">conduct</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_941"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_942">
+               <note type="label">bawling law</note>
+               <note type="gloss">shouting law</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_943"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_944">
+               <note type="label">appellations</note>
+               <note type="gloss">appeals</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_945"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_946">
+               <note type="label">execrable oaths</note>
+               <note type="gloss">awful promises</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_947"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_948">
+               <note type="label">manned</note>
+               <note type="gloss">accompanied</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_949"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_950">
+               <note type="label">faggot</note>
+               <note type="commentary">bundle of sticks tied together for use as fuel. Diego is punning on Bartolus’ actions being heretical to the point of being burnt for this actions.</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_951"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_952">
+               <note type="label">O…ingens</note>
+               <note type="gloss">Oh, huge, fearless monster</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_953"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_954">
+               <note type="label">abbess</note>
+               <note type="gloss">Mother Superior of a nunnery.</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_957"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_958">
+               <note type="label">jerked</note>
+               <note type="gloss">mocked</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_959"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_960">
+               <note type="label">doggedness and nigardize</note>
+               <note type="gloss">cruelty and stinginess</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_961"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_962">
+               <note type="label">hard</note>
+               <note type="gloss">a lot</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_963"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_964">
+               <note type="label">clap four tire of teeth</note>
+               <note type="gloss">add more teeth</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_969"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_970">
+               <note type="label">reach</note>
+               <note type="gloss">Bring</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_971"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_972">
+               <note type="label">engines</note>
+               <note type="gloss">tricks</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_975"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_976">
+               <note type="label">ceremony</note>
+               <note type="gloss">formality</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_977"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_978">
+               <note type="label">fawn</note>
+               <note type="gloss">be delighted by</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_979"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_980">
+               <note type="label">form joined</note>
+               <note type="gloss">truce</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_981"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_982">
+               <note type="label">Write me a fool</note>
+               <note type="gloss">Be remembered as a fool</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_983"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_984">
+               <note type="label">cerused</note>
+               <note type="commentary">Ceruse was a white cosmetic used for the skin. Here, Jamie is alluding to Violante’s need to paint her face white because she is the result of her mother’s affair with a man with darker skin than hers (see lines 54-55 below).</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_985"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_986">
+               <note type="label">giantess</note>
+               <note type="gloss">large woman</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_987"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_988">
+               <note type="label">tailor</note>
+               <note type="gloss">clothes-maker</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_989"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_990">
+               <note type="label">Jacob’s staff</note>
+               <note type="gloss">a tool used in surveying. Used to take the altitude of the sun.</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_991"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_992">
+               <note type="label">decorum</note>
+               <note type="gloss">necessary</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_993"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_994">
+               <note type="label">Moor</note>
+               <note type="gloss">
+                  <q>Originally: a native or inhabitant of ancient Mauretania, a region of North Africa corresponding to parts of present-day Morocco and Algeria. Later usually: a member of a Muslim people of mixed Berber and Arab descent inhabiting north-western Africa (now mainly present-day Mauritania), who in the 8th cent. conquered Spain</q> (OED).</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_995"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_996">
+               <note type="label">come roundly</note>
+               <note type="gloss">reflect</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_997"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_998">
+               <note type="label">limning</note>
+               <note type="gloss">depicting</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_999"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_1000">
+               <note type="label">galled</note>
+               <note type="gloss">made angry</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_1001"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_1002">
+               <note type="label">master of..spirit</note>
+               <note type="gloss">Could not balance his humors.</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_1003"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_1004">
+               <note type="label">Our injuries…his bastard</note>
+               <note type="gloss">We have both been hurt by Ascanio’s parentage.</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_1005"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_1006">
+               <note type="label">tender of a wrong</note>
+               <note type="gloss">hurt by the betrayal</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_1007"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_1008">
+               <note type="label">lets</note>
+               <note type="gloss">obstructions</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_1009"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_1010">
+               <note type="label">bosom friend</note>
+               <note type="gloss">close friend</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_1011"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_1012">
+               <note type="label">sudden</note>
+               <note type="gloss">impulsive</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_1013"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_1014">
+               <note type="label">supplant</note>
+               <note type="gloss">take your place</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_1015"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_1016">
+               <note type="label">nearer cut</note>
+               <note type="commentary">A refrennce to family relationships.</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_1017"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_1018">
+               <note type="label">epitomes</note>
+               <note type="gloss">summaries</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_1019"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_1020">
+               <note type="label">scrupulous</note>
+               <note type="gloss">cautious</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_1021"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_1022">
+               <note type="label">black paths</note>
+               <note type="gloss">sins</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_1025"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_1026">
+               <note type="label">protect</note>
+               <note type="gloss">hide</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_1027"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_1028">
+               <note type="label">dispensation</note>
+               <note type="gloss">dealing out</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_1029"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_1030">
+               <note type="label">truss up</note>
+               <note type="gloss">pack up</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_1031"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_1032">
+               <note type="label">free state</note>
+               <note type="gloss">a democracy</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_1033"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_1034">
+               <note type="label">beget rare children</note>
+               <note type="gloss">have uncommon children</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_1035"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_1036">
+               <note type="label">raped</note>
+               <note type="gloss">siezed</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_1037"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_1038">
+               <note type="label">instruments</note>
+               <note type="gloss">objects, tools</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_1039"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_1040">
+               <note type="label">practice</note>
+               <note type="gloss">preparation</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_1041"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_1042">
+               <note type="label">fell</note>
+               <note type="gloss">swift</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_1047"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_1048">
+               <note type="label">Furnish</note>
+               <note type="gloss">set</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_1049"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_1050">
+               <note type="label">sauce</note>
+               <note type="gloss">revenge</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_1051"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_1052">
+               <note type="label">grease</note>
+               <note type="gloss">cheat</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_1053"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_1054">
+               <note type="label">This month of two</note>
+               <note type="gloss">February</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_1055"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_1056">
+               <note type="label">played their prizes</note>
+               <note type="gloss">played their pranks</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_1057"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_1058">
+               <note type="label">jugglings</note>
+               <note type="gloss">prankings</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_1059"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_1060">
+               <note type="label">specify my stomach</note>
+               <note type="gloss">fill my stomach</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_1061"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_1062">
+               <note type="label">poor retainer</note>
+               <note type="gloss">dependant</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_1063"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_1064">
+               <note type="label">liberal</note>
+               <note type="gloss">greedy</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_1065"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_1066">
+               <note type="label">bonny bounteous</note>
+               <note type="gloss">very large</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_1069"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_1070">
+               <note type="label">founder</note>
+               <note type="gloss">stumble</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_1071"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_1072">
+               <note type="label">bobbed</note>
+               <note type="commentary">made a fool of</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_1073"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_1074">
+               <note type="label">me</note>
+               <note type="editorial">I assign these three lines to Bartolus, as the characters on stage played a prank on Bartolus and thus he would be the one to be upset. This change reflects the line assignment in the second folio.</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_1075"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_1076">
+               <note type="label">quaintly</note>
+               <note type="gloss">cleverly</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_1077"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_1078">
+               <note type="label">merry wags</note>
+               <note type="gloss">jokesters</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_1079"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_1080">
+               <note type="label">pampered</note>
+               <note type="gloss">spoiled</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_1085"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_1086">
+               <note type="label">smoke eels</note>
+               <note type="gloss">disappear</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_1089"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_1090">
+               <note type="label">dainties</note>
+               <note type="gloss">delicacies</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_1091"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_1092">
+               <note type="label">Placed in…of brewis</note>
+               <note type="gloss">landlocked in a broth</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_1093"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_1094">
+               <note type="label">rare bite’s</note>
+               <note type="gloss">strange dish</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_1095"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_1096">
+               <note type="label">execution</note>
+               <note type="gloss">punishment</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_1097"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_1098">
+               <note type="label">A capias…silk man</note>
+               <note type="gloss">A warrant for my doctor and my silk dealer</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_1099"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_1100">
+               <note type="label">mard</note>
+               <note type="gloss">spoiled</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_1101"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_1102">
+               <note type="label">strong citation</note>
+               <note type="gloss">forceful summoning</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_1103"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_1104">
+               <note type="label">beads</note>
+               <note type="gloss">rosary</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_1105"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_1106">
+               <note type="label">breeches</note>
+               <note type="gloss">pants</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_1107"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_1108">
+               <note type="label">Fall to</note>
+               <note type="gloss">Dig in</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_1109"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_1110">
+               <note type="label">persecute</note>
+               <note type="gloss">follow annoyingly</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_1111"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_1112">
+               <note type="label">requited</note>
+               <note type="gloss">repayed</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_1113"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_1114">
+               <note type="label">meritorious</note>
+               <note type="gloss">hilarious</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_1115"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_1116">
+               <note type="label">ram-headed</note>
+               <note type="gloss">cuckholded</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_1117"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_1118">
+               <note type="label">creditors</note>
+               <note type="gloss">person to whom a debt is owed</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_1119"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_1120">
+               <note type="label">invitements</note>
+               <note type="gloss">invitations</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_1121"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_1122">
+               <note type="label">swinge</note>
+               <note type="gloss">leash</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_1123"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_1124">
+               <note type="label">lenten chaps</note>
+               <note type="gloss">fasting guys</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_1125"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_1126">
+               <note type="label">to knell</note>
+               <note type="gloss">bell’s tolling</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_1127"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_1128">
+               <note type="label">psalm of mercy</note>
+               <note type="gloss">sacred songs of forgiveness</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_1129"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_1130">
+               <note type="label">constancy</note>
+               <note type="gloss">faithfulness</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_1131"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_1132">
+               <note type="label">chronicled</note>
+               <note type="gloss">written into record</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_1133"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_1134">
+               <note type="label">intend</note>
+               <note type="gloss">stretch</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_1135"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_1136">
+               <note type="label">dissension</note>
+               <note type="gloss">disagreement</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_1137"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_1138">
+               <note type="label">ulcerous villainies</note>
+               <note type="gloss">sore-like wrongdoings</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_1141"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_1142">
+               <note type="label">I’ll…first</note>
+               <note type="commentary">I’ll make myself suffer first</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_1143"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_1144">
+               <note type="label">lewd brains</note>
+               <note type="gloss">rude brains</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_1145"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_1146">
+               <note type="label">to cool ye</note>
+               <note type="gloss">to calm you</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_1147"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_1148">
+               <note type="label">come off fair</note>
+               <note type="gloss">are safe</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_1149"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_1150">
+               <note type="label">The fair…blessed me</note>
+               <note type="commentary">Leandro is saying that the fair, Amaranta, has saved him.</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_1155"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_1156">
+               <note type="label">durst run the hazard</note>
+               <note type="gloss">run the risk</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_1161"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_1162">
+               <note type="label">weak credulity</note>
+               <note type="gloss">false belief</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_1163"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_1164">
+               <note type="label">obdurate</note>
+               <note type="gloss">hardened</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_1165"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_1166">
+               <note type="label">caves</note>
+               <note type="gloss">homes</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_1167"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_1168">
+               <note type="label">dissembling</note>
+               <note type="gloss">deceiving</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_1171"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_1172">
+               <note type="label">bind</note>
+               <note type="gloss">tie</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_1173"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_1174">
+               <note type="label">deaf</note>
+               <note type="gloss">numb</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_1177"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_1178">
+               <note type="label">Accomptable</note>
+               <note type="gloss">Accountable</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_1179"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_1180">
+               <note type="label">prodigal</note>
+               <note type="gloss">reckless</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_1181"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_1182">
+               <note type="label">architect</note>
+               <note type="gloss">planner</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_1183"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_1184">
+               <note type="label">building</note>
+               <note type="gloss">plan</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_1185"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_1186">
+               <note type="label">surplusage</note>
+               <note type="gloss">bonus</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_1187"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_1188">
+               <note type="label">accursed</note>
+               <note type="gloss">damnable</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_1189"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_1190">
+               <note type="label">scruple</note>
+               <note type="gloss">doubt</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_1195"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_1196">
+               <note type="label">object</note>
+               <note type="gloss">scene</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_1199"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_1200">
+               <note type="label">deferred</note>
+               <note type="gloss">delayed</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_1201"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_1202">
+               <note type="label">cast-strumpet</note>
+               <note type="commentary">Violante is referring to Jacinta as a discarded prostitute.</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_1203"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_1204">
+               <note type="label">riotous issue</note>
+               <note type="gloss">troublesome child</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_1205"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_1206">
+               <note type="label">penitence</note>
+               <note type="gloss">repentance</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_1207"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_1208">
+               <note type="label">moity</note>
+               <note type="gloss">equal parts</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_1209"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_1210">
+               <note type="label">missed my ends</note>
+               <note type="commentary">failed to achieve my plans</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_1211"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_1212">
+               <note type="label">scorn</note>
+               <note type="gloss">mock</note>
+            </note>
+            <note type="annotation"
+                  target="doc:emdSpCu_M#emdSpCu_M_anc_1213"
+                  targetEnd="doc:emdSpCu_M#emdSpCu_M_anc_1214">
+               <note type="label">keep a mean</note>
+               <note type="commentary">live moderately</note>
+            </note>
+         </div>
+      </body>
+   </text>
+</TEI>

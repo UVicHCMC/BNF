@@ -1,0 +1,304 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="GLOSS1" version="5.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+           <title type="main">LEMDO Documentation Glossary</title>
+           <respStmt>
+             <resp ref="resp:prg">Conceptor and Developer</resp>
+             <name ref="pers:HOLM1">Martin Holmes</name>
+           </respStmt>
+            <respStmt>
+               <resp ref="resp:aut">Author of Text</resp>
+               <name ref="pers:JENS1">Janelle Jenstad</name>
+            </respStmt>
+           <respStmt>
+             <resp ref="resp:edt_mrk">Encoder</resp>
+             <name ref="pers:VATC1">Nicole Vatcher</name>
+           </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Victoria on the Linked Early Modern Drama Online platform</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital document based on original file from MoEML.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <!--EMD = Early Modern Drama; LDT = LEMDO Document Types.-->
+            <catRef scheme="tax:emdDocumentTypes" target="cat:ldtBornDig"/>
+            <catRef scheme="tax:emdDocumentTypes" target="cat:ldtBornDigDatabase"/>
+         </textClass>
+      </profileDesc>
+     
+     <encodingDesc>
+       <p>Encoded in TEI P5 according to the LEMDO Encoding Guidelines.</p>
+     </encodingDesc>
+      
+      <revisionDesc status="published">
+         <change who="pers:HOLM1" when="2021-12-06">Created this file based on MoEML’s GLOSS1.xml.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+        <!-- NOTE FOR JJ: you might want to add a brief intro and pointers to documentation here. -->
+       <!-- <div xml:id="GLOSS1_A">
+          <head>A</head>
+          <list type="glossary">
+          </list>
+        </div>-->
+        
+        <div xml:id="GLOSS1_A">
+          <head>A</head>
+          <list rend="bulleted" type="glossary">
+            <item xml:id="ANTH1">
+              <label>Anthology Lead</label>
+              <gloss>A person responsible for the creation of an anthology of editions created via the LEMDO Platform. Anthologies may use their own internal terminology for this role, such as General Editor or Coordinating Editor.</gloss>
+            </item>
+            <item xml:id="ASCS1">
+              <label>A.S.Sp.</label>
+              <gloss>Act, scene, and speech numbers</gloss>
+            </item>
+          </list>
+        </div>
+        
+        <div xml:id="GLOSS1_B">
+          <head>B</head>
+          <list rend="bulleted" type="glossary">
+            <item xml:id="BIOB1">
+              <label>bio-bibliographical note</label>
+              <gloss>A paragraph listing your institutional affilation, academic credentials, research interests, and publications.</gloss>
+            </item>
+            <item xml:id="BUIL1">
+              <label>build</label>
+              <gloss>The scripted process that checks and validates all the documents in the collection, then creates all the products, including websites, print-volume PDFs, and diagnostics pages. Builds can be run automatically when anything changes (as happens on our Jenkins build server), or they may be run manually by anyone who has a copy of the respository and the required software installed. Builds are divided into many smaller targets, which can be run independently for testing or debugging. Our build processes are managed by Apache Ant, and also require the ant-contrib library to be installed, as well as Dart Sass (for CSS).</gloss>
+            </item>
+          </list>
+        </div>
+        
+        <div xml:id="GLOSS1_C">
+          <head>C</head>
+          <list rend="bulleted" type="glossary">
+            <item xml:id="CANR1">
+              <label>canonical reference</label>
+              <gloss>A number for a stable entity like a verse line, speech, act, scene, or paragraph. These numbers can be used for citation purposes. In the LEMDO system, the canonical reference is part of a precise URL.</gloss>
+            </item>
+            <item xml:id="CARS2">
+              <label>canonical reference system</label>
+              <gloss>A system by which stable entities like verse lines, speeches, acts, scenes, or paragraphs can be numbered for citational purposes.</gloss>
+            </item>
+            <item xml:id="COMM1">
+              <label>command line</label>
+              <gloss>See <ref target="#TERM1"><term>Terminal</term></ref>.</gloss>
+            </item>
+            <item xml:id="COMM3">
+              <label>commit message</label>
+              <gloss>A brief message explaining the nature of the local changes being committed to the centralized repository</gloss>
+            </item>
+            <item xml:id="CASC1">
+              <label>CSS</label>
+              <gloss>Cascading Style Sheets, the language used to prescribe the layout, fonts, and colours of webpages.</gloss>
+            </item>
+          </list>
+        </div>
+        
+            <div xml:id="GLOSS1_D">
+              <head>D</head>
+              <list rend="bulleted" type="glossary">
+                <item xml:id="DIRE1">
+                  <label>directory</label>
+                <gloss>Another word for folder.</gloss>
+                </item>
+              </list>
+            </div>
+        
+        <div xml:id="GLOSS1_E">
+          <head>E</head>
+          <list rend="bulleted" type="glossary">
+            <item xml:id="EDIT1">
+              <label>Edition directory</label>
+              <gloss>A directory (i.e., folder) in the LEMDO repository containing all the files for an edition. The name of each edition directory is the abbreviation for the edition, such as AYL for <title level="m">As You Like It</title>.</gloss>
+            </item>
+            <item xml:id="EMPT1">
+              <label>empty element</label>
+              <gloss>Empty elements are also called <soCalled>milestone</soCalled> or <soCalled>self-closing</soCalled> elements, but LEMDO uses the term <soCalled>empty</soCalled> element. Empty elements do not have child text or element nodes.</gloss>
+            </item>
+            <item xml:id="ENTI1">
+              <label>entity</label>
+              <gloss>An entity is a person in our Personography (PERS1) or Prosopography (PROS1), a bibliographical item in our bibliography (BIBL1), an organization in our orgography (ORGS1), a production in our list of productions (PROD1), or a literary unit to which someone has given an xml:id (i.e., a division, paragraph, act, scene, or speech).</gloss>
+            </item>
+          </list>
+        </div>
+            
+            <div xml:id="GLOSS1_F">
+              <head>F</head>
+              <list rend="bulleted" type="glossary">
+                <item xml:id="PATH1">
+                  <label>file path</label>
+                  <gloss>A list of nested directory names separated by slashes. It is a way of showing directories nested within other directories (e.g., lemdo/data/texts).</gloss>
+                </item>
+                
+                <item xml:id="EXTE1">
+                  <label>file extension</label>
+                  <gloss>The letters that follow the period in a filename. These letters, known as a filename suffix, indicate the file type, for example, .xml is an eXtensible Markup Language document.</gloss>
+                </item>
+                </list>
+            </div>
+            
+        <div xml:id="GLOSS1_H">  
+          <head>H</head>
+          <list rend="bulleted" type="glossary">
+            <item xml:id="HCMC2">
+              <label>Humanities and Computing Media Centre (HCMC)</label>
+              <gloss></gloss>
+            </item>
+          </list>
+        </div>
+            
+        <div xml:id="GLOSS1_I">  
+          <head>I</head>
+          <list rend="bulleted" type="glossary">
+            <item xml:id="ISML1">
+              <label>ISE Markup Language (IML)</label>
+              <gloss>The boutique markup language of the Internet Shakespeare Editions (ISE).</gloss>
+            </item>
+          </list>
+        </div>
+            
+        <div xml:id="GLOSS1_L">  
+          <head>L</head>
+          <list rend="bulleted" type="glossary">
+            <item xml:id="LODD1">
+              <label>lemdo.odd or emODDern</label>
+              <gloss><ident>lemdo.odd</ident> is the TEI file that LEMDO uses to capture our documentation and publish it on the site. The .odd file extension stands for <gloss>one document does it all</gloss> or <gloss><ref target="https://tei-c.org/release/doc/tei-p5-doc/en/html/USE.html#IM">ODD file</ref></gloss>. We call our ODD file <title level="a">emODDern</title>. We use an ODD processor to generate a RelaxNG schema, against which editors and encoders validate their XML files. Many projects are entirely documented in their ODD file. Because LEMDO has so much documentation that is written by editors, encoders, and technical writers, we write a lot of our documentation in discrete .xml files that are later included in the ODD file. You can find the ODD file in the repository (<ident>lemdo/data/sch/lemdo.odd</ident>) and see how documentation files are organized there, but only certain members of the LEMDO team have permission to commit changes to this file. The LEMDO schema and all of our editorial and encoding documentation HTML pages are generated from the ODD file. (Read more about ODD files in the <ref target="https://www.tei-c.org/release/doc/tei-p5-doc/en/html/TD.html">TEI Guidelines</ref>.)</gloss>
+            </item>
+          </list>
+        </div>
+        
+        <div xml:id="GLOSS1_N">  
+          <head>N</head>
+          <list rend="bulleted" type="glossary">
+            <item xml:id="NAME1">
+              <label>namespace</label>
+              <gloss>Namespaces are a method of identifying elements that belong to a single XML vocabulary. The namespace you use indicates to Oxygen which XML language the file uses. You must define the namespace you are using in the root element of every file. Namespaces work by using unique identifiers to associate the elements in a document with a set of guidelines that distinguish these elements from other elements that share the same name but have different uses. For example, in TEI the element <gi>p</gi> means <gloss>paragraph</gloss>, but in a different XML language <gi>p</gi> could mean something different. If you were to use <gi>p</gi> in accordance with the TEI and <gi>p</gi> in accordance with another XML language in the same file, you would need to associate each <gi>p</gi> element with its respective namespace to be able to distinguish between them. You may use more than one namespace in a single file as long as you associate the correct elements with the correct namespace, but using multiple namespaces is relatively rare outside of writing documentation. Although namespace values resemble URLs, they are not links to web pages. (Read more about namespaces in the <ref target="https://tei-c.org/release/doc/tei-p5-doc/en/html/SG.html#SGname">TEI Guidelines</ref>.)</gloss>
+            </item>
+          </list>
+        </div>
+            
+          <div xml:id="GLOSS1_O">  
+            <head>O</head>
+           <list rend="bulleted" type="glossary">
+             <item xml:id="OXYG1">
+              <label>Oxygen</label>
+               <gloss>The application that we use to encode and edit LEMDO’s XML files.</gloss>
+            </item>
+           </list>
+          </div>
+            
+        <div xml:id="GLOSS1_P">  
+          <head>P</head>
+          <list rend="bulleted" type="glossary">
+            <!--<item xml:id="PORT4">
+              <label>Portfolio</label>
+              <gloss>A directory (i.e., folder) in the LEMDO repository containing all the files for an edition. The name of each portfolio is the abbreviation for the edition, such as AYL for <title level="m">As You Like It</title>.</gloss>
+            </item>--><!-- HOUL3 replaced PORT4 with EDIT1 2025-09-05 to match our new vocabulary decisions -->
+            
+            <item xml:id="PUBL2">
+              <label>published</label>
+              <gloss>To be published, a document has to have three things: (1) it must have the value of <val>published</val> for the <att>status</att> attribute on the <gi>revisionDesc</gi> element, (2) it has to be included in an anthology, and (3) it has to have been released in a static release of that anthology.</gloss>
+            </item>
+          </list>
+        </div>
+            
+        <div xml:id="GLOSS1_R">
+          <head>R</head>
+          <list rend="bulleted" type="glossary">
+            <item xml:id="REPO1">
+              <label>repository or <soCalled>repo</soCalled></label>
+              <gloss>The repository contains all the files in the LEMDO project. The LEMDO repository is saved to a server in the basement of the Clearihue Building at UVic. All LEMDO files are under version control through Subversion, a repository maintenance tool that keeps a complete history of every change ever made to every LEMDO file.</gloss>
+            </item> 
+            
+            <item xml:id="REVI1">
+              <label>revision number</label>
+              <gloss>A number that indicates the most recent version of the repository. The revision number goes up by 1 with every SVN commit.</gloss>
+            </item>
+          </list>
+        </div>
+            
+            <div xml:id="GLOSS1_S">
+              <head>S</head>
+              <list rend="bulleted" type="glossary">
+                <item xml:id="SCHE3">
+                  <label>schema</label>
+                  <gloss>A schema is a set of rules governing the use of TEI elements in a particular project. XML languages are all governed by a small set of shared principles; any document that follows these principles, even if it makes up its own elements, is well-formed XML. TEI is a formal language that is designed to comply with the principles of XML. TEI offers many elements and attributes in its XML-compliant language. But most projects still need to <emph>customize</emph> the TEI for their own purposes, by prescribing how and where TEI elements and attributes are to be used, precluding some elements and attributes, making other elements and attributes optional, making child elements required or optional, and defining allowed and required values for attributes. The schema captures the project’s requirements, prohibitions, and standards. We use a RelaxiNG schema at LEMDO. The main schema for LEMDO is lemdo-all.rng (where the .rng file extension indicates the schema type). The schema is responsible for generating the error messages in Oxygen when encoders break one or more of the rules associated with it. (Read more about schemas in the <ref target="https://tei-c.org/release/doc/tei-p5-doc/en/html/SG.html#SG14">TEI Guidelines</ref>.)</gloss>
+                </item>
+                
+                <item xml:id="SCHE2">
+                  <label>Schematron</label>
+                  <gloss>Schematron is an open-source language for ensuring that certain patterns are present in XML documents. For example, it can insist upon certain spellings, enforce curly apostrophes, and limit the use of elements to specific contexts. It is the <soCalled>feather duster</soCalled> of an XML project. See <ref target="https://www.schematron.com/home/overview.html">An Overview of Schematron</ref>.</gloss>
+                </item>
+                
+                <item xml:id="SEMI1">
+                  <label>semi-diplomatic transcription</label>
+                  <gloss>A semi-diplomatic transcription has the editorial treatment type <ident>letSemiDiplomatic</ident>. We are transitioning away from the ISE term <soCalled>old spelling</soCalled> and are now using the term <soCalled>semi-diplomatic</soCalled> in our documentation and titles. A semi-diplomatic transcription preserves the spelling and punctuation of the witness. Depending on the anthology’s editorial practice, a semi-diplomatic transcription might not preserve long s, variants in type (e.g., the rotunda), or other typographical, scribal, or bibliographical features.</gloss>
+                </item>
+                
+                <item xml:id="SUBV1">
+                  <label>Subversion</label>
+                  <gloss>An open-source version control system that allows us to keep, track, and restore every version of every file in the repository.</gloss>
+                </item>
+                <item xml:id="CHCK1">
+                  <label>svn checkout</label>
+                  <gloss>A Terminal command used to download a copy of the entire LEMDO repository to your local computer.</gloss>
+                </item>
+                
+                <item xml:id="COMM2">
+                  <label>svn commit</label>
+                  <gloss>A Terminal command used to push any local-copy changed files to the LEMDO repository.</gloss>
+                </item>
+                
+                <item xml:id="UPDA1">
+                  <label>svn update</label>
+                  <gloss>A Terminal command used to sync your local copy (the one on your workstation’s computer) of any LEMDO files on the LEMDO repo.</gloss>
+                </item>
+              </list>
+            </div>
+        
+        <div xml:id="GLOSS1_T">
+          <head>T</head>
+          <list rend="bulleted" type="glossary">
+            <item xml:id="TERM1">
+              <label>Terminal or command line</label>
+              <gloss>The program on your computer that allows you to navigate through your directories and make changes to the files therein.</gloss>
+            </item>
+          </list>
+        </div>
+        
+        <div xml:id="GLOSS1_V">
+             <head>V</head>
+             <list rend="bulleted" type="glossary">
+               <item xml:id="VALI1"><label>validate</label>
+                 <gloss>The process you run in Oxygen to check files for errors.</gloss></item>
+             </list>
+           </div>
+        
+        <div xml:id="GLOSS1_W">
+          <head>W</head>
+          <list rend="bulleted" type="glossary">
+            <item xml:id="WRIT1"><label>write privileges</label>
+              <gloss>the ability to commit new and revised files to the repository</gloss></item>
+          </list>
+        </div>
+        
+        <div xml:id="GLOSS1_X">
+          <head>X</head>
+          <list rend="bulleted" type="glossary">
+            <item xml:id="XMLI1"><label>xml:id</label>
+              <gloss>A unique value that we use to tag an entity. Strictly speaking, <att>xml:id</att> is an attribute that can be added to any XML element. We use it as a shorthand for <gloss>value of the xml:id</gloss>. Every person, role, glyph, ligature, bibliographical entry, act, scene, speech, paragraph, page beginning, XML file, division within XML files, and anchor has a unique xml:id value, some of which are assigned automatically during the processing of our XML files.</gloss></item>
+          </list>
+        </div>
+        
+      </body>
+   </text>
+</TEI>

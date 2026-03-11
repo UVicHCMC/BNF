@@ -1,0 +1,343 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" version="5.0" xml:lang="en" xml:id="ORGS1">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">LEMDO Orgography</title>
+                <respStmt>
+                    <resp ref="resp:edt_comp">Compiler</resp>
+                    <name ref="pers:JENS1">Janelle Jenstad</name>
+                </respStmt>
+                <respStmt>
+                    <resp ref="resp:edt_comp">Compiler</resp>
+                    <name ref="org:LEMD1">LEMDO Team</name>
+                </respStmt>
+                <respStmt>
+                    <resp ref="resp:edt_mrk">Encoder</resp>
+                    <name ref="pers:TAKE1">Joey Takeda</name>
+                </respStmt>
+                <respStmt>
+                    <resp ref="resp:edt_mrk">Encoder</resp>
+                    <name ref="pers:TERP1">Maxwell Terpstra</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt><publisher>Linked Early Modern Drama Online</publisher></publicationStmt>
+            <sourceDesc>
+                <p>Born digital.</p>
+                <p>Initial entries were seeded from the ISE2 database.</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <catRef scheme="tax:emdDocumentTypes" target="cat:ldtBornDigDatabase"/>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+<p>Encoding description coming soon.</p>
+            <!--<listPrefixDef copyOf="global:listPrefixDef"/>-->
+            <!--<projectDesc copyOf="global:projectDesc"/>-->
+            <!--<editorialDecl copyOf="global:editorialDecl_documentation"/>-->
+        </encodingDesc>
+        <revisionDesc status="published">
+            <change who="pers:JENS1" when="2021-02-18">Added ISEI2 and NISE1 to orgs.</change>
+            <change who="pers:JENS1" when="2020-12-15">Added the LEMDO orgs and wrote notes for them.</change>
+            <change who="pers:JENS1" when="2020-12-04" status="published">Created new listOrgs and gave them headers. Moved orgs into the right listOrg.</change>
+            <change who="pers:TAKE1" when="2018-05-01">Major changes to files due to changes in repository structure and naming practices.</change>
+            <change who="pers:TERP1" when="2017-10-11" status="draft">Split off from personography.</change>
+            <change who="pers:TAKE1" when="2017-06-29" status="draft">Export from ISE2 and initial encoding cleanup.</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <listOrg>
+                <head>LEMDO Organizations</head>
+                <org xml:id="LEMD1">
+                    <orgName><reg>LEMDO Team</reg>
+                    </orgName>
+                  <note>The LEMDO Team is based at the University of Victoria and normally comprises the project director, the lead developer, project manager, junior developers(s), remediators, encoders, and remediating editors.</note>  
+                </org>
+                <org xml:id="LEMD2"><orgName><reg>LEMDO Group (2020-2023)</reg></orgName><note>The LEMDO Group comprises the Lead Applicant and the Co-Applicants on the three-year 2020-2023 SSHRC Partnership Development grant.</note>
+                </org>
+                <org xml:id="LEMD3">
+                    <orgName><reg>LEMDO Advisory Committee</reg>
+                    </orgName>
+                    <note>The LEMDO Advisory Committee is the University of Victoria body that has oversight of LEMDO governance and use of UVic resources.</note>
+                </org>
+            </listOrg>
+            
+            <listOrg>
+                <head>Universities, Libraries, Presses, and Digital Labs</head><!-- If the library is part of a university, make the library a child org of the university org. See example below of the Beinecke at Yale. -->
+                <org xml:id="YALE1">
+                    <orgName><reg>Yale University</reg></orgName>
+                    <org xml:id="BEIN1" n="yale_beinecke">
+                        <orgName><reg>Beinecke Rare Books and Manuscript Library</reg></orgName>
+                        <idno type="URI">https://beinecke.library.yale.edu</idno>
+                    </org>
+                </org>
+                <org xml:id="BRAN1" n="friend_178"><!-- The n value captures the id of the Friend in the ISE's old user database. This is legacy data that LEMDO keeps but does not process. -->
+                    <orgName><reg>Brandeis University</reg></orgName>
+                    <idno type="URI">http://www.brandeis.edu</idno>
+                </org>
+                
+                <org xml:id="CUPR1">
+                    <orgName><reg>Cambridge University Press</reg></orgName>
+                    <idno type="URI">https://www.cambridge.org/</idno>
+                    <note><ref target="https://www.cambridge.org/">Cambridge University Press</ref></note>
+                    </org>
+                
+                <org xml:id="KCDL1">
+                    <orgName><reg>King’s Digital Lab</reg></orgName>
+                    <idno type="URI">https://kdl.kcl.ac.uk/</idno>
+                    <note><ref target="https://kdl.kcl.ac.uk/">King’s Digital Lab</ref>, <ref target="https://www.kcl.ac.uk/">King’s College London</ref></note>
+                </org>
+                
+                <org xml:id="OXFO4">
+                    <orgName><reg>University of Oxford</reg></orgName>
+                    <org xml:id="BODL1">
+                        <orgName><reg>Bodleian Library</reg></orgName>
+                        <idno type="URI">https://www.bodleian.ox.ac.uk</idno>
+                    </org>
+                </org>
+                <org xml:id="BOST1" n="friend_182">
+                    <orgName><reg>Boston Public Library</reg></orgName>
+                </org>
+                <org xml:id="CANT1">
+                    <orgName>
+                        <reg>Canterbury Cathedral Archives and Library</reg>
+                    </orgName>
+                    <idno type="URI">https://www.canterbury-cathedral.org/</idno>
+                </org>
+                <org xml:id="DOUA2">
+                    <orgName>
+                        <reg>Bibliothèque Marceline Desbordes Valmore</reg>
+                        <reg>Bibliothèque municipale de Douai</reg>
+                    </orgName>
+                    <idno type="URI">https://www.bm-douai.fr/</idno>
+                    <note>Formerly known as Bibliothèque municipale de Douai.</note>
+                </org>
+                <org xml:id="DEEP1">
+                    <orgName>
+                        <reg><title level="m">DEEP: Database of Early English Playbooks</title></reg>
+                    </orgName>
+                    <idno type="URI">https://deepplaybooks.org/</idno>
+                </org>
+              <org xml:id="FOLG1">
+                  <orgName><reg>Folger Shakespeare Library</reg></orgName>
+                  <idno type="URI">https://www.folger.edu/</idno>
+              </org>
+                <org xml:id="HRCT1">
+                    <orgName><reg>Harry Ransom Centre, University of Texas Austin</reg></orgName>
+                    <idno type="URI">https://www.hrc.utexas.edu/</idno>
+                </org>
+              <org xml:id="HUNT12" n="hunt">
+                  <orgName><reg>Huntington Library</reg></orgName>
+                  <idno type="URI">https://huntington.org/library</idno>
+              </org>
+                
+                <org xml:id="ILLI1">
+                    <orgName>The Rare Book &amp; Manuscript Librarym University of Illinois at Urbana-Champaign</orgName>
+                    <idno type="URI">https://www.library.illinois.edu/rbx/</idno>
+                </org>
+                
+                <org xml:id="KENT1">
+                    <orgName>
+                        <reg>Kent History and Library Centre</reg>
+                    </orgName>
+                    <idno type="URI">https://www.kentarchives.org.uk/</idno>
+                </org>
+                <org xml:id="MARY1">
+                    <orgName><reg>Mary Couts Burnett Library</reg></orgName>
+                    <idno type="URI">https://library.tcu.edu/</idno>
+                </org>
+                <org xml:id="NATI1" n="nls">
+                    <orgName><reg>National Library of Scotland</reg></orgName>
+                    <idno type="URI">https://www.nls.uk</idno>
+                </org>
+                <org xml:id="ROML1" n="rosenbach">
+                    <orgName><reg>Rosenbach Museum and Library, Philadelphia</reg></orgName>
+                    <idno type="URI">https://rosenbach.org/</idno>
+                </org>
+                <org xml:id="STAA1">
+                    <orgName><reg>Staatsbibliothek zu Berlin</reg></orgName>
+                    <idno type="URI">https://staatsbibliothek-berlin.de/</idno>
+                </org>
+                <org xml:id="STAT1" n="slnsw">
+                    <orgName><reg>State Library of New South Wales</reg></orgName>
+                    <idno type="URI">https://www.sl.nsw.gov.au</idno>
+                </org>
+                <org xml:id="BRIT1" n="friend_181">
+                    <orgName><reg>The British Library</reg></orgName>
+                    <idno type="URI">https://www.bl.uk</idno>
+                </org>
+                <org xml:id="UCLA1">
+                    <orgName><reg>University of California - Los Angeles</reg></orgName>
+                    <idno type="URI">https://www.ucla.edu</idno>
+                </org>
+                <org xml:id="UCLA2" n="ucla_library">
+                    <orgName><reg>UCLA Library</reg></orgName>
+                    <idno type="URI">http://library.ucla.edu</idno>
+                    <note>The main library at <orgName ref="org:UCLA1">UCLA</orgName>.</note>
+                </org>
+                
+                <org xml:id="WILL1" n="ucla_clark">
+                    <orgName><reg>William Andrews Clark Memorial Library</reg></orgName>
+                    <idno type="URI">https://clarklibrary.ucla.edu</idno>
+                    <note>A rare book and manuscript library at <orgName ref="org:UCLA1">UCLA</orgName>.</note>
+                </org>
+                <org xml:id="UVIC1">
+                        <orgName><reg>University of Victoria</reg></orgName>
+                        <idno type="URI">https://www.uvic.ca/</idno>
+                    </org>
+                    <org xml:id="UVIC2" n="friend_3">
+                        <orgName><reg>University of Victoria Libraries</reg></orgName>
+                        <idno type="URI">https://library.uvic.ca</idno>
+                        </org>
+                  
+                  <org xml:id="UVIC3">
+                      <orgName><reg>University of Victoria Special Collections and University Archives</reg></orgName>
+                      <idno type="URI">https://www.uvic.ca/library/locations/home/spcoll/index.php</idno>
+                  </org>              
+            </listOrg>
+           <listOrg>
+               <head>Funders and Supporters</head>
+               <org xml:id="HCMC1">
+                <orgName><reg>Humanities Media and Computing Centre</reg></orgName>
+                   <idno type="URI">https://hcmc.uvic.ca</idno>
+                   <note>The <ref target="https://hcmc.uvic.ca">Humanities Computing and Media Centre</ref> (HCMC) 
+                       at the University of Victoria has an international reputation developing projects in 
+                       collaboration with researchers and instructors from UVic’s Faculty of Humanities, with 
+                       particular expertise in the fields of digital humanities and language learning.</note>
+            </org>
+               <org xml:id="SSHR1">
+                   <orgName><reg>Social Sciences and Research Council of Canada</reg></orgName>
+                   <idno type="URI">https://www.sshrc-crsh.gc.ca/home-accueil-eng.aspx</idno>
+                   <note>SSHRC is one of the three federal Tri-Council funding agencies that support scholarly research in Canada.</note>
+               </org>
+               <org xml:id="MITA1">
+                   <orgName><reg>Mitacs Globalink Research Internship Program</reg></orgName>
+                   <idno type="URI">https://www.mitacs.ca/en/programs/globalink/globalink-research-award</idno>
+               </org>
+           </listOrg>
+            <listOrg>
+                <head>Theatre Companies</head>
+                <org xml:id="SQMP1">
+                    <orgName><reg>Shakespeare and the Queen’s Men Project</reg></orgName>
+                    <idno type="URI">https://thequeensmen.ca/</idno>
+                </org>
+                <org xml:id="POCU1">
+                    <orgName><reg>Poculi Ludique Societas</reg></orgName>
+                    <idno type="URI">https://pls.artsci.utoronto.ca/</idno>
+                </org>
+            </listOrg>
+            
+            <listOrg>
+                <head>Boards</head>
+                <org xml:id="ISEI1">
+                    <orgName><reg>Internet Shakespeare Editions Incorporated</reg><abbr>ISE Inc.</abbr></orgName>
+                    <note><p>Non-profit organization (now-dissolved) that gifted the Internet Shakespeare Editions to the University of Victoria in 2019. <ref target="https://internetshakespeare.uvic.ca/Foyer/corporate/index.html">ISE Inc is documented on the staticized legacy ISE site</ref>.</p></note>
+                </org>
+                <org xml:id="QMEB1" n="qmeEditorialBoard">
+                    <orgName><reg>QME Editorial Board</reg></orgName>
+                    <note><p>The QME Editorial Board consists of <ref target="pers:OSTO1">Helen Ostovich</ref>, General Editor; <ref target="pers:COCK1">Peter Cockett</ref>, General Editor (Performance); and <ref target="pers:GRIF1">Andrew Griffin</ref>, General Editor (Text).</p></note>
+                </org>
+            </listOrg>
+
+            <listOrg>
+                <head>Editorial Projects Producing Anthologies</head>
+               
+                <org xml:id="CWBJ1">
+                    <orgName><reg>The Cambridge Edition of the Works of Ben Jonson Team</reg></orgName>
+                    <note><p>Anthology Leads: Martin Butler, David Bevington, and Ian Donaldson</p></note>
+                </org>
+                
+                <org xml:id="DOUA1">
+                    <orgName><reg>The Douai Shakespeare Manuscript Project</reg><abbr>DSMP</abbr></orgName>
+                    <note><p>Anthology Lead: <persName ref="pers:COTT1">Line Cottegnies</persName>. The project is a scientific collaboration between Sorbonne Université and the University of Victoria.</p></note>
+                </org>
+                <org xml:id="DRDR1">
+                    <orgName><reg>Digital Restoration Drama</reg><abbr>DRD</abbr></orgName>
+                    <note><p>Digital Restoration Drama seeks to expand electronic access to plays from the English Restoration. Currently, the project is limited to plays performed, printed, or written between 1660 and 1685, covering the reign of Charles II. <persName ref="pers:LIEB2">Lauren Liebe</persName> is the project’s General Editor.</p></note>
+                </org>
+                <org xml:id="DRE1">
+                    <orgName><reg>Digital Renaissance Editions</reg><abbr>DRE</abbr></orgName>
+                    <note><p>Anthology Leads and Co-Coordinating Editors: Brett Greatley-Hirsch, Janelle Jenstad, James Mardock, and Sarah Neville.</p></note>
+                </org>
+                
+                <org xml:id="DREC1">
+                    <orgName><reg>Digital Renaissance Editions Anthology Leads and Co-Coordinating Editors</reg></orgName>
+                    <note><p>Brett Greatley-Hirsch, Janelle Jenstad, James Mardock, and Sarah Neville.</p></note>
+                </org>
+                <org xml:id="EMEE1">
+                    <orgName><reg>Early Modern England Encyclopedia</reg><abbr>EMEE</abbr></orgName>
+                    <note><p>Anthology Leads: Kate McPherson and Kate Moncrief.</p></note>
+                    </org>
+                <org xml:id="EMDP1">
+                    <orgName><reg>Early Modern Dramatic Paratexts</reg><abbr>EMDP</abbr></orgName>
+                    <note><p>Anthology Leads and Co-Directors: <persName ref="pers:CRAI6">Heidi Craig</persName> and <persName ref="pers:MASS1">Sonia Massai</persName>.</p></note>
+                </org>
+                <org xml:id="ISE1">
+                    <orgName><reg>Internet Shakespeare Editions</reg><abbr>ISE</abbr></orgName>
+                    <note><p>The Internet Shakespeare Editions (ISE) was a major digital humanities project created by Emeritus Professor <name ref="pers:BEST1">Michael Best</name> at the University of Victoria. The ISE server was retired in 2018 but a <ref target="https://internetshakespeare.uvic.ca/index.html">final staticized HTML version of the Internet Shakespeare Editions project</ref> is still hosted at UVic.</p></note>
+                </org>
+                <org xml:id="JDAY1">
+                    <orgName><reg>John Day Project</reg><abbr>JDP</abbr></orgName>
+                    <note><p>The John Day Project is led by Brett Greatley-Hirsch and James Loxley.</p></note>
+                    <!-- This project did not receive funding and has postponed its work. -->
+                </org>
+                <org xml:id="LEMD4">
+                    <orgName><reg>LEMDO Website</reg></orgName>
+                    <note><p>LEMDO’s own website, published at <ref target="https://lemdo.uvic.ca">lemdo.uvic.ca</ref>, is generated using the same technology that builds all the anthologies.</p></note>
+                </org>
+                <org xml:id="LEMD5">
+                    <orgName><reg>LEMDO CoursePack Builder</reg></orgName>
+                    <note><p>All editions must be licensed for inclusion in the LEMDO CoursePack Builder, which will be the only anthology with server-side dependencies.</p></note>
+                </org>
+                <org xml:id="MOMS1">
+                    <orgName><reg>MoEML Mayoral Shows</reg><abbr>MoMS</abbr></orgName>
+                    <note><p>Anthology Leads and General Editors: Mark Kaethler and Janelle Jenstad. The team includes SSHRC-funded research assistants. Peer review is coordinated by the General Editors but conducted by other editors and external scholars.</p></note>
+                </org>
+                <org xml:id="NISE1">
+                    <orgName><reg>New Internet Shakespeare Editions</reg><abbr>NISE</abbr></orgName>
+                    <note><p>The Coordinating Editors of the NISE are Brett Greatley-Hirsch, Janelle Jenstad, James Mardock, and Sarah Neville.</p></note>
+                </org>
+                <org xml:id="NISE2">
+                    <orgName><reg>New Internet Shakespeare Editions Anthology Leads and Co-Coordinating Editors</reg></orgName>
+                    <note><p>Brett Greatley-Hirsch, Janelle Jenstad, James Mardock, and Sarah Neville.</p></note>
+                </org>
+                <org xml:id="QME1">
+                    <orgName><reg>Queen’s Men Editions</reg><abbr>QME</abbr></orgName>
+                    <note><p>The Queen’s Men Editions anthology is led by Helen Ostovich, General Editor; Peter Cockett, General Editor (Performance); and Andrew Griffin, General Editor (Text).</p></note>
+                </org>
+                
+                    <org xml:id="SONG1">
+                    <orgName><reg>Early Modern Songscapes</reg><abbr>EMSS</abbr></orgName>
+                    <!-- LEMDO is no longer supporting this project. -->
+                </org>
+            </listOrg>
+            <listOrg>
+                <head>Early Modern Institutions, Companies, and Organizations</head>
+                <org xml:id="CHUR1" n="england">
+                    <orgName><reg>Church of England</reg></orgName>
+                </org>
+                <org xml:id="LOND1" n="stationers">
+                    <orgName><reg>London Company of Stationers</reg></orgName>
+                </org>
+            </listOrg>
+          
+          <listOrg>
+            <head>Placeholder/testing</head>
+            <org xml:id="OOOO1" n="placeholderorg">
+              <orgName>
+                <reg>PLACEHOLDER ORGANIZATION</reg>
+              </orgName>
+              <note>
+                <p>
+                  The purpose of this item is to allow encoders to link to an organization when they cannot add a new one to the ORGS1 file for some reason. When linking to this item, please include a comment explaining the details of the item the link should really point to.
+                </p>
+              </note>
+            </org>
+          </listOrg>
+          
+        </body>
+    </text>
+</TEI>

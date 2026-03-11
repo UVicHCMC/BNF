@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="5.0" xml:lang="en" xml:id="BEED1">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">BEEED Database</title>
+                <respStmt>
+                    <resp ref="resp:edt_comp">Compiler</resp>
+                    <name ref="pers:GREA1">Brett Greatley-Hirsch</name>
+                </respStmt>
+                <respStmt>
+                    <resp ref="resp:edt_mrk">Encoder</resp>
+                    <name ref="pers:LEBE1">Kate LeBere</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Linked Early Modern Drama Online</publisher>
+            </publicationStmt>
+            <sourceDesc>
+               <p/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <catRef scheme="tax:emdDocumentTypes" target="cat:ldtBornDigDatabase"/>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <p>Encoded in TEI P5 according to the LEMDO Encoding Guidelines.</p>
+        </encodingDesc>
+        <revisionDesc status="draft">
+            <change who="pers:JENS1" when="2021-06-18">Added content to the file from the bibliography of emdFV (mostly moved from BIBL1).</change>
+            <change who="pers:LEBE1" when="2021-05-11" status="draft">Created file.</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listBibl>
+                <bibl xml:id="ADAM1"><author>Adams, Joseph Quincy</author>. <title level="m">Chief
+                    Pre-Shakespearean Dramas: A Selection of Plays Illustrating the History of the English
+                    Drama from its Origin Down to Shakespeare</title>. <pubPlace>Boston</pubPlace>:
+                    <publisher>Houghton Mifflin</publisher>, <date>1924</date>.</bibl>
+                       
+                <bibl xml:id="PITC1"><author>Pitcher, Seymour M.</author> <title level="m">The Case for
+                    Shakespeare’s Authorship of The Famous Victories, with the Complete Text of the Anonymous Play.</title>. <pubPlace>New York</pubPlace>:
+                    <publisher>SUNY Press</publisher>, <date>1961</date>. WSB <idno type="WSB"
+                        >aav291</idno>.</bibl>
+                
+                <bibl xml:id="CORB1"><editor>Corbin, Peter</editor> and <editor>Douglas Sedge</editor>,
+                    eds. <title level="m">The Oldcastle Controversy: <title level="m">Sir John Oldcastle, Part
+                        I</title> and <title level="m">The Famous Victories of Henry V</title></title>.
+                    <pubPlace>Manchester</pubPlace>: <publisher>Manchester University Press</publisher>, <date>1991</date>. WSB <idno type="WSB">ad162</idno>.</bibl>
+                
+                <bibl xml:id="HAZL4"><editor>Hazlitt, William Carew</editor>, ed. <title level="m">The
+                    Famous Victories of Henry the Fifth, Conteining the Honorable Battell of
+                    Agincourt</title>. Vol. 5. <title level="m">Shakespeare’s Library: A Collection of the
+                        Plays Romances Novels Poems and Histories Employed by Shakespeare in the Composition of
+                        His Works</title>. <pubPlace>London</pubPlace>: <publisher>Reeves and Turner</publisher>, <date>1875</date>.</bibl>
+                
+                <bibl xml:id="THEF3"><title level="m">The Famous Victories of Henry V</title>. <title
+                    level="m">Six Old Plays On Which Shakspeare Founded His <title level="m">Measure for
+                        Measure</title>. <title level="m">Comedy of Errors</title>. <title level="m">Taming the
+                            Shrew</title>. <title level="m">K Henry IV</title> and <title level="m">K. Henry
+                                V</title>. <title level="m">King Lear</title></title>. 2 vols. <pubPlace>London</pubPlace>: <publisher>J. Nichols, T.
+                                    Evans</publisher> and <publisher>H. Payne</publisher>, <date>1779</date>. ESTC <idno type="ESTC">T4012</idno>.</bibl>
+                
+                <bibl>
+                    
+                    <author>Hopkinson, A. F.</author><title>The Famous Victories of Henry V</title>. <title>Old English Plays.</title>. <date when="1896">1896</date>. <pubPlace>London</pubPlace>: <publisher>M. E. Simms &amp; Co. [A. F. Hopkinson]</publisher>. URL: <idno type="URI">https://archive.org/details/famousvictorieso00hopk</idno>. BEEED record: 1648. <note>Critical Modern Spelling</note>.</bibl>
+            </listBibl>
+                <!-- <contributors><secondary-authors><author><style face="normal" font="default" size="100%">Adams, Joseph Quincy</style></author></secondary-authors></contributors><titles><title><style face="normal" font="default" size="100%">The Famous Victories of Henry V</style></title><secondary-title><style face="normal" font="default" size="100%">Chief Pre-Shakespearean Dramas</style></secondary-title></titles><dates><year><style face="normal" font="default" size="100%">1924</style></year></dates><pub-location><style face="normal" font="default" size="100%">Boston</style></pub-location><publisher><style face="normal" font="default" size="100%">Houghton Mifflin</style></publisher><work-type><style face="normal" font="default" size="100%">Critical Old Spelling</style></work-type><urls></urls></record><record><database name="plays.enl" path="/Users/tigrr/Desktop/Academia/Critical Editions Database/editions.enlp/plays.enl">plays.enl</database><source-app name="EndNote" version="17.8">EndNote</source-app><rec-number>6120</rec-number><foreign-keys><key app="EN" db-id="rs99vae0pxpa5ie9xz35sfpz0x5wtv05r2dt">6120</key></foreign-keys><ref-type name="Plays Survey">40</ref-type><contributors><secondary-authors><author><style face="normal" font="default" size="100%">Pitcher, Seymour M.</style></author></secondary-authors></contributors><titles><title><style face="normal" font="default" size="100%">The Famous Victories of Henry V</style></title><secondary-title><style face="normal" font="default" size="100%">The Case for Shakespeare&apos;s Authorship of The Famous Victories, With the Complete Text of the Anonymous Play</style></secondary-title></titles><dates><year><style face="normal" font="default" size="100%">1961</style></year></dates><pub-location><style face="normal" font="default" size="100%">New York</style></pub-location><publisher><style face="normal" font="default" size="100%">State University of New York</style></publisher><work-type><style face="normal" font="default" size="100%">Critical Modern Spelling</style></work-type><urls></urls></record><record><database name="plays.enl" path="/Users/tigrr/Desktop/Academia/Critical Editions Database/editions.enlp/plays.enl">plays.enl</database><source-app name="EndNote" version="17.8">EndNote</source-app><rec-number>7995</rec-number><foreign-keys><key app="EN" db-id="rs99vae0pxpa5ie9xz35sfpz0x5wtv05r2dt">7995</key></foreign-keys><ref-type name="Plays Survey">40</ref-type><contributors><secondary-authors><author><style face="normal" font="default" size="100%">Mack, Maynard</style></author></secondary-authors><tertiary-authors><author><style face="normal" font="default" size="100%">Barnet, Sylvan</style></author></tertiary-authors></contributors><titles><title><style face="normal" font="default" size="100%">The Famous Victories of Henry V</style></title><secondary-title><style face="normal" font="default" size="100%">The History of Henry IV [Part One]</style></secondary-title><tertiary-title><style face="normal" font="default" size="100%">The Signet Classic Shakespeare</style></tertiary-title></titles><edition><style face="normal" font="default" size="100%">1st rev</style></edition><dates><year><style face="normal" font="default" size="100%">1965</style></year></dates><pub-location><style face="normal" font="default" size="100%">New York</style></pub-location><publisher><style face="normal" font="default" size="100%">New American Library</style></publisher><notes><style face="normal" font="default" size="100%">Includes a selection of critical essays and a bibliography edited by Sylvan Barnet.</style></notes><work-type><style face="normal" font="default" size="100%">Critical Modern Spelling&#xD;Annotated&#xD;Collation</style></work-type><urls><related-urls><url><style face="normal" font="default" size="100%">https://archive.org/details/selectedprose00mack</style></url></related-urls></urls></record><record><database name="plays.enl" path="/Users/tigrr/Desktop/Academia/Critical Editions Database/editions.enlp/plays.enl">plays.enl</database><source-app name="EndNote" version="17.8">EndNote</source-app><rec-number>533</rec-number><foreign-keys><key app="EN" db-id="rs99vae0pxpa5ie9xz35sfpz0x5wtv05r2dt">533</key></foreign-keys><ref-type name="Plays Survey">40</ref-type><contributors><secondary-authors><author><style face="normal" font="default" size="100%">Corbin, Peter</style></author><author><style face="normal" font="default" size="100%">Sedge, Douglas</style></author></secondary-authors><tertiary-authors><author><style face="normal" font="default" size="100%">Corbin, Peter</style></author><author><style face="normal" font="default" size="100%">Honigmann, E. A. J.</style></author><author><style face="normal" font="default" size="100%">Mulryne, J. R.</style></author><author><style face="normal" font="default" size="100%">Smallwood, R. L.</style></author></tertiary-authors></contributors><titles><title><style face="normal" font="default" size="100%">The Famous Victories of Henry V</style></title><secondary-title><style face="normal" font="default" size="100%">The Oldcastle Controversy</style></secondary-title><tertiary-title><style face="normal" font="default" size="100%">The Revels Plays Companion Library</style></tertiary-title></titles><dates><year><style face="normal" font="default" size="100%">1991</style></year></dates><pub-location><style face="normal" font="default" size="100%">Manchester</style></pub-location><publisher><style face="normal" font="default" size="100%">Manchester University Press</style></publisher><work-type><style face="normal" font="default" size="100%">Critical Modern Spelling</style></work-type><urls><related-urls><url><style face="normal" font="default" size="100%">https://catalog.hathitrust.org/Record/002544985</style></url></related-urls></urls></record><record><database name="plays.enl" path="/Users/tigrr/Desktop/Academia/Critical Editions Database/editions.enlp/plays.enl">plays.enl</database><source-app name="EndNote" version="17.8">EndNote</source-app><rec-number>6617</rec-number><foreign-keys><key app="EN" db-id="rs99vae0pxpa5ie9xz35sfpz0x5wtv05r2dt">6617</key></foreign-keys><ref-type name="Plays Survey">40</ref-type><contributors><secondary-authors><author><style face="normal" font="default" size="100%">Walsh, Brian</style></author></secondary-authors><tertiary-authors><author><style face="normal" font="default" size="100%">Lopez, Jeremy</style></author></tertiary-authors></contributors><titles><title><style face="normal" font="default" size="100%">The Famous Victories of Henry V</style></title><secondary-title><style face="normal" font="default" size="100%">The Famous Victories of Henry V</style></secondary-title><tertiary-title><style face="normal" font="default" size="100%">The Routledge Anthology of Early Modern Drama</style></tertiary-title></titles><dates><year><style face="normal" font="default" size="100%">2020</style></year></dates><pub-location><style face="normal" font="default" size="100%">New York</style></pub-location><publisher><style face="normal" font="default" size="100%">Routledge</style></publisher><notes><style face="normal" font="default" size="100%"> Published in paperback (ISBN 9781138953802) and hardback (ISBN 9781138953796)</style></notes><work-type><style face="normal" font="default" size="100%">Modern Spelling&#xD;Single Text</style></work-type><urls></urls></record></records></xml>-->
+                    
+        </body>
+    </text>
+</TEI>

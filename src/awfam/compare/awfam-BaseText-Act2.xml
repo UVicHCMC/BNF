@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A Wife for a Month</title>
+            <author>John Fletcher and Philip Massinger</author>
+            <respStmt>
+               <resp>Editor in Chief</resp>
+               <name xml:id="cmlb">Claire M. L. Bourne</name>
+            </respStmt>
+            <respStmt>
+               <resp>Project Manager</resp>
+               <name xml:id="hf">Heather Froehlich</name>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding Consultant</resp>
+               <name xml:id="jr">John Russell</name>
+            </respStmt>
+            <respStmt>
+               <resp>Graduate Assistant</resp>
+               <name xml:id="dl" from="2019-08-26" to="2020-05-08">David LeBlanc</name>
+            </respStmt>
+            <respStmt>
+               <resp>Annotator(s)</resp>
+               <name xml:id="formerOwner">Former Owner - Author of Handwritten
+                  Annotations</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Published by the Open Publishing Unit of The Pennsylvania State University Libraries.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <author>Francis Beaumont</author>
+                  <author>John Fletcher</author>
+                  <title>Comedies and Tragedies Written by Francis Beavmont and Iohn Fletcher, Gentlemen. 
+                     Never printed before, And now published by the Authours Originall Copies.</title>
+                  <imprint>
+                     <publisher>Humphrey Robinson</publisher>
+                     <pubPlace>the three Pidgeons</pubPlace>
+                     <publisher>Humphrey Moseley</publisher>
+                     <pubPlace>The Princes Armes in St. Pauls Church-yard</pubPlace> 
+                     <date>1647</date>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>This document is a simplified "true-to-text" XML version of <hi rend="italic">The Sea
+            Voyage</hi> based on Pennsylvania State University's annotated copy of the 1647
+            Beaumont &#38; Fletcher first folio. Major textual elements and attributes have been
+            captured based on how they appear in the folio. Whenever possible, editorial
+            interventions have been minimalized or avoided entirely. This document is meant to
+            serve as a pedagogical tool by which students of Early Modern literature can learn
+            to construct edited XML versions of the play.</p>
+      </encodingDesc>
+   </teiHeader>
+  <text>
+     <front>
+        <castList>
+           <head>The Per&#383;ons repre&#383;ented in the Play.</head>
+           <castItem>
+              <role xml:id="alb">Albert</role>
+              <roleDesc>a French Pirat, in love with Aminta.</roleDesc>
+           </castItem>
+           <castItem>
+              <role xml:id="tib">Tibalt du Pont</role>
+              <roleDesc>a merry Gentleman, friend to Albert.</roleDesc>
+           </castItem>
+           <castItem>
+              <role xml:id="mast">Master of the Ship</role>
+              <roleDesc>an honest merry man.</roleDesc>
+           </castItem>
+           <castItem>
+              <role xml:id="lam">Lamure</role>
+              <roleDesc>an u&#383;uring Merchant.</roleDesc>
+           </castItem>
+           <castItem>
+              <role xml:id="fran">Franville</role>
+              <roleDesc>a vain-glorious gallant.</roleDesc>
+           </castItem>
+           <castItem>
+              <role xml:id="mor">Morillat</role>
+              <roleDesc>a &#383;hallow-brain'd Gentleman.</roleDesc>
+           </castItem>
+           <castItem>
+              <role xml:id="boat">Bort&#383;wain</role>
+              <roleDesc>an hone&#383;t man.</roleDesc>
+           </castItem>
+           <castItem>
+              <role xml:id="seb">Seba&#383;tian</role>
+              <roleDesc>a noble Gentleman of <placeName>Portugal</placeName>, Husband to
+                 Ro&#383;ellia.</roleDesc>
+           </castItem>
+           <castItem>
+              <role xml:id="nic">Nicu&#383;a</role>
+              <roleDesc>Nephew to Seba&#383;tian</roleDesc>, both ca&#383;t upon a de&#383;art
+              I&#383;land. </castItem>
+           <castItem>
+              <role xml:id="ray">Raimond</role>
+              <roleDesc>brother to Aminta.</roleDesc>
+           </castItem>
+           <castItem>
+              <role xml:id="sur">Surgeon</role>
+           </castItem>
+           <castItem>
+              <role xml:id="sails">Sailors</role>
+           </castItem>
+           <castGroup>
+              <head>Women.</head>
+              <castItem>
+                 <role xml:id="amin">Aminta</role>
+                 <roleDesc>Mi&#383;tri&#383;s to Albert, a noble French Virgin.</roleDesc>
+              </castItem>
+              <castItem>
+                 <role xml:id="ros">Ro&#383;ellia</role>
+                 <roleDesc>Governe&#383;s of the Amazonia Portugals.</roleDesc>
+              </castItem>
+              <castItem>
+                 <role xml:id="cla">Clarinda</role>
+                 <roleDesc>Daughter to Ro&#383;ellia, in love with Albert.</roleDesc>
+              </castItem>
+              <castGroup>
+                 <head>Three Ladies, Members of the Female Common-wealth.</head>
+                 <castItem>
+                    <role xml:id="hip">Hippolita</role>
+                 </castItem>
+                 <castItem>
+                    <role xml:id="cro">Crocale</role>
+                 </castItem>
+                 <castItem>
+                    <role xml:id="jul">Juletta</role>
+                 </castItem>
+              </castGroup>
+           </castGroup>
+        </castList>
+     </front>
+      
+  </text>
+</TEI>
