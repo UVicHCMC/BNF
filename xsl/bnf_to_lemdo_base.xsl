@@ -272,9 +272,15 @@
   </xsl:template>
   
   <xsl:template match="tei:front/tei:head" mode="header text">
-    <label>
+    <head>
       <xsl:apply-templates mode="#current"/>
-    </label>
+    </head>
+  </xsl:template>
+  
+  <xsl:template match="tei:castGroup" mode="text">
+    <castGroup>
+      <xsl:apply-templates mode="text"/>
+    </castGroup>
   </xsl:template>
   
   <xsl:template match="tei:castList" mode="text">
@@ -446,7 +452,11 @@
     <xsl:apply-templates mode="text"/>
   </xsl:template>
   
-  <xsl:template match="tei:head" mode="text">
+  <xsl:template match="tei:head" mode="castGroup">
+    <xsl:apply-templates mode="text"/>
+  </xsl:template>
+  
+  <xsl:template match="tei:head[not(parent::tei:castGroup)]" mode="text">
     <lb type="wln"/>
     <label>
       <xsl:apply-templates mode="text"/>
