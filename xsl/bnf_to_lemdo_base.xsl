@@ -319,6 +319,9 @@
         <xsl:when test="@type='enter'">
           <xsl:attribute name="type">entrance</xsl:attribute>
         </xsl:when>
+        <xsl:when test="@type='bu&#383;ine&#383;s'">
+          <xsl:attribute name="type">business</xsl:attribute>
+        </xsl:when>
         <xsl:otherwise>
           <xsl:attribute name="type" select="@type"/>
         </xsl:otherwise>
@@ -430,9 +433,21 @@
   <xd:doc>
     <xd:desc>Template for speakers. We take the text note without trailing punctuation. We discard any attributes.</xd:desc>
   </xd:doc>
+  <xd:doc>
+    <xd:desc>Template for speakers. We take the text note without trailing punctuation. We discard any attributes.</xd:desc>
+  </xd:doc>
   <xsl:template match="tei:speaker" mode="text">
     <speaker>
-      <xsl:value-of select="replace(normalize-space(string(.)), '\s*[:.]+\s*$', '')"/>
+      <xsl:variable name="speakerText" as="xs:string"
+        select="replace(normalize-space(string(.)), '\s*[:.]+\s*$', '')"/>
+      <xsl:analyze-string select="$speakerText" regex="&#383;">
+        <xsl:matching-substring>
+          <g ref="g:longS">s</g>
+        </xsl:matching-substring>
+        <xsl:non-matching-substring>
+          <xsl:value-of select="replace(., '''', '’')"/>
+        </xsl:non-matching-substring>
+      </xsl:analyze-string>
     </speaker>
   </xsl:template>
   
@@ -482,6 +497,22 @@
         <xsl:value-of select="replace(., '''', '’')"/>
       </xsl:non-matching-substring>
     </xsl:analyze-string>
+  </xsl:template>
+  
+  <xd:doc>
+    <xd:desc>Template for roleName. We take the text node without the elements. Can change this in future depending on discussion with JJ.</xd:desc>
+  </xd:doc>
+  
+  <xsl:template match="tei:roleName" mode="text">
+    <xsl:apply-templates select="text()" mode="text"/>
+  </xsl:template>  
+  
+  <!-- Template for supplied elements. Keep all attributes except for source -->
+  <xsl:template match="tei:supplied" mode="text">
+    <supplied>
+      <xsl:copy-of select="@*[name() != 'source']"/>
+      <xsl:apply-templates mode="text"/>
+    </supplied>
   </xsl:template>
   
   
