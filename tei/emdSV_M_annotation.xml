@@ -72,7 +72,7 @@
          <p>Encoded in TEI P5 according to the LEMDO Customization and Encoding Guidelines.</p>
       </encodingDesc>
       <revisionDesc status="TEI_INP">
-         <change who="pers:NOKH1" when="2026-03-11" status="prgGenerated">Converted file from CEWBJO to LEMDO TEI</change>
+         <change who="pers:NOKH1" when="2026-03-12" status="prgGenerated">Converted file from CEWBJO to LEMDO TEI</change>
       </revisionDesc>
    </teiHeader>
    <text>

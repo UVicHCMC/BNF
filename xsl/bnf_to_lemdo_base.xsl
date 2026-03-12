@@ -22,8 +22,8 @@
   <xd:desc>
     <xd:doc>Loading data from LEMDO Ography files</xd:doc>
   </xd:desc>
-  <xsl:variable name="pros" select="doc('../src/ographies/PROS1.xml')"/>
-  <xsl:variable name="pers" select="doc('../src/ographies/PERS1.xml')"/>
+  <xsl:variable name="pros" select="doc(concat($basedir, '/src/ographies/PROS1.xml'))"/>
+  <xsl:variable name="pers" select="doc(concat($basedir, '/src/ographies/PERS1.xml'))"/>
   
   <xd:doc>
     <xd:desc>Importing our module for TEI functions</xd:desc>
@@ -32,6 +32,9 @@
   
   <xsl:output method="xml" indent="yes"/>
   <xsl:param name="source-filename" as="xs:string"/>
+  <xsl:param name="basedir" select="'..'" as="xs:string"/>
+  <xsl:param name="source-dir" select="'src'" as="xs:string"/>
+  <xsl:param name="source-files" select="collection(concat('file:///', $basedir, '/', $source-dir, '/?select=*.xml'))" as="document-node()*"/>
   <xsl:variable name="docId" select="hcmc:transform_BNF_filename($source-filename)"/>
 
   
@@ -247,10 +250,12 @@
     <xd:desc>Main template that matches the TEI root element</xd:desc>
   </xd:doc>
   <xsl:template match="/">
-    <TEI xml:id="{$docId}">
-      <xsl:apply-templates select="tei:TEI/tei:teiHeader" mode="header"/>
-      <xsl:apply-templates select="tei:TEI/tei:text" mode="text"/>
-    </TEI>
+    <xsl:result-document href="tei/{$docId}.xml" method="xml" indent="yes">
+      <TEI xml:id="{$docId}">
+        <xsl:apply-templates select="tei:TEI/tei:teiHeader" mode="header"/>
+        <xsl:apply-templates select="tei:TEI/tei:text" mode="text"/>
+      </TEI>
+    </xsl:result-document>
   </xsl:template>
   
   <xsl:template match="tei:text" mode="text">

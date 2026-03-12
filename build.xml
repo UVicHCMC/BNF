@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project basedir="." name="bnf" xmlns:if="ant:if" xmlns:unless="ant:unless">
+    <description>
+        
+    </description>
+    
+    <property name="echo.separator" value="************************************************"/>
+    
+    <!-- We'll need access to the date. -->
+    <tstamp>
+        <format property="today" pattern="yyyy-MM-dd" locale="en,CA"/>
+    </tstamp>
+    
+    <!-- If we only want to run a single diagnostic. -->
+    <property name="runOnly" value=""/>
+    
+    <!-- For building only a few documents at one go in the HTML. -->
+    <property name="docsToBuild" value=""/>
+    
+    <!-- Folder for HTML website output. -->
+    <property name="siteDir" value="${basedir}/site"/>
+    
+    <!-- Location of Saxon jar. -->
+    <property name="saxon" value="${basedir}/lib/saxon-he-12.jar"/>
+    
+    <!-- Jing task for validation of XML. -->
+    <taskdef name="jing" classname="com.thaiopensource.relaxng.util.JingTask" classpath="${basedir}/lib/jing.jar"/>
+    
+    <!-- Ant-contrib tasks for foreach loop. -->
+    <taskdef resource="net/sf/antcontrib/antcontrib.properties">
+        <classpath>
+            <pathelement location="${basedir}/lib/ant-contrib.jar"/>
+        </classpath>
+    </taskdef>
+
+    <!-- The TEI we regenerate periodically. -->
+    <fileset dir="${basedir}/" id="xmlSources">
+        <include name="**/*.xml"/>
+    </fileset>
+    
+    <target name="BNFtoLEMDO">
+        <description>
+            TARGET BNFtoLEMDO
+            This target converts all BNF MSP XML files to LEMDO TEI-XML.
+            Each work is output to its own subdirectory under tei/ with main/, app/, and crit/ subdirs.
+        </description>
+        <echo message="${echo.separator}"/>
+        <echo message="Converting all BNF XML files to LEMDO TEI..."/>
+        
+        <!-- Iterate over all *_osp.xml files in src/plays/ -->
+        <foreach target="convertSingleOSP" param="osp.file">
+            <path>
+                <fileset dir="${basedir}/src">
+                    <include name="*-BaseText.xml"/>
+                </fileset>
+            </path>
+        </foreach>
+        
+        <!-- Iterate over all *_msp.xml files in src/plays/ -->
+        <foreach target="convertSingleMSP" param="msp.file">
+            <path>
+                <fileset dir="${basedir}/src">
+                    <include name="*-Edited.xml"/>
+                </fileset>
+            </path>
+        </foreach>
+        
+        <echo message="${echo.separator}"/>
+        <echo message="All LEMDO XML files created."/>    
+    </target>
+    
+    <target name="convertSingleMSP">
+        <description>
+            TARGET convertSingleMSP
+            Helper target called by BNFtoLEMDO to convert a single MSP file.
+            The msp.file property contains the full path to the file.
+        </description>
+        <!-- Extract just the filename from the full path -->
+        <basename property="msp.filename" file="${msp.file}"/>
+        <echo message="Processing: ${msp.filename}"/>
+        <java jar="lib/saxon-he-12.jar" fork="true" failonerror="true">
+            <arg value="-s:${msp.file}"/>
+            <arg value="-xsl:xsl/bnf_to_lemdo_edited.xsl"/>
+            <arg value="source-filename=${msp.filename}"/>
+            <arg value="basedir=${basedir}"/>
+            <arg value="source-dir=src"/>
+        </java>
+    </target>
+    
+    <target name="convertSingleOSP">
+        <description>
+            TARGET convertSingleOSP
+            Helper target called by BNFtoLEMDO to convert a single OSP file.
+            The osp.file property contains the full path to the file.
+        </description>
+        <!-- Extract just the filename from the full path -->
+        <basename property="osp.filename" file="${osp.file}"/>
+        <echo message="Processing: ${osp.filename}"/>
+        <java jar="lib/saxon-he-12.jar" fork="true" failonerror="true">
+            <arg value="-s:${osp.file}"/>
+            <arg value="-xsl:xsl/bnf_to_lemdo_base.xsl"/>
+            <arg value="source-filename=${osp.filename}"/>
+            <arg value="basedir=${basedir}"/>
+            <arg value="source-dir=src"/>
+        </java>
+    </target>
+
+    
+</project>

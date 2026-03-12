@@ -702,7 +702,7 @@
         <cit>
           <quote>
             <xsl:copy-of select="$tokens[1]/@*"/>
-            <xsl:apply-templates select="$tokens[1]/node()" mode="#current"/>
+            <xsl:apply-templates select="$tokens[1]/node()"/>
           </quote>
         </cit>
         <xsl:sequence select="hcmc:group-between-quotes($tokens[position() gt 1], $quote-stack, ())"/>
