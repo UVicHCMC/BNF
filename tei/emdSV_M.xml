@@ -60,27 +60,27 @@
       </fileDesc>
       <profileDesc>
          <particDesc>
-            <head>This character list has been adapted from the 1679 folio edition of Beaumont and
+            <!--<head>This character list has been adapted from the 1679 folio edition of Beaumont and
               Fletcher’s <hi rendition="rnd:italic">Fifty Comedies and Tragedies</hi>. Spelling has been
               regularized based on how names appear in the dialogue and speech prefixes, and new descriptions have
-              been supplied.</head>
+              been supplied.</head>-->
             <listPerson type="castlist" xml:id="emdSV_M_castlist">
                <head>MEN</head>
                <person xml:id="emdSV_M_alb">
                   <persName>
-                     <name>Albert, French pirate; Aminta's kidnapper</name>
+                     <name>Albert, French pirate; Aminta’s kidnapper</name>
                      <reg>Albert</reg>
                   </persName>
                </person>
                <person xml:id="emdSV_M_mast">
                   <persName>
                      <name>Master of the Ship (Shipmaster), French pirate</name>
-                     <reg>Master of the Ship (Shipmaster)</reg>
+                     <reg>Master</reg>
                   </persName>
                </person>
                <person xml:id="emdSV_M_boat">
                   <persName>
-                     <name>Boatswain, ship's officer in charge of equipment and the crew</name>
+                     <name>Boatswain, ship’s officer in charge of equipment and the crew</name>
                      <reg>Boatswain</reg>
                   </persName>
                </person>
@@ -104,31 +104,25 @@
                </person>
                <person xml:id="emdSV_M_ray">
                   <persName>
-                     <name>Raymond, French; Aminta's brother</name>
+                     <name>Raymond, French; Aminta’s brother</name>
                      <reg>Raymond</reg>
                   </persName>
                </person>
                   
-               <head>Sailors</head>
-               <person xml:id="emdSV_M_sail1">
+               <!--<head>Sailors</head>-->
+               <person xml:id="emdSV_M_sail">
                   <persName>
                      <name>Sailor 1</name>
-                     <reg>Sailor 1</reg>
+                     <reg>1 Sailor</reg>
+                     <reg>2 Sailor</reg>
                   </persName>
                </person>
-               <person xml:id="emdSV_M_sail2">
-                  <persName>
-                     <name>Sailor 2</name>
-                     <reg>Sailor 2</reg>
-                  </persName>
-               </person>
-                  
-                  
-               <head>Gentlemen</head>
+               
+               <!--<head>Gentlemen</head>-->
                <person xml:id="emdSV_M_tib">
                   <persName>
                      <name>Tibalt du-Pont, first mate; French pirate</name>
-                     <reg>Tibalt du-Pont</reg>
+                     <reg>Tibalt</reg>
                   </persName>
                </person>
                <person xml:id="emdSV_M_lam">
@@ -151,7 +145,7 @@
                </person>
                   
               
-               <head>WOMEN</head>
+               <!--<head>WOMEN</head>-->
                <person xml:id="emdSV_M_amin">
                   <persName>
                      <name>Aminta, a woman aboard the ship; under the protection of Albert</name>
@@ -174,19 +168,19 @@
                </person>
                <person xml:id="emdSV_M_hip">
                   <persName>
-                     <name>Hippolita, member of Rosella's commonwealth</name>
+                     <name>Hippolita, member of Rosella’s commonwealth</name>
                      <reg>Hippolita</reg>
                   </persName>
                </person>
                <person xml:id="emdSV_M_cro">
                   <persName>
-                     <name>Crocale, member of Rosella's commonwealth</name>
+                     <name>Crocale, member of Rosella’s commonwealth</name>
                      <reg>Crocale</reg>
                   </persName>
                </person>
                <person xml:id="emdSV_M_jul">
                   <persName>
-                     <name>Juletta, member of Rosella's commonwealth</name>
+                     <name>Juletta, member of Rosella’s commonwealth</name>
                      <reg>Juletta</reg>
                   </persName>
                </person>
@@ -202,7 +196,7 @@
       <encodingDesc>
          <p/>
       </encodingDesc>
-      <xenoData>
+      <!--<xenoData>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -221,7 +215,7 @@
                </monogr>
             </biblStruct>
          </sourceDesc>
-      </xenoData>
+      </xenoData>-->
       <revisionDesc status="prgGenerated">
          <change who="pers:NOKH1" when="2026-03-12">Converted from BNF TEI to LEMDO TEI</change>
       </revisionDesc>
@@ -264,7 +258,7 @@
                </sp>
                <stage type="business" place="plc-centre">
                             Sailors about the stage.</stage>
-               <sp who="#emdSV_M_sail1" xml:id="emdSV_M_a1_s1_sp2">
+               <sp who="#emdSV_M_sail" xml:id="emdSV_M_a1_s1_sp2">
                   <speaker>1 Sailor</speaker>
                   <lg>
                      <l>She’ll never <anchor xml:id="emdSV_M_anc_13"/>brook<anchor xml:id="emdSV_M_anc_14"/> it, <seg type="name" resp="#student">
@@ -282,7 +276,7 @@
                      <l>How it tosses her! She reels like a <seg type="food" resp="#student">drunkard</seg>.</l>
                   </lg>
                </sp>
-               <sp who="#emdSV_M_sail2" xml:id="emdSV_M_a1_s1_sp4">
+               <sp who="#emdSV_M_sail" xml:id="emdSV_M_a1_s1_sp4">
                   <speaker>2 Sailor</speaker>
                   <lg>
                      <l>We have discovered the <seg type="place" resp="#student">land</seg>, <seg type="name" resp="#student">sir</seg>.</l>
@@ -294,7 +288,7 @@
                         </seg> all her <anchor xml:id="emdSV_M_anc_21"/>lading<anchor xml:id="emdSV_M_anc_22"/>.</l>
                   </lg>
                </sp>
-               <sp who="#emdSV_M_sail1" xml:id="emdSV_M_a1_s1_sp5">
+               <sp who="#emdSV_M_sail" xml:id="emdSV_M_a1_s1_sp5">
                   <speaker>1 Sailor</speaker>
                   <lg>
                      <l>
@@ -311,7 +305,7 @@
                </sp>
                <stage type="business" place="plc-centre">
                             Sailor 1 steers.</stage>
-               <sp who="#emdSV_M_sail2" xml:id="emdSV_M_a1_s1_sp7">
+               <sp who="#emdSV_M_sail" xml:id="emdSV_M_a1_s1_sp7">
                   <speaker>2 Sailor</speaker>
                   <lg>
                      <l>Bear in with all the sail we can. See, <seg type="name" resp="#student">
@@ -1440,7 +1434,7 @@
                <sp who="#emdSV_M_amin" xml:id="emdSV_M_a1_s4_sp32">
                   <speaker>Aminta</speaker>
                   <lg>
-                     <l>But ha! What things are these? <stage type="" place="plc-right">Noticing Sebastian and Nicusa</stage>
+                     <l>But ha! What things are these? <stage type="business" place="plc-right">Noticing Sebastian and Nicusa</stage>
                      </l>
                      <l>Are they human creatures?</l>
                   </lg>
@@ -1992,7 +1986,7 @@
                             Franville and 
                             Sailors</stage>
                <stage type="entrance" place="plc-centre">and enter <seg type="place" resp="#dl">above</seg>.</stage>
-               <sp who="#emdSV_M_sail1" xml:id="emdSV_M_a1_s5_sp13">
+               <sp who="#emdSV_M_sail" xml:id="emdSV_M_a1_s5_sp13">
                   <speaker>1 Sailor</speaker>
                   <lg>
                      <l>They have cut the cables</l>
@@ -2016,7 +2010,7 @@
                      </l>
                   </lg>
                </sp>
-               <sp who="#emdSV_M_sail2" xml:id="emdSV_M_a1_s5_sp16">
+               <sp who="#emdSV_M_sail" xml:id="emdSV_M_a1_s5_sp16">
                   <speaker>2 Sailor</speaker>
                   <lg>
                      <l>How the wind drives her,</l>
@@ -2414,7 +2408,7 @@
                      <l>Informed us they had often heard such sounds</l>
                      <l>But ne’er could touch the <seg type="place" resp="#student">shore</seg> from <anchor xml:id="emdSV_M_anc_329"/>whence<anchor xml:id="emdSV_M_anc_330"/> it came.</l>
                      <l>Follow me, <seg type="name" resp="#student">my Aminta</seg>! <seg type="name" resp="#student">My good genius</seg>,</l>
-                     <l>Show me the way still! <stage type="" place="plc-right">Horns again.</stage>
+                     <l>Show me the way still! <stage type="business" place="plc-right">Horns again.</stage>
                      </l>
                      <l rend="indent">Still we are directed!</l>
                      <l>When we gain the top of this <seg type="place" resp="#student #dl">
@@ -2739,7 +2733,7 @@
                      <l>But <anchor xml:id="emdSV_M_anc_371"/>stay<anchor xml:id="emdSV_M_anc_372"/>, what’s here cast o’th’ <seg type="place" resp="#student">shore</seg>?</l>
                   </lg>
                </sp>
-               <sp who="#emdSV_M_" xml:id="emdSV_M_a2_s2_sp24">
+               <sp who="#emdSV_M_hip" xml:id="emdSV_M_a2_s2_sp24">
                   <speaker>Hippolita</speaker>
                   <lg>
                      <l rend="indent">’Tis a man!</l>
@@ -2775,7 +2769,7 @@
                      <l>That here enjoy all pleasures—</l>
                   </lg>
                </sp>
-               <sp who="#emdSV_M_" xml:id="emdSV_M_a2_s2_sp27">
+               <sp who="#emdSV_M_hip" xml:id="emdSV_M_a2_s2_sp27">
                   <speaker>Hippolita</speaker>
                   <lg>
                      <l rend="indent">
@@ -2803,7 +2797,7 @@
                      <l>Thus prostrate at your feet; or <anchor xml:id="emdSV_M_anc_381"/>if not such<anchor xml:id="emdSV_M_anc_382"/>,</l>
                      <l>But <seg type="relig" resp="#student">nymphs of
                                         <anchor xml:id="emdSV_M_anc_383"/>Dian<anchor xml:id="emdSV_M_anc_384"/>’s train</seg>
-                        <!--WARNING: Could not find insertion point for term text "Nymphs of Dian's train". Inserted collapsed anchors. Check input XML file to confirm that the term is spelled the same way in the term tag as it is in the play text.-->
+                        <!--WARNING: Could not find insertion point for term text "Nymphs of Dian’s train". Inserted collapsed anchors. Check input XML file to confirm that the term is spelled the same way in the term tag as it is in the play text.-->
                         <anchor xml:id="emdSV_M_anc_385"/>
                         <anchor xml:id="emdSV_M_anc_386"/> that range these <seg type="place" resp="#student">groves</seg>
                      </l>
@@ -2832,7 +2826,7 @@
                   </lg>
                </sp>
                <stage type="business" place="plc-centre">Albert faints.</stage>
-               <sp who="#emdSV_M_" xml:id="emdSV_M_a2_s2_sp31">
+               <sp who="#emdSV_M_hip" xml:id="emdSV_M_a2_s2_sp31">
                   <speaker>Hippolita</speaker>
                   <lg>
                      <l>By my life I can not hurt him.</l>
@@ -2891,7 +2885,7 @@
                      <l>But what is’t?</l>
                   </lg>
                </sp>
-               <sp who="#emdSV_M_" xml:id="emdSV_M_a2_s2_sp39">
+               <sp who="#emdSV_M_hip" xml:id="emdSV_M_a2_s2_sp39">
                   <speaker>Hippolita</speaker>
                   <lg>
                      <l rend="center">It is infectious.</l>
@@ -2959,7 +2953,7 @@
                      <l>We could have been.</l>
                   </lg>
                </sp>
-               <sp who="#emdSV_M_" xml:id="emdSV_M_a2_s2_sp49">
+               <sp who="#emdSV_M_hip" xml:id="emdSV_M_a2_s2_sp49">
                   <speaker>Hippolita</speaker>
                   <lg>
                      <l rend="indent">A <seg type="relig" resp="#student">sin</seg>
@@ -3002,7 +2996,7 @@
                      <l>Not mine.</l>
                   </lg>
                </sp>
-               <sp who="#emdSV_M_" xml:id="emdSV_M_a2_s2_sp54">
+               <sp who="#emdSV_M_hip" xml:id="emdSV_M_a2_s2_sp54">
                   <speaker>Hippolita</speaker>
                   <lg>
                      <l rend="indent">Nor mine.</l>
@@ -3046,7 +3040,7 @@
                      <l>So carelessly neglect it?</l>
                   </lg>
                </sp>
-               <sp who="#emdSV_M_" xml:id="emdSV_M_a2_s2_sp59">
+               <sp who="#emdSV_M_hip" xml:id="emdSV_M_a2_s2_sp59">
                   <speaker>Hippolita</speaker>
                   <lg>
                      <l rend="indent">For <anchor xml:id="emdSV_M_anc_419"/>aught<anchor xml:id="emdSV_M_anc_420"/> I know, he’s living yet,</l>
@@ -3233,7 +3227,7 @@
                      <l>Only with beasts.</l>
                   </lg>
                </sp>
-               <sp who="#emdSV_M_" xml:id="emdSV_M_a2_s2_sp72">
+               <sp who="#emdSV_M_hip" xml:id="emdSV_M_a2_s2_sp72">
                   <speaker>Hippolita</speaker>
                   <lg>
                      <l rend="indent">We must and will have men.</l>
@@ -3965,7 +3959,7 @@
                </sp>
                <sp who="#emdSV_M_mor #fran" xml:id="emdSV_M_a3_s1_sp55">
                   <speaker>Morillat and Franville</speaker>
-                  <stage type="" place="plc-centre">Together</stage>
+                  <stage type="delivery" place="plc-centre">Together</stage>
                   <lg>
                      <l>I—</l>
                   </lg>
@@ -5137,8 +5131,8 @@
                             Sebastian, 
                             Nicusa, and
                             Sailors.</stage>
-               <sp who="#emdSV_M_sail1" xml:id="emdSV_M_a4_s1_sp1">
-                  <speaker>Sailor 1</speaker>
+               <sp who="#emdSV_M_sail" xml:id="emdSV_M_a4_s1_sp1">
+                  <speaker>1 Sailor</speaker>
                   <lg>
                      <l>Here’s nothing, <seg type="name" resp="#student">sir</seg>, but poverty and <seg type="food" resp="#student">hunger</seg>;</l>
                      <l>No promise of inhabitance, neither <anchor xml:id="emdSV_M_anc_799"/>tract<anchor xml:id="emdSV_M_anc_800"/> of beast</l>
@@ -5147,8 +5141,8 @@
                      <l>Here is or hath been such men.</l>
                   </lg>
                </sp>
-               <sp who="#emdSV_M_sail2" xml:id="emdSV_M_a4_s1_sp2">
-                  <speaker>Sailor 2</speaker>
+               <sp who="#emdSV_M_sail" xml:id="emdSV_M_a4_s1_sp2">
+                  <speaker>2 Sailor</speaker>
                   <lg>
                      <l>Not a relic of anything they wore</l>
                      <l>Nor mark left by ’em either to find relief</l>
@@ -5235,8 +5229,8 @@
                         </seg> we know not.</l>
                   </lg>
                </sp>
-               <sp who="#emdSV_M_sail2" xml:id="emdSV_M_a4_s1_sp11">
-                  <speaker>Sailor 2</speaker>
+               <sp who="#emdSV_M_sail" xml:id="emdSV_M_a4_s1_sp11">
+                  <speaker>2 Sailor</speaker>
                   <lg>
                      <l>Was not the captain</l>
                      <l>A fellow of a fiery yet <anchor xml:id="emdSV_M_anc_815"/>brave<anchor xml:id="emdSV_M_anc_816"/> nature,</l>
@@ -5257,8 +5251,8 @@
                      <l>And my poor wretched sister.</l>
                   </lg>
                </sp>
-               <sp who="#emdSV_M_sail1" xml:id="emdSV_M_a4_s1_sp14">
-                  <speaker>Sailor 1</speaker>
+               <sp who="#emdSV_M_sail" xml:id="emdSV_M_a4_s1_sp14">
+                  <speaker>1 Sailor</speaker>
                   <lg>
                      <l rend="indent">’Twas he, certain.</l>
                      <l>I ha’ been <seg type="place" resp="#student">at sea</seg> with him, many times <seg type="place" resp="#student">at sea</seg>.</l>
@@ -5278,8 +5272,8 @@
                      <l>Here, in <seg type="place" resp="#student">this place</seg>.</l>
                   </lg>
                </sp>
-               <sp who="#emdSV_M_sail2" xml:id="emdSV_M_a4_s1_sp17">
-                  <speaker>Sailor 2</speaker>
+               <sp who="#emdSV_M_sail" xml:id="emdSV_M_a4_s1_sp17">
+                  <speaker>2 Sailor</speaker>
                   <lg>
                      <l rend="indent">The earth cannot swallow ’em.</l>
                      <l>They have no wings; they cannot fly, sure.</l>
@@ -5326,8 +5320,8 @@
                      <l>Ye have so <anchor xml:id="emdSV_M_anc_821"/>abused<anchor xml:id="emdSV_M_anc_822"/> my hope that now I hate ye.</l>
                   </lg>
                </sp>
-               <sp who="#emdSV_M_sail1" xml:id="emdSV_M_a4_s1_sp23">
-                  <speaker>Sailor 1</speaker>
+               <sp who="#emdSV_M_sail" xml:id="emdSV_M_a4_s1_sp23">
+                  <speaker>1 Sailor</speaker>
                   <lg>
                      <l>Let’s put ’em in their <seg type="object" resp="#student">ragged clothes</seg> again, <seg type="name" resp="#student">captain</seg>,</l>
                      <l>For certain they are <anchor xml:id="emdSV_M_anc_823"/>knaves<anchor xml:id="emdSV_M_anc_824"/>. Let’s e’en deliver ’em</l>
@@ -6610,7 +6604,7 @@
                <sp who="#emdSV_M_cla" xml:id="emdSV_M_a4_s3_sp44">
                   <speaker>Clarinda</speaker>
                   <lg>
-                     <l>Nay, stand up, <seg type="name" resp="#dl">gentlemen</seg>, and leave your flatteries. <stage type="">They rise.</stage>
+                     <l>Nay, stand up, <seg type="name" resp="#dl">gentlemen</seg>, and leave your flatteries. <stage type="business">They rise.</stage>
                      </l>
                   </lg>
                </sp>
@@ -6774,7 +6768,7 @@
                </sp>
                <sp who="#emdSV_M_lam #fran" xml:id="emdSV_M_a4_s3_sp67">
                   <speaker>Lamure and Franville</speaker>
-                  <stage type="">Together.</stage>
+                  <stage type="delivery">Together.</stage>
                   <lg>
                      <l>She is no sister—</l>
                   </lg>
@@ -7254,7 +7248,7 @@
                      <anchor xml:id="emdSV_M_anc_1137"/>
                      <anchor xml:id="emdSV_M_anc_1138"/>
                      <stage type="entrance" place="plc-centre">Enter Tibalt and Master.</stage>
-                     <l>Here’s <seg type="name" resp="">Captain Careless</seg>, and the <seg type="name" resp="#student">tough shipmaster</seg>.</l>
+                     <l>Here’s <seg type="name" resp="#student">Captain Careless</seg>, and the <seg type="name" resp="#student">tough shipmaster</seg>.</l>
                      <l>The slaves are <anchor xml:id="emdSV_M_anc_1139"/>nosed like vultures<anchor xml:id="emdSV_M_anc_1140"/>;</l>
                      <l>How wild they look—</l>
                   </lg>
@@ -8150,7 +8144,7 @@
                            <anchor xml:id="emdSV_M_anc_1267"/>Sir</seg>, in your looks</l>
                      <l>I read your <anchor xml:id="emdSV_M_anc_1263"/>suit<anchor xml:id="emdSV_M_anc_1264"/> of <seg type="name" resp="#student">my Clarinda</seg>; she is yours.</l>
                      <l>
-                        <stage type="">To Aminta.</stage> And, <seg type="name" resp="#student">lady</seg>, if it be in me
+                        <stage type="delivery">To Aminta.</stage> And, <seg type="name" resp="#student">lady</seg>, if it be in me
                                     to confirm</l>
                      <l>Your hopes to this <anchor xml:id="emdSV_M_anc_1265"/>brave<anchor xml:id="emdSV_M_anc_1266"/> gentleman,</l>
                      <l>Presume I am your servant<anchor xml:id="emdSV_M_anc_1268"/>.</l>
@@ -8175,7 +8169,7 @@
                      <l>Now all our fears are ended.</l>
                   </lg>
                </sp>
-               <sp who="#emdSV_M_" xml:id="emdSV_M_a5_s4_sp20">
+               <sp who="#emdSV_M_tib" xml:id="emdSV_M_a5_s4_sp20">
                   <speaker>Tibalt</speaker>
                   <stage type="business" place="plc-right">Tibalt
                                 <seg type="place" resp="#dl">moving to Crocale</seg>.</stage>
@@ -8231,13 +8225,14 @@
             <bibl xml:id="lt1999">Thomson, Leslie. "The Meaning of ’Thunder and Lightning’: Stage Directions and Audience Expectations." <title>Early Theatre</title> 2 (<date>1999</date>): 11-24.</bibl>
             <bibl xml:id="gw1994">Williams, Gordon. <title>A Dictionary of Sexual Language and Imagery in Shakespearean and Stuart Literature</title>. (The Athlone Press, <date>1994</date>).</bibl>
          </listBibl>
-         <interpGrp>
+         <!--NOKH1: Need to figure out what to do with the whole tagging thing here. Commenting out for now. -->
+         <!--<interpGrp>
             <interp xml:id="food">Words or phrases related to food/drink or eating/drinking.</interp>
             <interp xml:id="object">Words or phrases that refer to objects present on stage.</interp>
             <interp xml:id="place">Words or phrases related to places, including specific geographic locations, that characters are, have been, or imagine going.</interp>
             <interp xml:id="relig">Words or phrases related to religion or spiritual practices.</interp>
             <interp xml:id="name">Words or phrases that are names or represent people.</interp>
-         </interpGrp>
+         </interpGrp>-->
       </back>
    </text>
 </TEI>

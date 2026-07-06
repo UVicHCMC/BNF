@@ -69,7 +69,7 @@
       <encodingDesc>
          <p/>
       </encodingDesc>
-      <xenoData>
+      <!--<xenoData>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -87,7 +87,7 @@
                </monogr>
             </biblStruct>
          </sourceDesc>
-      </xenoData>
+      </xenoData>-->
       <revisionDesc status="prgGenerated">
          <change who="pers:NOKH1" when="2026-03-12">Converted from BNF TEI to LEMDO TEI</change>
       </revisionDesc>

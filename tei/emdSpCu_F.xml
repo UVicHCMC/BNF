@@ -89,7 +89,7 @@
       <encodingDesc>
          <p/>
       </encodingDesc>
-      <xenoData>
+      <!--<xenoData>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -108,7 +108,7 @@
                </monogr>
             </biblStruct>
          </sourceDesc>
-      </xenoData>
+      </xenoData>-->
       <revisionDesc status="prgGenerated">
          <change who="pers:NOKH1" when="2026-03-12">Converted from BNF TEI to LEMDO TEI</change>
       </revisionDesc>
@@ -404,7 +404,7 @@
                 <lb type="wln"/>VVere more then murther.
               </ab>
                </sp>
-               <stage type="">Enter Henrique.</stage>
+               <stage type="entrance">Enter Henrique.</stage>
                <note type="marginal">Cro<g ref="g:longS">s</g>sed-out Cross-hatched lines.</note>
                <sp xml:id="emdSpCu_F_a1_s1_sp23">
                   <speaker>Ang</speaker>
@@ -3182,7 +3182,7 @@
                <label>
                   <hi rendition="rnd:italic">Scæna Secunda</hi>
                </label>
-               <stage type="">Enter Lopez, Diego, and foure Pari<g ref="g:longS">s</g>hioners and Singers.</stage>
+               <stage type="entrance">Enter Lopez, Diego, and foure Pari<g ref="g:longS">s</g>hioners and Singers.</stage>
                <sp xml:id="emdSpCu_F_a3_s2_sp1">
                   <speaker>Lop</speaker>
                   <ab>
@@ -3797,7 +3797,7 @@
                <label>
                   <hi rendition="rnd:italic">Scæna Tertia.</hi>
                </label>
-               <stage type="">Enter Octavio, Jacintha, A<g ref="g:longS">s</g>canio.</stage>
+               <stage type="entrance">Enter Octavio, Jacintha, A<g ref="g:longS">s</g>canio.</stage>
                <note type="marginal">Cross-hatched lines.</note>
                <sp xml:id="emdSpCu_F_a3_s3_sp1">
                   <speaker>Oct</speaker>
@@ -6482,7 +6482,7 @@
               </ab>
                </sp>
                <sp xml:id="emdSpCu_F_a4_s6_sp6">
-                  <speaker>&gt;Am</speaker>
+                  <speaker>Am</speaker>
                   <ab>
                 Nay, you know not,
                 <lb type="wln"/>Women have crotchets, and <g ref="g:longS">s</g>trange fits.
@@ -8573,10 +8573,11 @@
                <stage type="exit" place="plc-right">Exeunt.</stage>
             </div>
          </div>
-         <div xml:id="epilogue" type="back" n="1">
+         <div xml:id="epilogue" n="1">
             <lb type="wln"/>
             <label>Epilogue.</label>
-            <sp xml:id="emdSpCu_F_sp946">
+            <sp xml:id="emdSpCu_F_epilogue">
+              <ab>
             T<hi rendition="rnd:italic">He Play is done, yet our suit never ends,</hi>
                <lb type="wln"/>Still when you part, you would <g ref="g:longS">s</g>til part our friends,
             <lb type="wln"/>Our noble<g ref="g:longS">s</g>t friends; if ought have falne amis,
@@ -8585,9 +8586,10 @@
             <lb type="wln"/>All the whole Body, cannot be <g ref="g:longS">s</g>o neat,
             <lb type="wln"/>But <g ref="g:longS">s</g>omething may be mended; Tho<g ref="g:longS">s</g>e are faire,
             <lb type="wln"/>And worthy love, that may de<g ref="g:longS">s</g>troy, but <g ref="g:longS">s</g>pare.
+              </ab>
           </sp>
          </div>
-         <div xml:id="finis" type="back" n="1">
+         <div xml:id="finis" n="1">
             <lb type="wln"/>
             <label>F I N I S.</label>
          </div>

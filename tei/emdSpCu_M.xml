@@ -80,14 +80,14 @@
       </fileDesc>
       <profileDesc>
          <particDesc>
-            <head>The Persons represented in the Play. <!--WARNING: Missing term element in note. Inserted collapsed anchors.--><anchor xml:id="emdSpCu_M_anc_1"/>
+            <!--<head>The Persons represented in the Play. <!-\-WARNING: Missing term element in note. Inserted collapsed anchors.-\-><anchor xml:id="emdSpCu_M_anc_1"/>
                <anchor xml:id="emdSpCu_M_anc_2"/>
-            </head>
+            </head>-->
             <listPerson type="castlist" xml:id="emdSpCu_M_castlist">
                <person xml:id="emdSpCu_M_Ang">
                   <persName>
                      <name>Angelo Milanes, a gentleman friend to Leandro</name>
-                     <reg>Angelo Milanes</reg>
+                     <reg>Milanes</reg>
                   </persName>
                </person>
                <person xml:id="emdSpCu_M_Ars">
@@ -99,13 +99,14 @@
                <person xml:id="emdSpCu_M_Jam">
                   <persName>
                      <name>Don Jamie, younger brother to Don Henrique</name>
-                     <reg>Don Jamie</reg>
+                     <reg>Jamie</reg>
                   </persName>
                </person>
                <person xml:id="emdSpCu_M_Lea">
                   <persName>
-                     <name>Leandro, a gentleman who wantonly loves Bartolus' wife</name>
+                     <name>Leandro, a gentleman who wantonly loves Bartolus’ wife</name>
                      <reg>Leandro</reg>
+                     <reg>Lea</reg>
                   </persName>
                </person>
                <person xml:id="emdSpCu_M_Asc">
@@ -117,7 +118,7 @@
                <person xml:id="emdSpCu_M_Hen">
                   <persName>
                      <name>Don Henrique, an mean Lord, brother to Don Jamie</name>
-                     <reg>Don Henrique</reg>
+                     <reg>Henrique</reg>
                   </persName>
                </person>
                <person xml:id="emdSpCu_M_Oct">
@@ -146,7 +147,7 @@
                </person>
                <person xml:id="emdSpCu_M_Die">
                   <persName>
-                     <name>Diego, Lopez's Sexton</name>
+                     <name>Diego, Lopez’s Sexton</name>
                      <reg>Diego</reg>
                   </persName>
                </person>
@@ -166,6 +167,7 @@
                   <persName>
                      <name>Egla, a woman-Moor, servant to Amaranta</name>
                      <reg>Egla</reg>
+                     <reg>Moor</reg>
                   </persName>
                </person>
                <person xml:id="emdSpCu_M_And">
@@ -174,27 +176,12 @@
                      <reg>Andrea</reg>
                   </persName>
                </person>
-               <person xml:id="emdSpCu_M_Par1">
+               <person xml:id="emdSpCu_M_Par">
                   <persName>
                      <name>Parishioner 1</name>
                      <reg>Parishioner 1</reg>
-                  </persName>
-               </person>
-               <person xml:id="emdSpCu_M_Par2">
-                  <persName>
-                     <name>Parishioner 2</name>
                      <reg>Parishioner 2</reg>
-                  </persName>
-               </person>
-               <person xml:id="emdSpCu_M_Par3">
-                  <persName>
-                     <name>Parishioner 3</name>
                      <reg>Parishioner 3</reg>
-                  </persName>
-               </person>
-               <person xml:id="emdSpCu_M_Par4">
-                  <persName>
-                     <name>Parishioner 4</name>
                      <reg>Parishioner 4</reg>
                   </persName>
                </person>
@@ -214,6 +201,7 @@
                   <persName>
                      <name>Officers</name>
                      <reg>Officers</reg>
+                     <reg>Officer</reg>
                   </persName>
                </person>
                <person xml:id="emdSpCu_M_Wit">
@@ -226,6 +214,7 @@
                   <persName>
                      <name>Servants</name>
                      <reg>Servants</reg>
+                     <reg>Servant</reg>
                   </persName>
                </person>
                <person xml:id="emdSpCu_M_Alg">
@@ -234,7 +223,7 @@
                      <reg>Algaziers</reg>
                   </persName>
                </person>
-               <person xml:id="emdSpCu_M_Par">
+               <person xml:id="emdSpCu_M_Pat">
                   <persName>
                      <name>Paritor</name>
                      <reg>Paritor</reg>
@@ -253,7 +242,7 @@
          <p/>
       </encodingDesc>
       <xenoData>
-         <sourceDesc>
+         <!--<sourceDesc>
             <biblStruct>
                <monogr>
                   <author>Francis Beaumont</author>
@@ -270,7 +259,7 @@
                   </imprint>
                </monogr>
             </biblStruct>
-         </sourceDesc>
+         </sourceDesc>-->
       </xenoData>
       <revisionDesc status="prgGenerated">
          <change who="pers:NOKH1" when="2026-03-12">Converted from BNF TEI to LEMDO TEI</change>
@@ -593,7 +582,7 @@
                      <l>Were more than murder.</l>
                   </lg>
                </sp>
-               <stage type="">Enter Henrique.
+               <stage type="entrance">Enter Henrique.
                         <note type="marginal">Manuscript note: Crossed-out cross-hatched lines.</note>
                </stage>
                <sp who="#emdSpCu_M_Ars" xml:id="emdSpCu_M_a1_s1_sp23">
@@ -1807,7 +1796,7 @@
                      <l>Yet, (Diego), here I laugh.</l>
                   </lg>
                </sp>
-               <sp who="#emdSpCu_M_" xml:id="emdSpCu_M_a2_s1_sp44">
+               <sp who="#emdSpCu_M_Die" xml:id="emdSpCu_M_a2_s1_sp44">
                   <speaker>Diego</speaker>
                   <lg>
                      <l rend="center">The cause requires it.</l>
@@ -1886,7 +1875,7 @@
                   <speaker>Lopez</speaker>
                   <lg>
                      <l>’Tis well, (sir),</l>
-                     <l>’Tis very well. <stage type="">aside to Diego.</stage> The devil a-one I know there.</l>
+                     <l>’Tis very well. <stage type="delivery">aside to Diego.</stage> The devil a-one I know there.</l>
                   </lg>
                </sp>
                <sp who="#emdSpCu_M_Die" xml:id="emdSpCu_M_a2_s1_sp56">
@@ -2039,7 +2028,7 @@
                            <anchor xml:id="emdSpCu_M_anc_257"/>Cathay<anchor xml:id="emdSpCu_M_anc_258"/>
                         </placeName>
                      </l>
-                     <l>Take heed, I beseech your worship: do you hear, (my friend)&gt;</l>
+                     <l>Take heed, I beseech your worship: do you hear, (my friend)</l>
                      <l>You have no letters for me?</l>
                   </lg>
                </sp>
@@ -2468,7 +2457,7 @@
                      <l>What would you have, (<anchor xml:id="emdSpCu_M_anc_317"/>Maid<anchor xml:id="emdSpCu_M_anc_318"/>)?</l>
                   </lg>
                </sp>
-               <sp who="#emdSpCu_M_" xml:id="emdSpCu_M_a2_s2_sp12">
+               <sp who="#emdSpCu_M_Egl" xml:id="emdSpCu_M_a2_s2_sp12">
                   <speaker>Moor</speaker>
                   <lg>
                      <l>Master curate, and the sexton, and a stranger, (sir),</l>
@@ -2711,7 +2700,7 @@
                </sp>
                <sp who="#emdSpCu_M_Lea" xml:id="emdSpCu_M_a2_s2_sp41">
                   <speaker>Leandro</speaker>
-                  <stage type="">gives Bartolus money</stage>
+                  <stage type="business">gives Bartolus money</stage>
                   <lg>
                      <l rend="center">
                         <anchor xml:id="emdSpCu_M_anc_339"/>Ever<anchor xml:id="emdSpCu_M_anc_340"/> , sir.</l>
@@ -3071,7 +3060,7 @@
                <sp who="#emdSpCu_M_Ser" xml:id="emdSpCu_M_a2_s4_sp15">
                   <speaker>Servant</speaker>
                   <lg>
-                     <l>My Lord,  Henrique, would entreat ye, sir,<note type="marginal">Manuscript note: Lean be re[ady]</note>
+                     <l>My Lord,  Henrique, would entreat ye, sir,<note type="marginal">Manuscript note: Lean be re<supplied>ady</supplied></note>
                      </l>
                      <l>To come immediately, and speak with him;</l>
                      <l>He has businesse of some moment.</l>
@@ -3092,7 +3081,7 @@
                <sp who="#emdSpCu_M_Lea" xml:id="emdSpCu_M_a2_s4_sp17">
                   <note type="marginal">Manuscript note: Cross-hatched lines.</note>
                   <speaker>Leandro</speaker>
-                  <stage type="">within</stage>
+                  <stage type="location">within</stage>
                   <lg>
                      <l>I’ll be ready.</l>
                   </lg>
@@ -3173,7 +3162,7 @@
                </sp>
                <sp who="#emdSpCu_M_Lea" xml:id="emdSpCu_M_a2_s4_sp25">
                   <speaker>Leandro</speaker>
-                  <stage type="">stepping forward</stage>
+                  <stage type="location">stepping forward</stage>
                   <lg>
                      <l rend="center">I will go out a little.</l>
                   </lg>
@@ -3396,7 +3385,7 @@
                      <l>Am I fit companion for such beggers</l>
                   </lg>
                </sp>
-               <sp who="#emdSpCu_M_Par1" xml:id="emdSpCu_M_a3_s2_sp2">
+               <sp who="#emdSpCu_M_Par" xml:id="emdSpCu_M_a3_s2_sp2">
                   <speaker>Parishioner 1</speaker>
                   <lg>
                      <l>If the shepherd will suffer the sheep to be scabbed, (sir).</l>
@@ -3424,7 +3413,7 @@
                      <l>I will avoid ye.</l>
                   </lg>
                </sp>
-               <sp who="#emdSpCu_M_Par2" xml:id="emdSpCu_M_a3_s2_sp6">
+               <sp who="#emdSpCu_M_Par" xml:id="emdSpCu_M_a3_s2_sp6">
                   <speaker>Parishioner 2</speaker>
                   <lg>
                      <l rend="center">’Pray ye, (sir), be not angry,</l>
@@ -3437,7 +3426,7 @@
                      <l>And that’s a loving thing.</l>
                   </lg>
                </sp>
-               <sp who="#emdSpCu_M_Par3" xml:id="emdSpCu_M_a3_s2_sp7">
+               <sp who="#emdSpCu_M_Par" xml:id="emdSpCu_M_a3_s2_sp7">
                   <speaker>Parishioner 3</speaker>
                   <lg>
                      <l rend="center">We grant ye, (sir):</l>
@@ -3455,14 +3444,14 @@
                      <l>Than ringing all-in, to a <anchor xml:id="emdSpCu_M_anc_471"/>rout<anchor xml:id="emdSpCu_M_anc_472"/> of <anchor xml:id="emdSpCu_M_anc_473"/>dunces<anchor xml:id="emdSpCu_M_anc_474"/>.</l>
                   </lg>
                </sp>
-               <sp who="#emdSpCu_M_Par4" xml:id="emdSpCu_M_a3_s2_sp9">
+               <sp who="#emdSpCu_M_Par" xml:id="emdSpCu_M_a3_s2_sp9">
                   <speaker>Parishioner 4</speaker>
                   <lg>
                      <l>We will increase your <anchor xml:id="emdSpCu_M_anc_475"/>tithes<anchor xml:id="emdSpCu_M_anc_476"/>, you shall have eggs too,</l>
                      <l>Though they may prove most dangerous to our issues.</l>
                   </lg>
                </sp>
-               <sp who="#emdSpCu_M_Par1" xml:id="emdSpCu_M_a3_s2_sp10">
+               <sp who="#emdSpCu_M_Par" xml:id="emdSpCu_M_a3_s2_sp10">
                   <speaker>Parishioner 1</speaker>
                   <lg>
                      <l>I am a <anchor xml:id="emdSpCu_M_anc_477"/>smith<anchor xml:id="emdSpCu_M_anc_478"/>; yet thus far out of my love</l>
@@ -3470,14 +3459,14 @@
                      <l>I am sure I prick five hundred in a year, (sir.</l>
                   </lg>
                </sp>
-               <sp who="#emdSpCu_M_Par2" xml:id="emdSpCu_M_a3_s2_sp11">
+               <sp who="#emdSpCu_M_Par" xml:id="emdSpCu_M_a3_s2_sp11">
                   <speaker>Parishioner 2</speaker>
                   <lg>
                      <l>I am a cook, a man of dried conscience,</l>
                      <l>Yet thus far I relent: you shall have tithe porridge.</l>
                   </lg>
                </sp>
-               <sp who="#emdSpCu_M_Par3" xml:id="emdSpCu_M_a3_s2_sp12">
+               <sp who="#emdSpCu_M_Par" xml:id="emdSpCu_M_a3_s2_sp12">
                   <speaker>Parishioner 3</speaker>
                   <lg>
                      <l>Your stipend shall be raised ,(good neighbour Diego-</l>
@@ -3522,7 +3511,7 @@
                      <l>So we bequeath ye to your destiny.</l>
                   </lg>
                </sp>
-               <sp who="#emdSpCu_M_Par1" xml:id="emdSpCu_M_a3_s2_sp16">
+               <sp who="#emdSpCu_M_Par" xml:id="emdSpCu_M_a3_s2_sp16">
                   <speaker>Parishioner 1</speaker>
                   <lg>
                      <l>Pray ye be not so hasty.</l>
@@ -3535,13 +3524,13 @@
                      <l>Would ye have us stay?</l>
                   </lg>
                </sp>
-               <sp who="#emdSpCu_M_Par2" xml:id="emdSpCu_M_a3_s2_sp18">
+               <sp who="#emdSpCu_M_Par" xml:id="emdSpCu_M_a3_s2_sp18">
                   <speaker>Parishioner 2</speaker>
                   <lg>
                      <l rend="center">We do most hearilty pray ye.</l>
                   </lg>
                </sp>
-               <sp who="#emdSpCu_M_Par3" xml:id="emdSpCu_M_a3_s2_sp19">
+               <sp who="#emdSpCu_M_Par" xml:id="emdSpCu_M_a3_s2_sp19">
                   <speaker>Parishioner 3</speaker>
                   <lg>
                      <l>I’ll draw as mighty drink, (sir).</l>
@@ -3554,7 +3543,7 @@
                      <l>The stronger still the more ye come unto me.</l>
                   </lg>
                </sp>
-               <sp who="#emdSpCu_M_Par3" xml:id="emdSpCu_M_a3_s2_sp21">
+               <sp who="#emdSpCu_M_Par" xml:id="emdSpCu_M_a3_s2_sp21">
                   <speaker>Parishioner 3</speaker>
                   <lg>
                      <l>And I’ll send for my daughter.</l>
@@ -3567,7 +3556,7 @@
                      <l>The madien is of age, and must be edified.</l>
                   </lg>
                </sp>
-               <sp who="#emdSpCu_M_Par4" xml:id="emdSpCu_M_a3_s2_sp23">
+               <sp who="#emdSpCu_M_Par" xml:id="emdSpCu_M_a3_s2_sp23">
                   <speaker>Parishioner 4</speaker>
                   <lg>
                      <l>You shall have anything: lose our learned vicar?</l>
@@ -3617,20 +3606,20 @@
                      <l>These things considered, (country men), and sworn, too.</l>
                   </lg>
                </sp>
-               <sp who="#emdSpCu_M_Par2" xml:id="emdSpCu_M_a3_s2_sp28">
+               <sp who="#emdSpCu_M_Par" xml:id="emdSpCu_M_a3_s2_sp28">
                   <speaker>Parishioner 2</speaker>
                   <lg>
                      <l>All these, and all our sports again, and <anchor xml:id="emdSpCu_M_anc_499"/>gambols<anchor xml:id="emdSpCu_M_anc_500"/>.</l>
                   </lg>
                </sp>
-               <sp who="#emdSpCu_M_Par3" xml:id="emdSpCu_M_a3_s2_sp29">
-                  <speaker>Parisioner 3</speaker>
+               <sp who="#emdSpCu_M_Par" xml:id="emdSpCu_M_a3_s2_sp29">
+                  <speaker>Parishioner 3</speaker>
                   <lg>
                      <l>We must die, and we must live, and we’ll be merry,</l>
                      <l>Every man shall be rich by one another.</l>
                   </lg>
                </sp>
-               <sp who="#emdSpCu_M_Par2" xml:id="emdSpCu_M_a3_s2_sp30">
+               <sp who="#emdSpCu_M_Par" xml:id="emdSpCu_M_a3_s2_sp30">
                   <speaker>Parishioner 2</speaker>
                   <lg>
                      <l>We are here tomorrow, and gone today: for my part</l>
@@ -3638,14 +3627,14 @@
                      <l>I’ll labour hard but I will fill your <anchor xml:id="emdSpCu_M_anc_501"/>font<anchor xml:id="emdSpCu_M_anc_502"/>, (sir).</l>
                   </lg>
                </sp>
-               <sp who="#emdSpCu_M_Par1" xml:id="emdSpCu_M_a3_s2_sp31">
+               <sp who="#emdSpCu_M_Par" xml:id="emdSpCu_M_a3_s2_sp31">
                   <speaker>Parishioner 1</speaker>
                   <lg>
                      <l>I have a mother now, and an old father,</l>
                      <l>They are as sure your own, within these two months—</l>
                   </lg>
                </sp>
-               <sp who="#emdSpCu_M_Par4" xml:id="emdSpCu_M_a3_s2_sp32">
+               <sp who="#emdSpCu_M_Par" xml:id="emdSpCu_M_a3_s2_sp32">
                   <speaker>Parishioner 4</speaker>
                   <lg>
                      <l>My sister must be prayed for too, she is desperate,</l>
@@ -3664,7 +3653,7 @@
                      <l>To make him know your loves? Fie, neighbours.</l>
                   </lg>
                </sp>
-               <sp who="#emdSpCu_M_Par2" xml:id="emdSpCu_M_a3_s2_sp34">
+               <sp who="#emdSpCu_M_Par" xml:id="emdSpCu_M_a3_s2_sp34">
                   <speaker>Parishioner 2</speaker>
                   <lg>
                      <l rend="center">We’ll do anything,</l>
@@ -3711,7 +3700,7 @@
                   </lg>
                </sp>
                <sp who="#emdSpCu_M_Ang" xml:id="emdSpCu_M_a3_s2_sp39">
-                  <speaker>Mi</speaker>
+                  <speaker>Milanes</speaker>
                   <lg>
                      <l>Lord, how it looks? Has he not bought some <anchor xml:id="emdSpCu_M_anc_519"/>prebend<anchor xml:id="emdSpCu_M_anc_520"/>?</l>
                      <l>Leandro’s money, makes the rascal merry,</l>
@@ -4193,13 +4182,13 @@
                   </lg>
                </sp>
                <sp who="#emdSpCu_M_Off" xml:id="emdSpCu_M_a3_s3_sp25">
-                  <speaker>Offic</speaker>
+                  <speaker>Officer</speaker>
                   <lg>
                      <l>Make way there for the judge.</l>
                   </lg>
                </sp>
                <sp who="#emdSpCu_M_Jam" xml:id="emdSpCu_M_a3_s3_sp26">
-                  <speaker>Jam</speaker>
+                  <speaker>Jamie</speaker>
                   <lg>
                      <l>How? My kind brother?</l>
                      <l>Nay then ’tis rank: there is some villany towards.</l>
@@ -4555,7 +4544,7 @@
                   </lg>
                </sp>
                <sp who="#emdSpCu_M_Jam" xml:id="emdSpCu_M_a3_s3_sp58">
-                  <speaker>Jam</speaker>
+                  <speaker>Jamie</speaker>
                   <lg>
                      <l rend="center">Very well, mock on;</l>
                      <l>It is your turn: I may have mine—</l>
@@ -5934,7 +5923,7 @@
                      <l>Like a chameleon, sucked th’air of misery,</l>
                      <l>And grew fat by <anchor xml:id="emdSpCu_M_anc_779"/>th’brewis of an eggshell<anchor xml:id="emdSpCu_M_anc_780"/>.</l>
                      <!--<pb facs="https://digital.libraries.psu.edu/digital/collection/emblem/id/4398/rec/4"/>-->
-                     <note type="marginal">Manuscript note: [...]asenio &amp; parishioners</note>
+                     <note type="marginal">Manuscript note: <supplied>…</supplied>asenio &amp; parishioners</note>
                      <l>
                         <anchor xml:id="emdSpCu_M_anc_783"/>Would smell a cook’s shop, and go home and surfeit,</l>
                      <l>And be a month in fasting out that fever<anchor xml:id="emdSpCu_M_anc_784"/>.</l>
@@ -8005,7 +7994,7 @@
                      <l>Your fear I hope will make ye find your <anchor xml:id="emdSpCu_M_anc_1105"/>breeches<anchor xml:id="emdSpCu_M_anc_1106"/>.</l>
                   </lg>
                </sp>
-               <sp who="#emdSpCu_M_" xml:id="emdSpCu_M_a5_s2_sp35">
+               <sp who="spkr:other" xml:id="emdSpCu_M_a5_s2_sp35">
                   <speaker>All</speaker>
                   <lg>
                      <l>We are betrayed!</l>
@@ -8313,7 +8302,7 @@
                      <l>For all, for every one.</l>
                   </lg>
                </sp>
-               <sp who="#emdSpCu_M_" xml:id="emdSpCu_M_a5_s2_sp70">
+               <sp who="spkr:other" xml:id="emdSpCu_M_a5_s2_sp70">
                   <speaker>All</speaker>
                   <lg>
                      <l rend="center">We are all your servants.</l>
@@ -8517,7 +8506,7 @@
                   </lg>
                </sp>
                <sp who="#emdSpCu_M_Hen" xml:id="emdSpCu_M_a5_s3_sp18">
-                  <speaker>Henr</speaker>
+                  <speaker>Henrique</speaker>
                   <lg>
                      <l rend="center">Oh, <anchor xml:id="emdSpCu_M_anc_1187"/>accursed<anchor xml:id="emdSpCu_M_anc_1188"/>!</l>
                   </lg>
@@ -8773,7 +8762,7 @@
                <sp who="#emdSpCu_M_Assi" xml:id="emdSpCu_M_a5_s3_sp45">
                   <speaker>Assistant</speaker>
                   <lg>
-                     <l rend="center"> curate, and sexton,</l>
+                     <l rend="center">Curate, and sexton,</l>
                      <l>I have heard of you too, let me hear no more,</l>
                      <l>And what’s past, is forgotten. For this woman,</l>
                      <l>Though her intent were bloody, yet our law</l>
@@ -8810,7 +8799,7 @@
          </div>
          <div type="epilogue" n="1">
             <head>Epilogue.</head>
-            <sp who="#emdSpCu_M_" xml:id="emdSpCu_M_sp945">
+            <sp who="#emdSpCu_M_" xml:id="emdSpCu_epilogue">
                <l>He play is done, yet our suit never ends.</l>
                <l>Still, when you part, you would still part our friends,</l>
                <l>Our noblest friends; if ought have fallen amiss,</l>
@@ -8821,7 +8810,7 @@
                <l>And worthy love, that may destroy, but spare.</l>
             </sp>
          </div>
-         <div xml:id="finis" type="back" n="1">
+         <div xml:id="finis" n="1">
             <head rend="italic">F I N I S.</head>
          </div>
       </body>
