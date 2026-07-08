@@ -4,10 +4,10 @@
       <fileDesc>
          <titleStmt>
             <title type="main">Annotations for emdSpCu_M</title>
-            <respStmt>
+            <!--<respStmt>
                <resp ref="resp:aut">Author</resp>
-               <persName><!--Insert ref attribute to persName and add author name here--></persName>
-            </respStmt>
+               <persName><!-\-Insert ref attribute to persName and add author name here-\-></persName>
+            </respStmt>-->
             <respStmt>
                <resp ref="resp:edt_gen">Editor in Chief</resp>
                <persName ref="pers:BOUR10">Claire M. L. Bourne</persName>

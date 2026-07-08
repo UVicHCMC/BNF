@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="emdSV_bibliography">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Bibliography for emdSV_M</title>
+            <!--<respStmt>
+               <resp ref="resp:aut">Author</resp>
+               <persName><!-\-Insert ref attribute to persName and add author name here-\-></persName>
+            </respStmt>-->
+            <respStmt>
+               <resp ref="resp:edt_gen">Editor in Chief</resp>
+               <persName ref="pers:BOUR10">Claire M. L. Bourne</persName>
+            </respStmt>
+            <respStmt>
+               <resp ref="resp:rtm">Project Manager</resp>
+               <persName ref="pers:FROE2">Heather Froehlich</persName>
+            </respStmt>
+            <respStmt>
+               <resp ref="resp:rtm_ra">Graduate Research Assistant</resp>
+               <persName ref="pers:CENC1">Lauren M. Cenci</persName>
+            </respStmt>
+            <respStmt>
+               <resp ref="resp:edt_mrk">Remediation</resp>
+               <orgName ref="org:LEMD1">LEMDO Team</orgName>
+            </respStmt>
+            <respStmt>
+               <resp ref="resp:edt_mrk">Remediation</resp>
+               <persName ref="pers:JENS1">Janelle Jenstad</persName>
+            </respStmt>
+            <respStmt>
+               <resp ref="resp:prg">Conversion</resp>
+               <persName ref="pers:NOKH1">Illya Nokhrin (HCMC)</persName>
+            </respStmt>
+            <respStmt>
+               <resp ref="resp:edt_mrk">Original TEI Markup</resp>
+               <orgName ref="org:DBNF">Digital Beaumont and Fletcher</orgName>
+            </respStmt>
+            <sponsor ref="org:CWBJ1"/>
+            <funder>
+               <ref target="https://www.sshrc-crsh.gc.ca/">Social Sciences and Humanities Research Council of Canada</ref>
+            </funder>
+            <funder>
+               <ref target="https://www.cambridge.org/governance">Cambridge University Press Syndicate</ref>
+            </funder>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Victoria on the Linked Early Modern Drama Online Platform</publisher>
+            <availability>
+               <licence from="2026-04-30" resp="pers:BUTL4" corresp="anth:cwbj"/>
+               <licence from="2026-04-30" resp="pers:BUTL4" corresp="anth:lemdo"/>
+               <p>Intellectual copyright in this edition is held by the surviving General Editor, <persName ref="pers:BUTL4">Martin Butler</persName>. Copyright on the TEI-XML markup is held by the <orgName ref="org:UVIC1">University of Victoria</orgName> on behalf of the <orgName ref="org:LEMD1">LEMDO Team</orgName>. The content and TEI-XML markup in this file are licensed under a <ref target="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC_ND 4.0 license</ref>. This file is freely downloadable without permission under the following conditions: (1) credit must be given to the editor, CEWBJO, and LEMDO in any subsequent use of the files and/or data; (2) this availability statement must remain in the file; (3) the content cannot be adapted or repurposed (except for quotations for the purposes of academic review and citation); and (4) commercial uses are not permitted without the knowledge and consent of the editor, CEWBJO, and LEMDO. Neither the content nor the code in this file is licensed for training large language models (LLMs), ingestion into an LLM, or any use in any artificial intelligence applications; such uses are considered to be commercial uses and are strictly prohibited.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Cambridge Edition of the Works of Ben Jonson Online</p>
+         </seriesStmt>
+         <notesStmt>
+            <relatedItem target="doc:emdSV_M"/>
+         </notesStmt>
+         <sourceDesc>
+            <p>Annotations extracted from CEWBJ’s TEI-XML</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <catRef scheme="tax:emdDocumentTypes" target="cat:ldtBornDigParatextAnnotation"/>
+            <catRef scheme="tax:emdDocumentHist" target="cat:edhSourceCBJ"/>
+         </textClass>
+      </profileDesc>
+      <encodingDesc>
+         <p>Encoded in TEI P5 according to the LEMDO Customization and Encoding Guidelines.</p>
+      </encodingDesc>
+      <revisionDesc status="TEI_INP">
+         <change who="pers:NOKH1" when="2026-03-12" status="prgGenerated">Converted file from BNF to LEMDO TEI</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="emdSV_bibliography_full">
+            <head>Works Cited</head>
+            <listBibl>
+               <bibl corresp="bibl:ADAM12"/><!--Adams, The Sexual Politics of Meat -->
+               <bibl corresp="bibl:BANE1"/><!--Banerjee, Gold, Land, and Labor-->
+               <bibl corresp="bibl:FLET9"/><!--Fletcher, The Sea Voyage-->
+               <bibl corresp="bibl:DOEL1"/><!--de Oliviera, History of Portugal-->
+               <bibl corresp="bibl:DESS2"/><!--Dessen, A Dictionary of Stage Directions-->
+               <bibl corresp="bibl:FORE4"/><!--Foreman, The Amazon Women-->
+               <bibl corresp="bibl:HABA1"/><!--Habakkuk, Marriage Settlements -->
+               <bibl corresp="bibl:TAYL7"/><!--Taylor, Thomas Middleton and Early Modern Textual Culture--> <!--NOKH1: Using this more general citation instead of the specific citation for Jackson, MacDonald P. “The Revenger’s Tragedy (1607) in Taylor, Gary, and John Lavagnino. <title>Thomas Middleton and Early Modern Textual Culture: A Companion to The Collected Works</title>?-->
+               <bibl corresp="bibl:JOWI3"/><!--Jowitt, Her flesh must serve you-->
+               <bibl corresp="bibl:LUBL1"/><!--Lublin, Costuming the Shakesperean Stage-->
+               <bibl corresp="bibl:MCIN5"/><!--McInnis, Mind-Travelling and Voyage Drama-->
+               <bibl corresp="bibl:MOOR5"/><!--Moore, English Women, Romance, and Global Travel-->
+               <bibl corresp="bibl:NARA1"/><!--Narayanan, Calicu: The City of Truth-->
+               <bibl corresp="bibl:OBRI1"/><!--O’Brien, Shakespeare's Evolving Attitudes-->
+               <bibl corresp="bibl:SCHE12"/><!--Schecter, Adufe-->
+               <bibl corresp="bibl:SQUA1"/><!--Squadrilli, What is Bottarga?-->
+               <bibl corresp="bibl:STRA3"/><!--Strabo, Geography-->
+               <bibl corresp="bibl:SUGG1"/><!--Sugg, Medicinal Cannibalism-->
+               <bibl corresp="bibl:SYME5"/><!--Syme, Theatre and Testimony-->
+               <bibl corresp="bibl:SYME6"/><!--Syme, The Theatre of Shakespeare's Time-->
+               <bibl corresp="bibl:THOM25"/><!--Thomson, The Meaning of 'Thunder and Lightning'-->
+               <bibl corresp="bibl:WILL25"/><!--Williams, A Dictionary of Sexual Language-->
+            </listBibl>          
+         </div>
+      </body>
+   </text>
+</TEI>

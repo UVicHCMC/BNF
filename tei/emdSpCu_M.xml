@@ -28,18 +28,20 @@
                <resp ref="resp:edt_mrk">Encoding Consultant</resp>
                <persName ref="pers:RUSS5">John Russell</persName>
             </respStmt>
+            <!--NOKH1: Need to create entries in PERS1 here and then add refs--><!--
             <respStmt ref="resp:edt_coord">
                <resp>Open Publishing Program Coordinator</resp>
                <persName>Ally Laird</persName>
-            </respStmt>
+            </respStmt>-->
             <respStmt>
                <resp ref="resp:prg">Open Access Systems Developer</resp>
                <persName ref="pers:GEAR1">Andrew Gearhart</persName>
             </respStmt>
-            <respStmt>
+            <!--NOKH1: Need to create entries in PERS1 here and then add refs-->
+            <!--<respStmt>
                <resp ref="resp:ann">Annotator</resp>
                <persName xml:id="formerOwner">Former Owner - Author of Manuscript Annotations</persName>
-            </respStmt>
+            </respStmt>-->
             <respStmt>
                <resp ref="resp:rtm_ra">Graduate Assistant</resp>
                <persName ref="pers:HARE1">Taylor Hare</persName>
@@ -48,7 +50,8 @@
                <resp ref="resp:rtm_ra">Graduate Assistant</resp>
                <persName ref="pers:LEBL1">David LeBlanc</persName>
             </respStmt>
-            <respStmt>
+            <!--NOKH1: Need to create entries in PERS1 here and then add refs-->
+            <!--<respStmt>
                <resp ref="resp:rtm_ra">Graduate Assistant</resp>
                <persName>Danielle Ryle</persName>
             </respStmt>
@@ -59,7 +62,7 @@
             <respStmt>
                <resp ref="resp:rtm_ra">Graduate Assistant</resp>
                <persName>Maria Isabel Maza</persName>
-            </respStmt>
+            </respStmt>-->
             <funder>
                <ref target="https://www.sshrc-crsh.gc.ca/">Social Sciences and Humanities Research Council of Canada</ref>
             </funder>
@@ -234,7 +237,7 @@
          <textClass>
             <catRef scheme="tax:emdEditorialTreatments" target="cat:letModernized"/>
             <catRef scheme="tax:emdBookFormats" target="cat:lbfFolio"/>
-            <catRef scheme="tax:emdDocumentHist" target="cat:edhSourceBNF"/>
+            <!--<catRef scheme="tax:emdDocumentHist" target="cat:edhSourceBNF"/>-->
             <catRef scheme="tax:emdDocumentTypes" target="cat:ldtPrimaryFacsimile"/>
          </textClass>
       </profileDesc>
@@ -1900,17 +1903,17 @@
                      <l>And when he has gotten that, he may put it in a <anchor xml:id="emdSpCu_M_anc_247"/>nutshell<anchor xml:id="emdSpCu_M_anc_248"/>.</l>
                   </lg>
                   <stage type="delivery" place="plc-centre">Letter Read <supplied resp="#mim">by Lopez</supplied>.</stage>
-                  <floatingText>
-                     <body>
-                        <div type="letter" rend="italics">
-                           <salute>Signor Lopez,</salute>
-                           <p>Since my arrival from<placeName>Cordoba</placeName>to these<lb/>
+                  
+                     
+                        
+                           <p>Signor Lopez,</p>
+                           <p>Since my arrival from Cordobato these<lb/>
                                             parts, I have written diverse letters unto you but as<lb/>
-                                            yet received no answer of any. <stage type="">Lopez:</stage>
+                                            yet received no answer of any. Lopez:
                               <hi rendition="rnd:roman">(Good and very good).</hi> And<lb/>
                                             although so great a forgetfulness might cause a want in my<lb/>
                                             due correspondence, yet the desire I have still to serve you<lb/>
-                                            must more prevail with me <stage type="">Lopez:</stage>
+                                            must more prevail with me Lopez:
                               <hi rendition="rnd:roman">(Better and better: the Devil<lb/>
                                             a man know I yet)</hi> and therefore with the present occasion<lb/>
                                             offered I am willing to crave a continuance of the favours,<lb/>
@@ -1920,14 +1923,9 @@
                                             as I shall arrive at home; his studies he will make you ac-<lb/>
                                             quainted withal. This kindness shall supply the want of your<lb/>
                                             slackness: and so <placeName>Heaven</placeName> keep you.</p>
-                           <closer>Yours,<lb/>
-                              <signed>
-                                 <anchor xml:id="emdSpCu_M_anc_249"/>Alonzo Tiveria<anchor xml:id="emdSpCu_M_anc_250"/>
-                              </signed>
-                           </closer>
-                        </div>
-                     </body>
-                  </floatingText>
+                           <p>Yours,<lb/>
+                                 <anchor xml:id="emdSpCu_M_anc_249"/>Alonzo Tiveria<anchor xml:id="emdSpCu_M_anc_250"/></p>
+                              
                   <l>Alonzo Tiveria, very well.</l>
                   <l rend="center">A very ancient friend of mine I take it,</l>
                   <l>For till this hour I never heard his name, yet.</l>
@@ -3372,7 +3370,7 @@
                <head>
                   <hi rendition="rnd:italic">Scene Two.</hi>
                </head>
-               <stage type="">Enter Lopez, Diego, and Four Parishioners and Singers.</stage>
+               <stage type="entrance">Enter Lopez, Diego, and Four Parishioners and Singers.</stage>
                <sp who="#emdSpCu_M_Lop" xml:id="emdSpCu_M_a3_s2_sp1">
                   <speaker>Lopez</speaker>
                   <lg>
@@ -3977,7 +3975,7 @@
                <head>
                   <hi rendition="rnd:italic">Scene Three.</hi>
                </head>
-               <stage type="">Enter Octavio, Jacinta, and Ascanio.</stage>
+               <stage type="entrance">Enter Octavio, Jacinta, and Ascanio.</stage>
                <note type="marginal">Manuscript note: Cross-hatched lines.</note>
                <sp who="#emdSpCu_M_Oct" xml:id="emdSpCu_M_a3_s3_sp1">
                   <speaker>Octavio</speaker>
@@ -4629,7 +4627,7 @@
                </sp>
                <sp who="#emdSpCu_M_Lea" xml:id="emdSpCu_M_a3_s4_sp2">
                   <speaker>Leandro</speaker>
-                  <stage type="">within</stage>
+                  <stage type="delivery">within</stage>
                   <lg>
                      <l rend="center">I do beseech you pardon me.</l>
                      <l>I am deeply in a sweet point,  sir.</l>
@@ -5830,7 +5828,7 @@
                </head>
                <stage type="entrance" place="plc-centre">Enter Lopez and Bartolus.</stage>
                <note type="marginal">Manuscript note: Cross-hatched lines.</note>
-               <stage type="mixed" place="plc-centre">Diego, offstage, should be in a bed with a bottle of wine and a cup on hand.</stage>
+               <stage type="business" place="plc-centre">Diego, offstage, should be in a bed with a bottle of wine and a cup on hand.</stage>
                <sp who="#emdSpCu_M_Bar" xml:id="emdSpCu_M_a4_s5_sp1">
                   <speaker>Bartolus</speaker>
                   <lg>
@@ -7247,7 +7245,7 @@
             <div type="scene" n="1" xml:id="emdSpCu_M_a5_s1">
                <head>
                   <hi rendition="rnd:italic">Act Five. Scene One.</hi>
-                  <note type="marginal">Manuscript note: Jamy &amp; Srvant</note>
+                  <!--<note type="marginal">Manuscript note: Jamy &amp; Srvant</note>-->
                </head>
                <stage type="entrance" place="plc-centre">Enter Violante and Servant.</stage>
                <note type="marginal">Manuscript note: Cross-hatched lines.</note>
@@ -7696,7 +7694,7 @@
             <div type="scene" n="2" xml:id="emdSpCu_M_a5_s2">
                <head>
                   <hi rendition="rnd:italic">Scene Two.</hi>
-                  <note type="marginal">Manuscript note: Cross-hatched lines.</note>
+                  <!--<note type="marginal">Manuscript note: Cross-hatched lines.</note>-->
                </head>
                <stage type="entrance" place="plc-centre">Enter Bartolus, Algazier, and a Paratour.</stage>
                <note type="marginal">Manuscript note: Mill be ready</note>

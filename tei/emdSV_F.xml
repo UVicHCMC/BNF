@@ -28,18 +28,20 @@
                <resp ref="resp:edt_mrk">Encoding Consultant</resp>
                <persName ref="pers:RUSS5">John Russell</persName>
             </respStmt>
-            <respStmt ref="resp:edt_coord">
+             <!--NOKH1: Will need to add ref targets here and then uncomment-->
+            <!--<respStmt ref="resp:edt_coord">
                <resp>Open Publishing Program Coordinator</resp>
                <persName>Ally Laird</persName>
-            </respStmt>
+            </respStmt>-->
             <respStmt>
                <resp ref="resp:prg">Open Access Systems Developer</resp>
                <persName ref="pers:GEAR1">Andrew Gearhart</persName>
             </respStmt>
-            <respStmt>
+             <!--NOKH1: Not entirely sure how to best proceed with this-->
+            <!--<respStmt>
                <resp ref="resp:ann">Annotator</resp>
                <persName xml:id="formerOwner">Former Owner - Author of Manuscript Annotations</persName>
-            </respStmt>
+            </respStmt>-->
             <funder>
                <ref target="https://www.sshrc-crsh.gc.ca/">Social Sciences and Humanities Research Council of Canada</ref>
             </funder>
@@ -62,7 +64,7 @@
          <textClass>
             <catRef scheme="tax:emdBookFormats" target="cat:letSemiDiplomatic"/>
             <catRef scheme="tax:emdBookFormats" target="cat:lbfFolio"/>
-            <catRef scheme="tax:emdDocumentHist" target="cat:edhSourceBNF"/>
+            <!--<catRef scheme="tax:emdDocumentHist" target="cat:edhSourceBNF"/>-->
             <catRef scheme="tax:emdDocumentTypes" target="cat:ldtPrimaryFacsimile"/>
          </textClass>
       </profileDesc>

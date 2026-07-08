@@ -28,18 +28,20 @@
                <resp ref="resp:edt_mrk">Encoding Consultant</resp>
                <persName ref="pers:RUSS5">John Russell</persName>
             </respStmt>
-            <respStmt ref="resp:edt_coord">
+            <!--NOKH1: Will need to add ref targets here and then uncomment-->
+            <!--<respStmt ref="resp:edt_coord">
                <resp>Open Publishing Program Coordinator</resp>
                <persName>Ally Laird</persName>
-            </respStmt>
+            </respStmt>-->
             <respStmt>
                <resp ref="resp:prg">Open Access Systems Developer</resp>
                <persName ref="pers:GEAR1">Andrew Gearhart</persName>
             </respStmt>
-            <respStmt>
+            <!--Will have to figure out how to deal with this for resp@ref targets-->
+            <!--<respStmt>
                <resp ref="resp:ann">Annotator</resp>
                <persName xml:id="formerOwner">Former Owner - Author of Manuscript Annotations</persName>
-            </respStmt>
+            </respStmt>-->
             <funder>
                <ref target="https://www.sshrc-crsh.gc.ca/">Social Sciences and Humanities Research Council of Canada</ref>
             </funder>
@@ -189,7 +191,7 @@
          <textClass>
             <catRef scheme="tax:emdEditorialTreatments" target="cat:letModernized"/>
             <catRef scheme="tax:emdBookFormats" target="cat:lbfFolio"/>
-            <catRef scheme="tax:emdDocumentHist" target="cat:edhSourceBNF"/>
+            <!--<catRef scheme="tax:emdDocumentHist" target="cat:edhSourceBNF"/>-->
             <catRef scheme="tax:emdDocumentTypes" target="cat:ldtPrimaryFacsimile"/>
          </textClass>
       </profileDesc>
@@ -8200,7 +8202,8 @@
          </div>
       </body>
       <back>
-         <head>WORKS CITED</head>
+         <!--NOKH1: Have moved this into emdSV_bibliography and converted to LEMDO standard. Keeping this just in case old refs come up somewhere else-->
+         <!--<head>WORKS CITED</head>
          <listBibl>
             <bibl xml:id="cja2015">Adams, Carol J. <title>The Sexual Politics of Meat</title>. (<publisher>Bloomsbury Publishing</publisher>, <date>2015</date>).</bibl>
             <bibl xml:id="rb2013">Banerjee, Rita. "Gold, Land, and Labor: Ideologies of Colonization and Rewriting ’The Tempest’ in 1622." <title>Studies in Philology</title>, vol. 110, no. 2 (<date>2013</date>): pp. 291–317.</bibl>
@@ -8224,7 +8227,7 @@
             <bibl xml:id="hss2015">Syme, Holger Schott. "The Theatre of Shakespeare’s Time." <title>The Norton Shakespeare</title>, 3rd ed., edited by Stephen Greenblatt, et al (W. W. Norton, <date>2015</date>), 93-118.</bibl>
             <bibl xml:id="lt1999">Thomson, Leslie. "The Meaning of ’Thunder and Lightning’: Stage Directions and Audience Expectations." <title>Early Theatre</title> 2 (<date>1999</date>): 11-24.</bibl>
             <bibl xml:id="gw1994">Williams, Gordon. <title>A Dictionary of Sexual Language and Imagery in Shakespearean and Stuart Literature</title>. (The Athlone Press, <date>1994</date>).</bibl>
-         </listBibl>
+         </listBibl>-->
          <!--NOKH1: Need to figure out what to do with the whole tagging thing here. Commenting out for now. -->
          <!--<interpGrp>
             <interp xml:id="food">Words or phrases related to food/drink or eating/drinking.</interp>

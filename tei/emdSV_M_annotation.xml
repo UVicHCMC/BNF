@@ -4,10 +4,10 @@
       <fileDesc>
          <titleStmt>
             <title type="main">Annotations for emdSV_M</title>
-            <respStmt>
+            <!--<respStmt>
                <resp ref="resp:aut">Author</resp>
-               <persName><!--Insert ref attribute to persName and add author name here--></persName>
-            </respStmt>
+               <persName><!-\-Insert ref attribute to persName and add author name here-\-></persName>
+            </respStmt>-->
             <respStmt>
                <resp ref="resp:edt_gen">Editor in Chief</resp>
                <persName ref="pers:BOUR10">Claire M. L. Bourne</persName>
@@ -82,7 +82,7 @@
                   target="doc:emdSV_M#emdSV_M_anc_1"
                   targetEnd="doc:emdSV_M#emdSV_M_anc_2">
                <note type="label">Thunder and lightning</note>
-               <note type="commentary">In early modern plays, the stage direction <q>thunder and lightning</q> was very common, and the effects of thunder and lightning produced in a variety of different ways. In this play, it’s assumed that the stage direction <q>thunder and lightning</q> is directly linked to a storm (<ref type="bibl" target="bibl:#acd1999">Dessen and Thomson, 231</ref>). Making the sounds of thunder and lightning could have been achieved through drums, flashes of fire, and fireworks. This type of effect was created in the tiring house. They were noted by the bookkeeper in the manuscript playbook used backstage so that he could cue for the effect at the right time (<ref type="bibl" target="bibl:#lt1999">Thomson, 14</ref>). In many other plays, the effects of thunder and lightning were linked to the supernatural, and accompanied figures such as devils and witches, who might ascend from a trapdoor that signified the underworld. An audience would expect something supernatural when this particular effect occured (<ref type="bibl" target="bibl:#lt1999">Thomson, 11</ref>).</note>
+               <note type="commentary">In early modern plays, the stage direction <q>thunder and lightning</q> was very common, and the effects of thunder and lightning produced in a variety of different ways. In this play, it’s assumed that the stage direction <q>thunder and lightning</q> is directly linked to a storm (<ref type="bibl" target="bibl:DESS2">Dessen and Thomson, 231</ref>). Making the sounds of thunder and lightning could have been achieved through drums, flashes of fire, and fireworks. This type of effect was created in the tiring house. They were noted by the bookkeeper in the manuscript playbook used backstage so that he could cue for the effect at the right time (<ref type="bibl" target="bibl:THOM25">Thomson, 14</ref>). In many other plays, the effects of thunder and lightning were linked to the supernatural, and accompanied figures such as devils and witches, who might ascend from a trapdoor that signified the underworld. An audience would expect something supernatural when this particular effect occured (<ref type="bibl" target="bibl:THOM25">Thomson, 11</ref>).</note>
             </note>
             <note type="annotation"
                   target="doc:emdSV_M#emdSV_M_anc_3"
@@ -106,7 +106,7 @@
                   target="doc:emdSV_M#emdSV_M_anc_9"
                   targetEnd="doc:emdSV_M#emdSV_M_anc_10">
                <note type="label">How she kicks and jerks</note>
-               <note type="commentary">It’s important to remember that a performer in early modern plays could have expected to perform in a venue that was <q>a rectangular, flat, largely empty stage [with] no sets in the modern sense</q> (<ref type="bibl" target="bibl:#hss2015">Syme, 112</ref>). Thus, we can assume that there was not actually a physical ship on stage. Therefore, in order to portray some sort of sea voyage, the use of ropes, tackle boxes, and other sailing equipment could have aided the impression of being at sea, with characters pulling on cords found in the tiring house. The stage was seen as the deck, the tiring house as the cabin of the ship, and the balcony as the mast or the lookout area. During this play, it’s also clear that the characters on the boat are fighting against strong waves; this illusion could have been made by the characters acting wild and hysterical (<ref type="bibl" target="bibl:#dm2013">McInnis, 118</ref>).</note>
+               <note type="commentary">It’s important to remember that a performer in early modern plays could have expected to perform in a venue that was <q>a rectangular, flat, largely empty stage [with] no sets in the modern sense</q> (<ref type="bibl" target="bibl:SYME6">Syme, 112</ref>). Thus, we can assume that there was not actually a physical ship on stage. Therefore, in order to portray some sort of sea voyage, the use of ropes, tackle boxes, and other sailing equipment could have aided the impression of being at sea, with characters pulling on cords found in the tiring house. The stage was seen as the deck, the tiring house as the cabin of the ship, and the balcony as the mast or the lookout area. During this play, it’s also clear that the characters on the boat are fighting against strong waves; this illusion could have been made by the characters acting wild and hysterical (<ref type="bibl" target="bibl:MCIN5">McInnis, 118</ref>).</note>
             </note>
             <note type="annotation"
                   target="doc:emdSV_M#emdSV_M_anc_11"
@@ -148,7 +148,7 @@
                   target="doc:emdSV_M#emdSV_M_anc_23"
                   targetEnd="doc:emdSV_M#emdSV_M_anc_24">
                <note type="label">is</note>
-               <note type="commentary">The special effects used during live performances in early modern England would depend heavily on the budget of the playhouse; they could range from austere and simple to grand and elaborate (<ref type="bibl" target="bibl:#hss2015">Syme, 112-14</ref>). Different effects such as drums, the firing of canons, and even fireworks could have been used to give the illusion that the actors and audience were actually in the center of a raging tempest.</note>
+               <note type="commentary">The special effects used during live performances in early modern England would depend heavily on the budget of the playhouse; they could range from austere and simple to grand and elaborate (<ref type="bibl" target="bibl:SYME6">Syme, 112-14</ref>). Different effects such as drums, the firing of canons, and even fireworks could have been used to give the illusion that the actors and audience were actually in the center of a raging tempest.</note>
             </note>
             <note type="annotation"
                   target="doc:emdSV_M#emdSV_M_anc_25"
@@ -238,7 +238,7 @@
                   target="doc:emdSV_M#emdSV_M_anc_53"
                   targetEnd="doc:emdSV_M#emdSV_M_anc_54">
                <note type="label">There … stays for ye</note>
-               <note type="gloss">The implication is that fish wait for her in the ocean, or perhaps under decks (<ref type="bibl" target="bibl:#cmlb2020">Bourne</ref>).</note>
+               <note type="gloss">The implication is that fish wait for her in the ocean, or perhaps under decks (<ref type="bibl" target="bibl:FLET9">Bourne</ref>).</note>
             </note>
             <note type="annotation"
                   target="doc:emdSV_M#emdSV_M_anc_55"
@@ -256,7 +256,7 @@
                   target="doc:emdSV_M#emdSV_M_anc_59"
                   targetEnd="doc:emdSV_M#emdSV_M_anc_60">
                <note type="label">These sweet … ship’s belly?</note>
-               <note type="textual">The <q>sweet sin breeders</q> the shipmaster is referring to are women (here, specifically, Aminta, as she is the only woman on the boat). The shipmaster believes that everyone on the ship is going to die because they won’t have any help from the heavens, and he blames this entirely on Aminta. Many times, women were denied passage on ships; if they happened to be on board, they were either a captive, a slave, or being forced to marry (<ref type="bibl" target="bibl:#gpm2019">Moore, 318</ref>). In Aminta’s next speech below, it becomes clear that she has been captured by Albert, and that he has forced her to be on his ship for his own pleasure. Ironically, Aminta is only on the ship because of him, yet she is still being blamed for compromising the ability of the men to control the boat during the dangerous storm.</note>
+               <note type="textual">The <q>sweet sin breeders</q> the shipmaster is referring to are women (here, specifically, Aminta, as she is the only woman on the boat). The shipmaster believes that everyone on the ship is going to die because they won’t have any help from the heavens, and he blames this entirely on Aminta. Many times, women were denied passage on ships; if they happened to be on board, they were either a captive, a slave, or being forced to marry (<ref type="bibl" target="bibl:MOOR5">Moore, 318</ref>). In Aminta’s next speech below, it becomes clear that she has been captured by Albert, and that he has forced her to be on his ship for his own pleasure. Ironically, Aminta is only on the ship because of him, yet she is still being blamed for compromising the ability of the men to control the boat during the dangerous storm.</note>
             </note>
             <note type="annotation"
                   target="doc:emdSV_M#emdSV_M_anc_61"
@@ -268,7 +268,7 @@
                   target="doc:emdSV_M#emdSV_M_anc_63"
                   targetEnd="doc:emdSV_M#emdSV_M_anc_64">
                <note type="label">Oh, Monsieur … to hate ye!</note>
-               <note type="textual">In the 1647 text of the play, question marks are used to punctuate <q>Oh … redeem me</q> and <q>How … ye,</q> but sometimes, in the seventeenth century, compositors would use question marks where we would use exclamation points today (<ref type="bibl" target="bibl:#mpj2007">Jackson, 549</ref>). Thus, the lines (as presented here) illustrate Aminta’s raging anger and hatred for Albert if the question marks are meant to be interpreted as exclamation points. Question marks in this scene give off a completely different meaning: they would account for Aminta’s confusion as to whether she should curse and hate Albert. Regardless, one cannot be sure as to when Aminta exactly falls in love with Albert, but it’s crucial to consider that she is his prisoner before their love blossoms.</note>
+               <note type="textual">In the 1647 text of the play, question marks are used to punctuate <q>Oh … redeem me</q> and <q>How … ye,</q> but sometimes, in the seventeenth century, compositors would use question marks where we would use exclamation points today (<ref type="bibl" target="bibl:TAYL7">Jackson, 549</ref>). Thus, the lines (as presented here) illustrate Aminta’s raging anger and hatred for Albert if the question marks are meant to be interpreted as exclamation points. Question marks in this scene give off a completely different meaning: they would account for Aminta’s confusion as to whether she should curse and hate Albert. Regardless, one cannot be sure as to when Aminta exactly falls in love with Albert, but it’s crucial to consider that she is his prisoner before their love blossoms.</note>
             </note>
             <note type="annotation"
                   target="doc:emdSV_M#emdSV_M_anc_65"
@@ -322,7 +322,7 @@
                   target="doc:emdSV_M#emdSV_M_anc_81"
                   targetEnd="doc:emdSV_M#emdSV_M_anc_82">
                <note type="label">I am undone, sir.</note>
-               <note type="commentary">On board this ship, there is a very interesting mix of characters from various social classes. Three of the men—Lamure, Franville, and Morillat—are French lords. In the early modern period, clothing helped establish a person’s identity and located their position in a variety of categories ranging from gender, class, nationality, and religion (<ref type="bibl" target="bibl:#ril2003">Lublin, 10</ref>). Thus, when Lamure’s clothes and goods are thrown overboard, his response is that he feels completely ruined and destroyed (i.e. <q>undone</q>). Although this may seem dramatic to the modern reader, these characters experience a loss of material goods as a loss of identity. Furthermore, because Lamure is a self-made man (lines 137-140), he loses the noble identity he has created for himself (apparently by dubious means) and now fears being seen as equal to those of a lower class that he spent <q>twenty years</q> trying to buy his way out of.</note>
+               <note type="commentary">On board this ship, there is a very interesting mix of characters from various social classes. Three of the men—Lamure, Franville, and Morillat—are French lords. In the early modern period, clothing helped establish a person’s identity and located their position in a variety of categories ranging from gender, class, nationality, and religion (<ref type="bibl" target="bibl:LUBL1">Lublin, 10</ref>). Thus, when Lamure’s clothes and goods are thrown overboard, his response is that he feels completely ruined and destroyed (i.e. <q>undone</q>). Although this may seem dramatic to the modern reader, these characters experience a loss of material goods as a loss of identity. Furthermore, because Lamure is a self-made man (lines 137-140), he loses the noble identity he has created for himself (apparently by dubious means) and now fears being seen as equal to those of a lower class that he spent <q>twenty years</q> trying to buy his way out of.</note>
             </note>
             <note type="annotation"
                   target="doc:emdSV_M#emdSV_M_anc_83"
@@ -453,8 +453,8 @@
                   target="doc:emdSV_M#emdSV_M_anc_123"
                   targetEnd="doc:emdSV_M#emdSV_M_anc_124">
                <note type="label">What’s … swims there?</note>
-               <note type="dramatic">
-                  <q>[T]here</q> might be accompanied by a gesture towards the audience. The architecture of the outdoor playhouses, with standing-room around the stage, meant that actors could gesture or look to the audience to create a sense of the imagined space of the sea or anything that is being referred to at a distance (<ref type="bibl" target="bibl:#hss2015">Syme, 95</ref>).</note>
+               <note type="gloss">
+                  <q>[T]here</q> might be accompanied by a gesture towards the audience. The architecture of the outdoor playhouses, with standing-room around the stage, meant that actors could gesture or look to the audience to create a sense of the imagined space of the sea or anything that is being referred to at a distance (<ref type="bibl" target="bibl:SYME6">Syme, 95</ref>).</note>
             </note>
             <note type="annotation"
                   target="doc:emdSV_M#emdSV_M_anc_125"
@@ -574,7 +574,7 @@
                   target="doc:emdSV_M#emdSV_M_anc_163"
                   targetEnd="doc:emdSV_M#emdSV_M_anc_164">
                <note type="label">leathered captains</note>
-               <note type="gloss">captains in military dress (<ref type="bibl" target="bibl:#cmlb2020">Bourne</ref>).</note>
+               <note type="gloss">captains in military dress (<ref type="bibl" target="bibl:FLET9">Bourne</ref>).</note>
             </note>
             <note type="annotation"
                   target="doc:emdSV_M#emdSV_M_anc_165"
@@ -977,7 +977,7 @@
                   target="doc:emdSV_M#emdSV_M_anc_297"
                   targetEnd="doc:emdSV_M#emdSV_M_anc_298">
                <note type="label">strong ones</note>
-               <note type="gloss">i.e. strong halters for hanging and providing quick death (<ref type="bibl" target="bibl:#cmlb2020">Bourne</ref>)</note>
+               <note type="gloss">i.e. strong halters for hanging and providing quick death (<ref type="bibl" target="bibl:FLET9">Bourne</ref>)</note>
             </note>
             <note type="annotation"
                   target="doc:emdSV_M#emdSV_M_anc_299"
@@ -1067,7 +1067,7 @@
                   target="doc:emdSV_M#emdSV_M_anc_327"
                   targetEnd="doc:emdSV_M#emdSV_M_anc_328">
                <note type="label">free hunters’ music</note>
-               <note type="commentary">Albert hears music from the neighboring island. We eventually learn that the makers of this music are Portuguese women, which means that the <q>music</q> heard here might have had influences from Portugal, and possibly its colonies in the Middle East and West India. A major context for the play is European colonial dominion over other parts of the world, indicated in part by how it mimics Shakespeare’s <title>The Tempest</title>. It is possible that some of the common music instruments possessed by the Portuguese (or instruments imagined by the playwrights to be possessed by them) could have been showcased or approximated on stage. In addition to horns, another possible sound that might have been recreated on stage is of the <hi rend="">adufe</hi>, a square double-skinned frame drum traditionally played by women on the Iberian Peninsula. The skins are sewn together, often with seeds between them; it is held with the thumbs of both hands and the pointer of the right hand, leaving the other fingers free to hit the instrument. This instrument was introduced into Portugal (and Spain) when the Moors of North Africa conquered the Iberian Peninsula in the 8th century. (<ref type="bibl" target="bibl:#jms">Schecter</ref>)</note>
+               <note type="commentary">Albert hears music from the neighboring island. We eventually learn that the makers of this music are Portuguese women, which means that the <q>music</q> heard here might have had influences from Portugal, and possibly its colonies in the Middle East and West India. A major context for the play is European colonial dominion over other parts of the world, indicated in part by how it mimics Shakespeare’s <title>The Tempest</title>. It is possible that some of the common music instruments possessed by the Portuguese (or instruments imagined by the playwrights to be possessed by them) could have been showcased or approximated on stage. In addition to horns, another possible sound that might have been recreated on stage is of the <hi rendition="rnd:italic">adufe</hi>, a square double-skinned frame drum traditionally played by women on the Iberian Peninsula. The skins are sewn together, often with seeds between them; it is held with the thumbs of both hands and the pointer of the right hand, leaving the other fingers free to hit the instrument. This instrument was introduced into Portugal (and Spain) when the Moors of North Africa conquered the Iberian Peninsula in the 8th century. (<ref type="bibl" target="bibl:SCHE12">Schecter</ref>)</note>
             </note>
             <note type="annotation"
                   target="doc:emdSV_M#emdSV_M_anc_329"
@@ -1379,7 +1379,7 @@
                   target="doc:emdSV_M#emdSV_M_anc_431"
                   targetEnd="doc:emdSV_M#emdSV_M_anc_432">
                <note type="label">Arabian groves</note>
-               <note type="commentary">Though the phrase <q>Arabian groves</q> is vague, it could suggest the increased cross-pollination of horticulture between Europe and the Middle East and India. Portugal had colonized several territories (Bahrain, Sohar, Julfar, Quriyat), now constituting modern-day Saudi Arabia and the United Arab Emirates, during the reign of the Iberian Union between 1580-1640 (<ref type="bibl" target="bibl:#dom1972">de Oliveira Marques, 322</ref>). The Amazons are also believed to have originated in Libya and to have migrated across Syria, Egypt, Scythia (<ref type="bibl" target="bibl:#af2014">Foreman</ref>). The Arabian groves reference could refer to the coconut and palm trees that were commonly seen on the coast of Southwest India. After the conquests of Vasco Da Gama, Portugal colonized territories like Bombay and Goa by the Arabian Sea before India’s major colonization by the British in the late seventeenth century (<ref type="bibl" target="bibl:#mgsn2006">Narayanan, 198</ref>). It is therefore possible for Indian horticultural features to appear in an imagined Portuguese aesthetic.</note>
+               <note type="commentary">Though the phrase <q>Arabian groves</q> is vague, it could suggest the increased cross-pollination of horticulture between Europe and the Middle East and India. Portugal had colonized several territories (Bahrain, Sohar, Julfar, Quriyat), now constituting modern-day Saudi Arabia and the United Arab Emirates, during the reign of the Iberian Union between 1580-1640 (<ref type="bibl" target="bibl:DOEL1">de Oliveira Marques, 322</ref>). The Amazons are also believed to have originated in Libya and to have migrated across Syria, Egypt, Scythia (<ref type="bibl" target="bibl:FORE4">Foreman</ref>). The Arabian groves reference could refer to the coconut and palm trees that were commonly seen on the coast of Southwest India. After the conquests of Vasco Da Gama, Portugal colonized territories like Bombay and Goa by the Arabian Sea before India’s major colonization by the British in the late seventeenth century (<ref type="bibl" target="bibl:NARA1">Narayanan, 198</ref>). It is therefore possible for Indian horticultural features to appear in an imagined Portuguese aesthetic.</note>
             </note>
             <note type="annotation"
                   target="doc:emdSV_M#emdSV_M_anc_433"
@@ -1602,7 +1602,7 @@
                   target="doc:emdSV_M#emdSV_M_anc_505"
                   targetEnd="doc:emdSV_M#emdSV_M_anc_506">
                <note type="label">The males … reserve ourselves</note>
-               <note type="gloss">Rosella’s command is that any boys born by the commonwealth women will be given to the men, while any girls will stay with the women and become part of the commonwealth. The historical Amazons were supposedly neighbors to an all-male society called the Gargareans. They met annually for a mating ritual. The female children born after this ritual were retained by the Amazons, and the male children went to their fathers (<ref type="bibl" target="bibl:#sg1928">Strabo</ref>). Rosella’s reference to this practice of mating with an all-male society had historical precedent. It also provides some geographical hints. As the Gargareans and Amazons are believed to have reigned between Eurasia and the Middle East, the play hints at taking place in the Mediterranean or Black Sea. (Indeed, the play references a black river between the barren and fertile islands.)</note>
+               <note type="gloss">Rosella’s command is that any boys born by the commonwealth women will be given to the men, while any girls will stay with the women and become part of the commonwealth. The historical Amazons were supposedly neighbors to an all-male society called the Gargareans. They met annually for a mating ritual. The female children born after this ritual were retained by the Amazons, and the male children went to their fathers (<ref type="bibl" target="bibl:STRA3">Strabo</ref>). Rosella’s reference to this practice of mating with an all-male society had historical precedent. It also provides some geographical hints. As the Gargareans and Amazons are believed to have reigned between Eurasia and the Middle East, the play hints at taking place in the Mediterranean or Black Sea. (Indeed, the play references a black river between the barren and fertile islands.)</note>
             </note>
             <note type="annotation"
                   target="doc:emdSV_M#emdSV_M_anc_507"
@@ -1855,9 +1855,9 @@
                   targetEnd="doc:emdSV_M#emdSV_M_anc_590">
                <note type="label">such a coxcomb, her kinsman</note>
                <note type="textual">
-                  <q>coxcomb</q> primarily refers to a rooster’s crest, or a <q>cock’s comb.</q> Given that jester hats resemble roosters’ crests, and jesters are fools, the word <q>coxcomb</q> evolved to describe not only the jester’s cap but fools themselves. The word <q>coxcomb</q> can also describe a vain, pretentious, and foppish person, perhaps because roosters are viewed as prideful. In other words, someone described as a coxcomb pretends to be stylish and educated. As jesters are the noble’s personal comedians and storytellers, Franville’s use takes on additional meaning. The insult could imply that Aminta’s relative is pseudo-nobility who amuses other nobles with attempts at legitimacy. Given that the men believe it is okay for superiors eat their inferiors, Franville’s disqualification of Aminta’s family may also justify his turn to cannibalism (<bibl>
-                     <title>OED</title>
-                  </bibl>).</note>
+                  <q>coxcomb</q> primarily refers to a rooster’s crest, or a <q>cock’s comb.</q> Given that jester hats resemble roosters’ crests, and jesters are fools, the word <q>coxcomb</q> evolved to describe not only the jester’s cap but fools themselves. The word <q>coxcomb</q> can also describe a vain, pretentious, and foppish person, perhaps because roosters are viewed as prideful. In other words, someone described as a coxcomb pretends to be stylish and educated. As jesters are the noble’s personal comedians and storytellers, Franville’s use takes on additional meaning. The insult could imply that Aminta’s relative is pseudo-nobility who amuses other nobles with attempts at legitimacy. Given that the men believe it is okay for superiors eat their inferiors, Franville’s disqualification of Aminta’s family may also justify his turn to cannibalism (<ref type="bibl" target="bibl:OEDT3">
+                     <title level="m">OED</title>
+                  </ref>).</note>
             </note>
             <note type="annotation"
                   target="doc:emdSV_M#emdSV_M_anc_591"
@@ -1882,7 +1882,7 @@
                   targetEnd="doc:emdSV_M#emdSV_M_anc_598">
                <note type="label">Thousand examples … excellent</note>
                <note type="commentary">Discourse on cannibalism in the early modern period became more prevalent following European contact with real and imagined cannibals in North and South America. Cannibalism in the Americas was largely reviled by Europeans. However, during the period this play was written there was also a medicinal cannibalistic practices thriving throughout Europe. The medicinal discourse between Lamure, Morillat, Franville, and the Surgeon earlier in the play are relevant to this discussion in that they consider eating a <q>wen</q> that was pulled from one of the sailor’s shoulders during the voyage. Prior to this, the group primarily discusses tools of medicine; the brief mention of <q>cordials,</q>
-                  <q>potions,</q> and <q>pills</q> takes on a different meaning due to many medications being made from human parts, with some of the most common sources being blood and bone (<ref type="bibl" target="bibl:#rs2013">Sugg</ref>).</note>
+                  <q>potions,</q> and <q>pills</q> takes on a different meaning due to many medications being made from human parts, with some of the most common sources being blood and bone (<ref type="bibl" target="bibl:SUGG1">Sugg</ref>).</note>
             </note>
             <note type="annotation"
                   target="doc:emdSV_M#emdSV_M_anc_599"
@@ -2002,9 +2002,9 @@
                   target="doc:emdSV_M#emdSV_M_anc_637"
                   targetEnd="doc:emdSV_M#emdSV_M_anc_638">
                <note type="label">sharp-set</note>
-               <note type="textual">The use of <q>sharp-set</q> in this passage is layered. As an adjective, it describes a strong hunger (<bibl>
-                     <title>OED</title>
-                  </bibl>). However, it is also a word used to describe hawks, hounds, and other hunting animals and their eagerness for predatory behavior. That said, this use of <q>sharp-set</q> figures the shipwrecked nobles as savage beasts. Yet another definition of <q>sharp-set</q> is <q>having a craving for sexual indulgence,</q> which also promotes the connection between food and sexual craving that appears throughout the passage. For example, with the first use of sharp-set, the men argue over who gets to eat her buttocks, and with the second use, Tibalt asks if the men are so hungry that Aminta’s <q>flesh</q> must <q>serve</q> them, here again evoking sexual indulgence. As Aminta is the only woman on the barren island, it is worth noting that the cannibalism directed towards her—i.e. to consume her—is meant to be read as a sexual metaphor.</note>
+               <note type="textual">The use of <q>sharp-set</q> in this passage is layered. As an adjective, it describes a strong hunger (<ref type="bibl" target="bibl:OEDT3">
+                     <title level="m">OED</title>
+               </ref>). However, it is also a word used to describe hawks, hounds, and other hunting animals and their eagerness for predatory behavior. That said, this use of <q>sharp-set</q> figures the shipwrecked nobles as savage beasts. Yet another definition of <q>sharp-set</q> is <q>having a craving for sexual indulgence,</q> which also promotes the connection between food and sexual craving that appears throughout the passage. For example, with the first use of sharp-set, the men argue over who gets to eat her buttocks, and with the second use, Tibalt asks if the men are so hungry that Aminta’s <q>flesh</q> must <q>serve</q> them, here again evoking sexual indulgence. As Aminta is the only woman on the barren island, it is worth noting that the cannibalism directed towards her—i.e. to consume her—is meant to be read as a sexual metaphor.</note>
             </note>
             <note type="annotation"
                   target="doc:emdSV_M#emdSV_M_anc_639"
@@ -2100,7 +2100,7 @@
                   target="doc:emdSV_M#emdSV_M_anc_669"
                   targetEnd="doc:emdSV_M#emdSV_M_anc_670">
                <note type="label">Saint Denis</note>
-               <note type="gloss">martyred third-century French saint who is said to have carried his head for several miles after he was beheaded. Tibalt implies the sailors only attend to their bodily needs and desires (<ref type="bibl" target="bibl:#cmlb2020">Bourne</ref>)</note>
+               <note type="gloss">martyred third-century French saint who is said to have carried his head for several miles after he was beheaded. Tibalt implies the sailors only attend to their bodily needs and desires (<ref type="bibl" target="bibl:FLET9">Bourne</ref>)</note>
             </note>
             <note type="annotation"
                   target="doc:emdSV_M#emdSV_M_anc_671"
@@ -2184,9 +2184,9 @@
                   target="doc:emdSV_M#emdSV_M_anc_697"
                   targetEnd="doc:emdSV_M#emdSV_M_anc_698">
                <note type="label">Ourselves your creatures</note>
-               <note type="textual">In this passage, Albert pledges the men’s subservience to Rosella and appears to reverse the patriarchal assumptions of early modern social relations. <q>Creatures,</q> in this sense, likely refers to someone <q>who owes his fortune or position, and remains subservient to, a patron,</q> and who also is <q>ready to do another’s bidding</q> (<bibl>
-                     <title>OED</title>
-                  </bibl>). According to Albert, then, the Frenchmen are not only willing to subjugate themselves to these women, but also are willing to do their bidding (sexually or otherwise). What makes this passage especially interesting is how quickly its effects are reversed; just ten lines later, Rosella cedes power back to the men. These quick-shifting dynamics are likely related to the comedic genre of the play, as the playwrights keep switching back and forth between giving their French protagonists patriarchal power and taking it away from them.</note>
+               <note type="textual">In this passage, Albert pledges the men’s subservience to Rosella and appears to reverse the patriarchal assumptions of early modern social relations. <q>Creatures,</q> in this sense, likely refers to someone <q>who owes his fortune or position, and remains subservient to, a patron,</q> and who also is <q>ready to do another’s bidding</q> (<ref type="bibl" target="bibl:OEDT3">
+                     <title level="m">OED</title>
+               </ref>). According to Albert, then, the Frenchmen are not only willing to subjugate themselves to these women, but also are willing to do their bidding (sexually or otherwise). What makes this passage especially interesting is how quickly its effects are reversed; just ten lines later, Rosella cedes power back to the men. These quick-shifting dynamics are likely related to the comedic genre of the play, as the playwrights keep switching back and forth between giving their French protagonists patriarchal power and taking it away from them.</note>
             </note>
             <note type="annotation"
                   target="doc:emdSV_M#emdSV_M_anc_699"
@@ -2354,7 +2354,7 @@
                   target="doc:emdSV_M#emdSV_M_anc_753"
                   targetEnd="doc:emdSV_M#emdSV_M_anc_754">
                <note type="label">gourd water</note>
-               <note type="gloss">rain water collected in a hollowed-out gourd (<ref type="bibl" target="bibl:#cmlb2020">Bourne</ref>).</note>
+               <note type="gloss">rain water collected in a hollowed-out gourd (<ref type="bibl" target="bibl:FLET9">Bourne</ref>).</note>
             </note>
             <note type="annotation"
                   target="doc:emdSV_M#emdSV_M_anc_755"
@@ -2480,7 +2480,7 @@
                   target="doc:emdSV_M#emdSV_M_anc_795"
                   targetEnd="doc:emdSV_M#emdSV_M_anc_796">
                <note type="label">jointures</note>
-               <note type="textual">The original definition of <q>jointure</q> is rooted in marriage conventions, referring to an arrangement between a husband and wife to hold a property jointly so that the property may be settled on the wife if she is widowed. It also has been used an equivalent term to a dowry. Tibalt’s use of <q>jointures,</q> then, might allude to the societal and patriarchal need to establish order through marital and legal conventions, particularly as this usage occurs in the face of a woman’s (Rosella’s) anger. However, the suggested convention of <q>jointure</q> is one of the few of its time that gave women potential independence over their estate, and so it may also be rhetorically appropriate that Tibalt offers a share of further wealth to Rosella who is presumed to be widowed (<ref type="bibl" target="bibl:#hjh1950">Habakkuk, 15</ref>). It is also possible that jointure’s associations with dowry suggest that an intense situation of environment isolated from societal norms could lead to a switch in gender roles, such as a man freely offering dowry directly to a woman.</note>
+               <note type="textual">The original definition of <q>jointure</q> is rooted in marriage conventions, referring to an arrangement between a husband and wife to hold a property jointly so that the property may be settled on the wife if she is widowed. It also has been used an equivalent term to a dowry. Tibalt’s use of <q>jointures,</q> then, might allude to the societal and patriarchal need to establish order through marital and legal conventions, particularly as this usage occurs in the face of a woman’s (Rosella’s) anger. However, the suggested convention of <q>jointure</q> is one of the few of its time that gave women potential independence over their estate, and so it may also be rhetorically appropriate that Tibalt offers a share of further wealth to Rosella who is presumed to be widowed (<ref type="bibl" target="bibl:HABA1">Habakkuk, 15</ref>). It is also possible that jointure’s associations with dowry suggest that an intense situation of environment isolated from societal norms could lead to a switch in gender roles, such as a man freely offering dowry directly to a woman.</note>
             </note>
             <note type="annotation"
                   target="doc:emdSV_M#emdSV_M_anc_797"
@@ -2510,7 +2510,7 @@
                   target="doc:emdSV_M#emdSV_M_anc_805"
                   targetEnd="doc:emdSV_M#emdSV_M_anc_806">
                <note type="label">gallants</note>
-               <note type="textual">Using the term <q>gallants</q> to describe the men that Sebastian and Nicusa reported being on the island is significant because it indicates Raymond’s class expectations. <q>Gallants</q> is a term that describes young men as <q>smartly</q> or” finely-dressed” who are <q>gorgeous or showy in appearance.</q> In a way, Raymond is reminding Sebastian and Nicusa that they had described a group of men on the island who were well-dressed, which would mean they are of the higher or wealthier class. Ironically, <q>gallants</q> is a term that is very much the opposite of what one would expect to find on the barren island where, as the audience knows by this point, there is no chance of prosperity. Because these men are so contrasting to what the island looks like and could support, it stands to reason that it should also be doubly easy to find them.</note>
+               <note type="gloss">Using the term <q>gallants</q> to describe the men that Sebastian and Nicusa reported being on the island is significant because it indicates Raymond’s class expectations. <q>Gallants</q> is a term that describes young men as <q>smartly</q> or <q>finely-dressed</q> who are <q>gorgeous or showy in appearance.</q> In a way, Raymond is reminding Sebastian and Nicusa that they had described a group of men on the island who were well-dressed, which would mean they are of the higher or wealthier class. Ironically, <q>gallants</q> is a term that is very much the opposite of what one would expect to find on the barren island where, as the audience knows by this point, there is no chance of prosperity. Because these men are so contrasting to what the island looks like and could support, it stands to reason that it should also be doubly easy to find them.</note>
             </note>
             <note type="annotation"
                   target="doc:emdSV_M#emdSV_M_anc_807"
@@ -2630,7 +2630,7 @@
                   target="doc:emdSV_M#emdSV_M_anc_845"
                   targetEnd="doc:emdSV_M#emdSV_M_anc_846">
                <note type="label">French pirates</note>
-               <note type="textual">Fletcher and Massinger give us a play that can easily be read as a commentary on the greed driving European colonization. Rosella’s criticism of the French stems from her view of their actions as an attempt to control their commonwealth by robbing valuable things from them. As Rita Banerjee notes, <q>The critique of piracy in <title>The Sea Voyage</title> centers especially on the inordinate desire for gold and treasure</q> (<ref type="bibl" target="bibl:#rb2013">294</ref>). At the start of the scene, Rosella echoes Tibalt’s sentiment from the beginning of the play when he tells the other men to resist obsession with riches to preserve their lives. Because she holds the men responsible for stealing her husband’s treasure, Rosella intends to kill them as revenge, thus validating Tibalt’s prior warning and reinforcing the critique present throughout the play that riches mean nothing in the face of death; a focus on lust for gold and treasure in the play helps point out that the equating of material goods to personal worth and identity is dangerous and destructive. Of course, in the play’s backstory, the Portuguese women (and men) were, themselves, colonists at the time they were driven from their <q>plantation</q> by the French. With no mention of the native peoples who were presumably pillaged and displaced by their colonial project, the play elides the violence characteristic of European colonial settlement and figures the Portuguese squarely as victims.</note>
+               <note type="textual">Fletcher and Massinger give us a play that can easily be read as a commentary on the greed driving European colonization. Rosella’s criticism of the French stems from her view of their actions as an attempt to control their commonwealth by robbing valuable things from them. As Rita Banerjee notes, <q>The critique of piracy in <title>The Sea Voyage</title> centers especially on the inordinate desire for gold and treasure</q> (<ref type="bibl" target="bibl:BANE1">294</ref>). At the start of the scene, Rosella echoes Tibalt’s sentiment from the beginning of the play when he tells the other men to resist obsession with riches to preserve their lives. Because she holds the men responsible for stealing her husband’s treasure, Rosella intends to kill them as revenge, thus validating Tibalt’s prior warning and reinforcing the critique present throughout the play that riches mean nothing in the face of death; a focus on lust for gold and treasure in the play helps point out that the equating of material goods to personal worth and identity is dangerous and destructive. Of course, in the play’s backstory, the Portuguese women (and men) were, themselves, colonists at the time they were driven from their <q>plantation</q> by the French. With no mention of the native peoples who were presumably pillaged and displaced by their colonial project, the play elides the violence characteristic of European colonial settlement and figures the Portuguese squarely as victims.</note>
             </note>
             <note type="annotation"
                   target="doc:emdSV_M#emdSV_M_anc_847"
@@ -2666,7 +2666,7 @@
                   target="doc:emdSV_M#emdSV_M_anc_857"
                   targetEnd="doc:emdSV_M#emdSV_M_anc_858">
                <note type="label">Saddle <q>em … with </q>em</note>
-               <note type="textual">Juletta’s speech here highlights a key contention throughout the play: the control of physical sustenance and that of reproductive success, both of which sustain life. Juletta is responsible for looking after her group of men: she is the one giving food to them, as well as presumably exercising sexual dominance over them, as suggested by her phrasing here. The way in which hunger, thirst, and sexual desire are regulated contrasts norms that denied women of the time a good deal of agency; the women in this play, however, are the ones in charge of all physical and sexual sustenance. Though this power is given to the Amazons and reflects an agency not typically experienced by women, their drive to reproduce was is still consistent with traditional pressures on women. As Claire Jowitt puts it, <q>[T]he text draws a distinction between resources needed for immediate survival—food and water—and those necessary for medium and long-term colonization—children to be new generations of settlers</q> (<ref type="bibl" target="bibl:#cj2001">99</ref>). Though the women have a level of dominance as the food source for their prisoners and the survival source for their population, the burden of having such power is always evident. It is a burden which certainly arose within royal families when the queen was required to produce an heir. This would have been known to a seventeenth-century audience living under a monarchy. Both reproductive capacity and possession of property provide authority in the play, yet both also produce a certain level of balance. Possession and freedom are intertwined in the play—possession of riches and land enables possession of other people. The treasure initially belonged to the Amazons, giving them power, which is then supplemented by taking the men as their prisoners. But, eventually the power transfers back to the men when a concord is reached by marriage.</note>
+               <note type="textual">Juletta’s speech here highlights a key contention throughout the play: the control of physical sustenance and that of reproductive success, both of which sustain life. Juletta is responsible for looking after her group of men: she is the one giving food to them, as well as presumably exercising sexual dominance over them, as suggested by her phrasing here. The way in which hunger, thirst, and sexual desire are regulated contrasts norms that denied women of the time a good deal of agency; the women in this play, however, are the ones in charge of all physical and sexual sustenance. Though this power is given to the Amazons and reflects an agency not typically experienced by women, their drive to reproduce was is still consistent with traditional pressures on women. As Claire Jowitt puts it, <q>[T]he text draws a distinction between resources needed for immediate survival—food and water—and those necessary for medium and long-term colonization—children to be new generations of settlers</q> (<ref type="bibl" target="bibl:JOWI3">99</ref>). Though the women have a level of dominance as the food source for their prisoners and the survival source for their population, the burden of having such power is always evident. It is a burden which certainly arose within royal families when the queen was required to produce an heir. This would have been known to a seventeenth-century audience living under a monarchy. Both reproductive capacity and possession of property provide authority in the play, yet both also produce a certain level of balance. Possession and freedom are intertwined in the play—possession of riches and land enables possession of other people. The treasure initially belonged to the Amazons, giving them power, which is then supplemented by taking the men as their prisoners. But, eventually the power transfers back to the men when a concord is reached by marriage.</note>
             </note>
             <note type="annotation"
                   target="doc:emdSV_M#emdSV_M_anc_859"
@@ -2810,7 +2810,7 @@
                   target="doc:emdSV_M#emdSV_M_anc_905"
                   targetEnd="doc:emdSV_M#emdSV_M_anc_906">
                <note type="label">all our wealth and jewels</note>
-               <note type="textual">Clarinda’s promise of wealth and jewels to Albert in her hopes of wooing him acts as a dowry. In offering it, she also offers salvation as she plans to spare his life, thus enabling a future for life on the island itself through reproduction. She is actually reversing the original cause of enmity between the two groups by giving the stolen treasure back to him while hoping to attain their union, which, though she is unable to do without patriarchal sanction, represents the play’s harmonious ending by marriage between groups. As Jowitt notes, <q>The plot of <title>The Sea Voyage</title> follows the haphazard and hostile interaction between these colonies until, finally, an understanding between the groups is achieved which enables them to pool resources</q>(<ref type="bibl" target="bibl:#cj2001">Jowitt, 99</ref>).</note>
+               <note type="textual">Clarinda’s promise of wealth and jewels to Albert in her hopes of wooing him acts as a dowry. In offering it, she also offers salvation as she plans to spare his life, thus enabling a future for life on the island itself through reproduction. She is actually reversing the original cause of enmity between the two groups by giving the stolen treasure back to him while hoping to attain their union, which, though she is unable to do without patriarchal sanction, represents the play’s harmonious ending by marriage between groups. As Jowitt notes, <q>The plot of <title>The Sea Voyage</title> follows the haphazard and hostile interaction between these colonies until, finally, an understanding between the groups is achieved which enables them to pool resources</q>(<ref type="bibl" target="bibl:JOWI3">Jowitt, 99</ref>).</note>
             </note>
             <note type="annotation"
                   target="doc:emdSV_M#emdSV_M_anc_907"
@@ -2822,13 +2822,13 @@
                   target="doc:emdSV_M#emdSV_M_anc_909"
                   targetEnd="doc:emdSV_M#emdSV_M_anc_910">
                <note type="label">Here’s meat … want again</note>
-               <note type="textual">Although Aminta and Clarinda have come from different groups, they work together to sustain Albert. Clarinda’s nutritional provision for Albert is supplemented by Aminta’s romantic/sexual provision for him, which in turn makes possible the ensuing sequence of events that ends the play in a way that ensures the survival of all involved. The idea of union between two factions is again emphasized, but beyond that it juxtaposes the threat to survival posed by division and distinction between groups, neither of which have all the necessary means of survival without the other. As Jowitt points out, it is only <q>between the separate factions [that] there are enough resources to ensure a sustainable lifestyle</q> (<ref type="bibl" target="bibl:#cj2001">99</ref>).</note>
+               <note type="textual">Although Aminta and Clarinda have come from different groups, they work together to sustain Albert. Clarinda’s nutritional provision for Albert is supplemented by Aminta’s romantic/sexual provision for him, which in turn makes possible the ensuing sequence of events that ends the play in a way that ensures the survival of all involved. The idea of union between two factions is again emphasized, but beyond that it juxtaposes the threat to survival posed by division and distinction between groups, neither of which have all the necessary means of survival without the other. As Jowitt points out, it is only <q>between the separate factions [that] there are enough resources to ensure a sustainable lifestyle</q> (<ref type="bibl" target="bibl:JOWI3">99</ref>).</note>
             </note>
             <note type="annotation"
                   target="doc:emdSV_M#emdSV_M_anc_911"
                   targetEnd="doc:emdSV_M#emdSV_M_anc_912">
                <note type="label">Sure this curtain will reveal</note>
-               <note type="commentary">Based on the structure of many early modern playhouses, including the second Globe where this play was performed in 1622, it is likely the <q>curtain</q> to which Aminta refers is the arras across a <q>discovery space</q> in the middle of the tiring house wall which would have hidden Albert from view. As Syme notes, <q>Even if there was no central stage door, there would have been an area between the two entrances that lay concealed behind an arras or curtain that could be drawn to reveal preset tableaux</q> (<ref type="bibl" target="bibl:#hss2015">115</ref>).</note>
+               <note type="commentary">Based on the structure of many early modern playhouses, including the second Globe where this play was performed in 1622, it is likely the <q>curtain</q> to which Aminta refers is the arras across a <q>discovery space</q> in the middle of the tiring house wall which would have hidden Albert from view. As Syme notes, <q>Even if there was no central stage door, there would have been an area between the two entrances that lay concealed behind an arras or curtain that could be drawn to reveal preset tableaux</q> (<ref type="bibl" target="bibl:SYME6">115</ref>).</note>
             </note>
             <note type="annotation"
                   target="doc:emdSV_M#emdSV_M_anc_913"
@@ -3110,7 +3110,7 @@
                   target="doc:emdSV_M#emdSV_M_anc_1005"
                   targetEnd="doc:emdSV_M#emdSV_M_anc_1006">
                <note type="label">parcels of potargo</note>
-               <note type="commentary">Bottarga (potargo) are dried and salted sacs of fish eggs, usually made from mullet or tuna. It is difficult and time-consuming to make because it involves salt baths, massaging, and weeks of aging. The Master’s joke here is doubly felt because the prisoners have no access to food at all, let alone a type of food that was difficult to make and considered a luxury. Bottarga is enjoyed more widely today, but it is still considered a delicacy (<ref type="bibl" target="bibl:#ls2019">Squadrilli</ref>).</note>
+               <note type="commentary">Bottarga (potargo) are dried and salted sacs of fish eggs, usually made from mullet or tuna. It is difficult and time-consuming to make because it involves salt baths, massaging, and weeks of aging. The Master’s joke here is doubly felt because the prisoners have no access to food at all, let alone a type of food that was difficult to make and considered a luxury. Bottarga is enjoyed more widely today, but it is still considered a delicacy (<ref type="bibl" target="bibl:SQUA1">Squadrilli</ref>).</note>
             </note>
             <note type="annotation"
                   target="doc:emdSV_M#emdSV_M_anc_1007"
@@ -3152,7 +3152,7 @@
                   target="doc:emdSV_M#emdSV_M_anc_1019"
                   targetEnd="doc:emdSV_M#emdSV_M_anc_1020">
                <note type="label">They gape like oysters</note>
-               <note type="textual">This line has sexual connotations because in this era oysters were viewed as a venereal symbol and considered an aphrodisiac. More specifically, oysters were associated with vulvas. Beyond that, Gordon Williams notes that during the period a woman could be <q>defined through her sexual part</q> (<ref type="bibl" target="bibl:#gw1994">982</ref>). The Master is essentially sexualizing the women and reducing them to their anatomy. <q>Gape</q> is additionally suggestive in this context as it could imply the Master and Tibalt resent the women’s power over their own sexuality: the women are imagined to be opening their own sexual anatomy and thus exerting control of their sexual fates.</note>
+               <note type="textual">This line has sexual connotations because in this era oysters were viewed as a venereal symbol and considered an aphrodisiac. More specifically, oysters were associated with vulvas. Beyond that, Gordon Williams notes that during the period a woman could be <q>defined through her sexual part</q> (<ref type="bibl" target="bibl:WILL25">982</ref>). The Master is essentially sexualizing the women and reducing them to their anatomy. <q>Gape</q> is additionally suggestive in this context as it could imply the Master and Tibalt resent the women’s power over their own sexuality: the women are imagined to be opening their own sexual anatomy and thus exerting control of their sexual fates.</note>
             </note>
             <note type="annotation"
                   target="doc:emdSV_M#emdSV_M_anc_1021"
@@ -3254,7 +3254,7 @@
                   target="doc:emdSV_M#emdSV_M_anc_1053"
                   targetEnd="doc:emdSV_M#emdSV_M_anc_1054">
                <note type="label">take our meat from us</note>
-               <note type="commentary">In many instances in this play, <q>meat</q> also references a man’s sexual desire for a woman’s body. In <title>The Sexual Politics of Meat</title>, Carol Adams discusses the ways that references to meat-eating is directly linked to masculine aspects of our own modern culture (<ref type="bibl" target="bibl:#cja2015">1</ref>). <title>The Sea Voyage</title> reflects this same dynamic throughout. For example, Morillat suggests that Albert captured Aminta for his own <q>appetite.</q> Throughout it is only the men who beg for meat and seem to have this kind of <q>appetite.</q> This emphasis on meat throughout, as opposed to other food sources, suggests that the <title>The Sea Voyage</title> is exploring the complicated ways in which meat and women’s bodies are equated during the early modern period.</note>
+               <note type="commentary">In many instances in this play, <q>meat</q> also references a man’s sexual desire for a woman’s body. In <title>The Sexual Politics of Meat</title>, Carol Adams discusses the ways that references to meat-eating is directly linked to masculine aspects of our own modern culture (<ref type="bibl" target="bibl:ADAM12">1</ref>). <title>The Sea Voyage</title> reflects this same dynamic throughout. For example, Morillat suggests that Albert captured Aminta for his own <q>appetite.</q> Throughout it is only the men who beg for meat and seem to have this kind of <q>appetite.</q> This emphasis on meat throughout, as opposed to other food sources, suggests that the <title>The Sea Voyage</title> is exploring the complicated ways in which meat and women’s bodies are equated during the early modern period.</note>
             </note>
             <note type="annotation"
                   target="doc:emdSV_M#emdSV_M_anc_1055"
@@ -3626,7 +3626,7 @@
                   target="doc:emdSV_M#emdSV_M_anc_1177"
                   targetEnd="doc:emdSV_M#emdSV_M_anc_1178">
                <note type="label">not a bit on march</note>
-               <note type="gloss">not a bite to eat from here on (<ref type="bibl" target="bibl:#cmlb2020">Bourne</ref>).</note>
+               <note type="gloss">not a bite to eat from here on (<ref type="bibl" target="bibl:FLET9">Bourne</ref>).</note>
             </note>
             <note type="annotation"
                   target="doc:emdSV_M#emdSV_M_anc_1179"

@@ -28,18 +28,20 @@
                <resp ref="resp:edt_mrk">Encoding Consultant</resp>
                <persName ref="pers:RUSS5">John Russell</persName>
             </respStmt>
-            <respStmt ref="resp:edt_coord">
+           <!--NOKH1: Need to create entries in PERS1 here and then add refs-->
+            <!--<respStmt ref="resp:edt_coord">
                <resp>Open Publishing Program Coordinator</resp>
                <persName>Ally Laird</persName>
-            </respStmt>
+            </respStmt>-->
             <respStmt>
                <resp ref="resp:prg">Open Access Systems Developer</resp>
                <persName ref="pers:GEAR1">Andrew Gearhart</persName>
             </respStmt>
-            <respStmt>
+           <!--NOKH1: Need to create entry in PERS1 here and then add refs. Not really sure what the entry would be here, though.-->
+            <!--<respStmt>
                <resp ref="resp:ann">Annotator</resp>
                <persName xml:id="formerOwner">Former Owner - Author of Manuscript Annotations</persName>
-            </respStmt>
+            </respStmt>-->
             <respStmt>
                <resp ref="resp:rtm_ra">Graduate Assistant</resp>
                <persName ref="pers:HARE1">Taylor Hare</persName>
@@ -48,18 +50,19 @@
                <resp ref="resp:rtm_ra">Graduate Assistant</resp>
                <persName ref="pers:LEBL1">David LeBlanc</persName>
             </respStmt>
+           <!--NOKH1: Need to create entries in PERS1 here and then add refs--><!--
             <respStmt>
                <resp ref="resp:rtm_ra">Graduate Assistant</resp>
                <persName>Danielle Ryle</persName>
-            </respStmt>
-            <respStmt>
+            </respStmt>-->
+            <!--<respStmt>
                <resp ref="resp:rtm_ra">Graduate Assistant</resp>
                <persName>Lauren Cenci</persName>
             </respStmt>
             <respStmt>
                <resp ref="resp:rtm_ra">Graduate Assistant</resp>
                <persName>Maria Isabel Maza</persName>
-            </respStmt>
+            </respStmt>-->
             <funder>
                <ref target="https://www.sshrc-crsh.gc.ca/">Social Sciences and Humanities Research Council of Canada</ref>
             </funder>
@@ -82,7 +85,7 @@
          <textClass>
             <catRef scheme="tax:emdBookFormats" target="cat:letSemiDiplomatic"/>
             <catRef scheme="tax:emdBookFormats" target="cat:lbfFolio"/>
-            <catRef scheme="tax:emdDocumentHist" target="cat:edhSourceBNF"/>
+<!--            <catRef scheme="tax:emdDocumentHist" target="cat:edhSourceBNF"/>-->
             <catRef scheme="tax:emdDocumentTypes" target="cat:ldtPrimaryFacsimile"/>
          </textClass>
       </profileDesc>
@@ -1721,10 +1724,8 @@
               </ab>
                   <stage type="delivery" place="plc-centre">Letter Read</stage>
                   <!-- the letter -->
-                  <floatingText>
-                     <body>
-                        <div type="letter" rend="italics">
-                           <salute>Signor <persName rend="roman">Lopez</persName>,</salute>
+                  
+                 <p>Signor Lopez,</p>
                            <p>Since my arrivall from <placeName>Cordova</placeName> to the<g ref="g:longS">s</g>e<lb/>
                     parts, I have written divers Letters unto you but as<lb/>
                     yet received no An<g ref="g:longS">s</g>wer of any <hi rendition="rnd:roman">(Good and very good)</hi> And<lb/>
@@ -1742,17 +1743,14 @@
                               <g ref="g:longS">s</g>e <g ref="g:longS">s</g>hall <g ref="g:longS">s</g>upply the want of your<lb/>
                               <g ref="g:longS">s</g>lackne<g ref="g:longS">s</g>
                               <g ref="g:longS">s</g>e: And <g ref="g:longS">s</g>o heaven keep you.</p>
-                           <closer>Yours<lb/>
-                              <signed>
-                                 <persName rend="roman">Alonzo Tiveria</persName>
-                              </signed>
-                           </closer>
-                        </div>
-                     </body>
-                  </floatingText>
-                  <persName>Alonzo Tiveria</persName>, very well,
+                           <p>Yours<lb/>                              
+                                 Alonzo Tiveria
+                           </p>
+                  <p>
+                  Alonzo Tiveria, very well,
               <lb type="wln"/>A very ancient friend of mine I take it,
               <lb type="wln"/>For till this houre I never heard his Name, yet.
+                  </p>
             </sp>
                <sp xml:id="emdSpCu_F_a2_s1_sp57">
                   <speaker>Lea</speaker>
