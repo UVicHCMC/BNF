@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="emdSpCu_GenIntro">
+<teiHeader>
+    <fileDesc>
+        <titleStmt>
+            <title type="main">General Introduction to The Spanish Curate</title>
+            <respStmt>
+                <resp ref="resp:aut">Author</resp>
+                <persName ref="pers:FLET1">John Fletcher</persName>
+            </respStmt>
+            <respStmt>
+                <resp ref="resp:aut">Author</resp>
+                <persName ref="pers:MASS10">Philip Massinger</persName>
+            </respStmt>
+            <respStmt>
+                <resp ref="resp:edt_gen">Editor in Chief</resp>
+                <persName ref="pers:BOUR10">Claire M. L. Bourne</persName>
+            </respStmt>
+            <respStmt>
+                <resp ref="resp:rtm">Project Manager</resp>
+                <persName ref="pers:FROE2">Heather Froehlich</persName>
+            </respStmt>
+            <respStmt>
+                <resp ref="resp:edt_mrk">Encoding Consultant</resp>
+                <persName ref="pers:RUSS5">John Russell</persName>
+            </respStmt>
+            <respStmt>
+                <resp ref="resp:edt_mrk">Encoding Consultant</resp>
+                <persName ref="pers:RUSS5">John Russell</persName>
+            </respStmt>
+            <!--NOKH1: Need to create entries in PERS1 here and then add refs-->
+            <!--<respStmt ref="resp:edt_coord">
+               <resp>Open Publishing Program Coordinator</resp>
+               <persName>Ally Laird</persName>
+            </respStmt>-->
+            <respStmt>
+                <resp ref="resp:prg">Open Access Systems Developer</resp>
+                <persName ref="pers:GEAR1">Andrew Gearhart</persName>
+            </respStmt>
+            <!--NOKH1: Need to create entry in PERS1 here and then add refs. Not really sure what the entry would be here, though.-->
+            <!--<respStmt>
+               <resp ref="resp:ann">Annotator</resp>
+               <persName xml:id="formerOwner">Former Owner - Author of Manuscript Annotations</persName>
+            </respStmt>-->
+            <respStmt>
+                <resp ref="resp:rtm_ra">Graduate Assistant</resp>
+                <persName ref="pers:HARE1">Taylor Hare</persName>
+            </respStmt>
+            <respStmt>
+                <resp ref="resp:rtm_ra">Graduate Assistant</resp>
+                <persName ref="pers:LEBL1">David LeBlanc</persName>
+            </respStmt>
+            <!--NOKH1: Need to create entries in PERS1 here and then add refs--><!--
+            <respStmt>
+               <resp ref="resp:rtm_ra">Graduate Assistant</resp>
+               <persName>Danielle Ryle</persName>
+            </respStmt>-->
+            <!--<respStmt>
+               <resp ref="resp:rtm_ra">Graduate Assistant</resp>
+               <persName>Lauren Cenci</persName>
+            </respStmt>
+            <respStmt>
+               <resp ref="resp:rtm_ra">Graduate Assistant</resp>
+               <persName>Maria Isabel Maza</persName>
+            </respStmt>-->
+            <funder>
+                <ref target="https://www.sshrc-crsh.gc.ca/">Social Sciences and Humanities Research Council of Canada</ref>
+            </funder>
+        </titleStmt>
+        <editionStmt>
+            <p>Released with Digital Beaumont and Fletcher 2.0</p>
+        </editionStmt>
+        <publicationStmt>
+            <publisher>University of Victoria on the Linked Early Modern Drama Online
+                Platform</publisher>
+            <availability>
+                <p>Attribution 4.0 International (CC BY 4.0)</p>
+            </availability>
+        </publicationStmt>
+        <seriesStmt>
+            <p>Digital Beaumont and Fletcher</p>
+        </seriesStmt>
+        <notesStmt>
+            <relatedItem target="doc:emdSpCu_M"/>
+        </notesStmt>
+        <sourceDesc>
+            <p>Text extracted from MD files from the Digital Beaumont and Fletcher</p>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <textClass>
+            <catRef scheme="tax:emdBookFormats" target="cat:letSemiDiplomatic"/>
+            <catRef scheme="tax:emdBookFormats" target="cat:lbfFolio"/>
+            <!--            <catRef scheme="tax:emdDocumentHist" target="cat:edhSourceBNF"/>-->
+            <catRef scheme="tax:emdDocumentTypes" target="cat:ldtPrimaryFacsimile"/>
+        </textClass>
+    </profileDesc>
+    <encodingDesc>
+        <p>Encoded in TEI P5 according to the LEMDO Customization and Encoding Guidelines.</p>
+    </encodingDesc>
+    <revisionDesc status="prgGenerated">
+        <change who="pers:NOKH1" when="2026-03-12">Converted from BNF MD to LEMDO TEI</change>
+    </revisionDesc>
+</teiHeader>
+    <text>
+        <body>
+            <div xml:id="emdSpCu_GenIntro_TextNote">
+                <head>A Note on the Text</head>
+                <p>This edition offers three versions of the playtext: (1) digital images of the 1647 base text; (2) a transcription of the 1647 base text; and (3) a fully modernized, student-generated edition. The XML-TEI files for <hi rendition="rnd:italic">The Spanish Curate</hi> are also accessible for viewing or download via the play’s <ref target="https://github.com/psu-libraries/dbfp-tsc/tree/main/src/files">GitHub repository</ref>.</p>
+                <p>Our transcription of <hi rendition="rnd:italic">The Spanish Curate</hi>
+                    is based on the copy of <hi rendition="rnd:italic">Comedies &amp; Tragedies</hi>
+                    (1647) held in PSU Libraries’ Eberly Family Special Collections Library. The text of the play in PSU’s copy includes 107 manuscript notes in an early hand and a number of typographical oddities, including turned letters and warped letter forms.</p>
+                <p>The edited version of the play is a product of a Graduate Assistantship position. My duties as the graduate assistant required me to first transcribe the play based on PSU’s copy of the 1647 folio. I began by transcribing the folio text as diplomatically as possible, making small adjustments to the transcription to aid the modern reader. For instance, I corrected turned letters and added missing text due to material damage to pages. I also transcribed the manuscript notes in the copy I used for my base text. Finally, I modernized, glossed, and annotated the text. See below for more details about method. </p>
+                <p>This digital edition of <hi rendition="rnd:italic">The Spanish Curate</hi> is designed with undergraduate classroom use in mind. In the transcribed version, textual accuracy is the primary aim — we want to provide students convenient access to a clean transcript of the folio iteration of the play. In the edited version, clarity is emphasized throughout to facilitate ease of reading. </p>
+            </div>
+            <div xml:id="emdSpCu_GenIntro_Images">
+                <head>Digital Images</head>
+                <p>The Penn State copy of the Beaumont and Fletcher first folio has been <ref target="https://digital.libraries.psu.edu/digital/collection/emblem/id/4301/rec/4">fully digitized</ref> by the Preservation, Conservation, and Digitization Department at PSU Libraries. This edition provides easy page-by-page access to images of the pages on which <hi rendition="rnd:italic">The Spanish Curate</hi>
+                    is printed. </p>
+            </div>
+            <div xml:id="emdSpCu_GenIntro_Transcription">
+                <head>Transcription</head>
+                <p>The playtext, as it appears in the 1647 first folio, was transcribed and encoded with as light an editorial hand as possible; it is close to a 1:1 rendering of the original printed text. Textual difficulties, such as misplaced stage directions, have been rendered faithfully. All punctuation has been captured as it appears. In cases where punctuation or words were obscured due to markings or stains on the page, other copies of the 1647 folio were consulted to resolve these ambiguities. All misprintings (including obvious misspellings) have been preserved. This includes when an upper-case "i" was used in place of a lower-case "l [el]," and vice versa. The use of the long-s (ſ) has been retained. However, some typographical characters were not captured, such as ligatures (e.g., Æ or æ in place of AE and ae) and turned letters (e.g., ǝ in place of e). Other textual aberrations, such as long dashes, have either been captured as accurately as possible using available means or noted via an XML <!--    --> comment in the code. This site has been designed so that readers can click back and forth between the transcription and the modernized edition.</p>
+            </div>
+                <div xml:id="emdSpCu_GenIntro_ModernEd">
+                    <head>Modernized Edition</head>
+                    <div xml:id="emdSpCu_GenIntro_ModernEd_Attribution">
+                        <head>Attribution</head>
+                <p>Due to the diachronic, collaborative set-up of this digital editing project, tracking and attributing editorial labor has played a key role in preparing our edition of <hi rendition="rnd:italic">The Spanish Curate</hi>. Editing decisions made by either the General Editor or Consulting Editor are tagged “#mim” and “#cmlb”, respectively. Though these attributions of labor are not displayed in the text of the digital edition, they can be accessed by downloading the associated .xml file. </p>
+                    </div>
+                    <div xml:id="emdSpCu_GenIntro_ModernEd_Modernization">
+                <head>Modernization (Spelling &amp; Punctuation)</head>
+                <p>The spelling has been modernized throughout <hi rendition="rnd:italic">The Spanish Curate</hi>. All typography is modernized (e.g., every long-s was replaced with a short-s), and spelling is modernized using British forms. The only exceptions to modernized spellings concern contractions (see “Meter” below). </p>
+                <p>Two considerations guided changes to the folio punctuation. The first and most important was grammatical. Where possible, standard grammatical forms of punctuation are used to clarify meaning. (In some cases, however, the rules of grammatical punctuation are bent to accommodate and emphasize certain verbal effects. Such decisions are especially prevalent in moments of excited action, where non-verbal business creates non-grammatical patterns of speech.) The second consideration was stylistic. Grammatically correct marks of punctuation are at times swapped out for marks that play similar grammatical roles but better emphasize tone or clarify a dramatic situation. The most common substitutions are exclamation points in place of periods to convey the emotional tenor of certain statements and line-end dashes in place of periods to illustrate interrupted speech.</p>
+                    </div>
+                    <div xml:id="emdSpCu_GenIntro_ModernEd_Meter">
+                        <head>Meter</head>
+                <p>The verse meter in the 1647 text is highly irregular in places, but some attempts have been made to regularize it.</p>
+                <p>Most often, this means certain contracted forms of words are maintained (e.g., “to’th’” of the folio text is used instead of the modernized form “to the,” which contains an additional syllable) in cases where not modernizing maintains iambic pentameter. </p>
+                    </div>
+                        <div xml:id="emdSpCu_GenIntro_ModernEd_Divisions">
+                <head>TEXTUAL DIVISIONS</head>
+                <p>The act divisions of the folio are maintained, even though the act headings themselves are modernized and regularized throughout. The folio text is further divided into scenes. Despite all characters leaving the stage in the middle of scenes, such as 2.4, scene divisions are not inserted as the action was continuous.</p>
+                        </div>
+                    <div xml:id="emdSpCu_GenIntro_ModernEd_StageDirections">
+                <head>STAGE DIRECTIONS</head>
+                <p>Stage directions added by the editor appear in square brackets.</p>
+                <p>Stage directions that appear in the folio text are included and modernized except in the few cases where the folio direction directly conflicts with dialogic or other cues. (For example, during 2.4, the entrances and exits for Bartolus, Amaranta, Servant, and Leandro have been moved and modified to more accurately reflect who is where on stage.) Stage directions that present logistical staging problems based on where they are situated vis-à-vis the dialogue have either been repositioned or eliminated to avoid confusion. Readers can consult the transcribed base text or page image to compare. Stage directions that appear in the folio text, even if they have been moved or modified, are not presented in square brackets to differentiate them from editorial directions.</p>
+                <p>Missing entrances and exits are provided using the following rules:</p>
+                <list rend="numbered">
+                    <item>Everyone who speaks must have entered. N.B. There are instances when a character is speaking from within and cannot be seen on stage; these instances are the only exception to this rule.</item>
+                        <item>
+                            Everyone who enters must at some point (i.e., by the end of the scene) exit.</item>
+                </list>
+                <p>Most entrances and exits are displayed on their own line between speeches. The only exceptions are when the dialogue indicates that an entrance or exit interrupts a speech; in these cases, the entrance or exit is ranged to the right of the line of dialogue it interrupts. Other stage directions are ranged to the right of the dialogue to which they correspond. However, if the stage direction suggests an activity that would require a good deal of stage time or seems of particular dramatic importance, it is afforded its own line between speeches.</p>
+                        </div>
+                        <div xml:id="emdSpCu_GenIntro_ModernEd_ManuscriptNotes">
+                <head>Manuscript Notes</head>
+                <p><hi rendition="rnd:italic">The Spanish Curate</hi> is one of three plays in the Penn State copy of the 1647 Beaumont and Fletcher first folio to feature notes and marks in a seventeenth-century hand. These annotations seem intended for performance use. The edition includes transcriptions of these handwritten interventions. Their placement in relation to the dialogue in the transcription and edited text is always an approximation. Readers are urged to use the relevant folio page images for a more accurate view of the scribal mark-up. The manuscript notes and marks are encoded as stage directions and attributed to the former owner of the book.</p>
+                        </div>
+                        <div xml:id="emdSpCu_GenIntro_ModernEd_Glosses">
+                            <head>Glosses</head>
+                <p>Glosses are supplied to clarify the meanings of difficult words and phrases. Glossed words and definitions reflect their grammatical usage in the text. The <hi rendition="rnd:italic">Oxford English Dictionary</hi>
+                    (<hi rendition="rnd:italic">OED</hi>) was consulted to define words and phrases throughout.</p></div>
+                        <div xml:id="emdSpCu_GenIntro_ModernEd_Annotations">
+                <head>Annotations</head>
+                <p>Longer annotations are provided to help contextualize or offer interpretative readings of key textual moments.  </p>
+                        </div>
+            </div>
+        </body>
+    </text>
+</TEI>

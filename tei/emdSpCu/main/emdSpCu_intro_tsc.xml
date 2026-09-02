@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="emdSpCu_intro_tsc">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">emdSpCu intro tsc</title>
+            <respStmt>
+               <resp ref="resp:aut">Author</resp>
+               <persName ref="pers:MAZA1">Maria Isabel Maza</persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <p>Released with Digital Beaumont and Fletcher 2.0</p>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>University of Victoria on the Linked Early Modern Drama Online Platform</publisher>
+            <availability>
+               <p>Attribution 4.0 International (CC BY 4.0)</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Digital Beaumont and Fletcher</p>
+         </seriesStmt>
+         <sourceDesc>
+            <p>Converted from BNF paratext source file emdSpCu_intro-tsc.xml.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <!--<catRef scheme="tax:emdDocumentHist" target="cat:edhSourceBNF"/>-->
+            <catRef scheme="tax:emdDocumentTypes" target="cat:ldtPrimaryFacsimile"/>
+         </textClass>
+      </profileDesc>
+      <encodingDesc>
+         <p>Encoded in TEI P5 according to the LEMDO Customization and Encoding Guidelines.</p>
+      </encodingDesc>
+      <revisionDesc status="prgGenerated">
+         <change who="pers:NOKH1" when="2026-07-09">Converted from BNF paratext source</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>by Maria Isabel Maza</p>
+         <div type="section" xml:id="emdSpCu_intro_tsc_sec1">
+            <head>PLOT OVERVIEW</head>
+            <p>
+               <hi rendition="rnd:italic">The Spanish Curate</hi> follows two intertwined plot lines: one concerning a pair of brothers
+  (Henrique and Jamie), and the other concerning a married couple (Bartolus and Amaranta). </p>
+            <p>Because Henrique and Violante, his wife, have no children, Jamie is set to inherit. To remove
+  Jamie as his heir, Henrique reveals he had an illegitimate child named Ascanio with a woman named
+  Jacinta before his marriage to Violante. With the help of Bartolus, a lawyer, Ascanio becomes
+  Henrique’s heir, but Violante feels betrayed and plots with Jamie to kill Ascanio, Henrique,
+  Jacinta, and Octavio (Ascanio’s pretended father). In the end, Jamie betrays Violante by revealing
+  her plot, and brothers re-establish a friendly relationship. </p>
+            <p>The secondary plot follows Bartolus’ overbearing marriage to Amaranta. Jamie tells the desirous
+  Leandro that Amaranta is said to be incredibly beautiful, but that Bartolus keeps her at home.
+  Leandro disguises himself as a law student, and by tricking Lopez and Diego, the local curate and
+  sexton, finds himself pretending to study law and living in Bartolus’ house. Other characters help
+  trick Bartolus and he eventually realizes his overbearing nature. Despite Leandro’s lusty
+  overtures, Amaranta remains faithful to Bartolus. </p>
+            <p>For a more detailed description of the plot, see the <!--<ref target="/content/plot-summary-tsc/">-->scene-by-scene plot summary<!--</ref>-->. </p>
+         </div>
+         <div type="section" xml:id="emdSpCu_intro_tsc_sec2">
+            <head>AUTHORSHIP </head>
+            <p>
+               <hi rendition="rnd:italic">The Spanish Curate</hi> was first published in the 1647 folio, which attributed all the plays
+  within to Francis Beaumont and John Fletcher. However, scholars including Cyrus Hoy made the case
+  that this play was a collaboration between Fletcher and a different contemporary playwright:
+  Philip Massinger (Hoy, 1957). Hoy makes the case that Fletcher wrote the scenes focusing on
+  Bartolus, Amaranta, and Leandro and that Massinger wrote the scenes depicting the familial
+  intrigue between Jamie and Henrique. Scholars tend to agree that <hi rendition="rnd:italic">The Spanish Curate</hi>, among
+  other plays in the Beaumont and Fletcher Folio, was co-authored by Massinger. </p>
+         </div>
+         <div type="section" xml:id="emdSpCu_intro_tsc_sec3">
+            <head>SOURCES </head>
+            <p>The plot of <hi rendition="rnd:italic">The Spanish Curate</hi> was not invented for the play. Instead, the plot was
+  borrowed from <hi rendition="rnd:italic">Poema trágico del español Gerardo, y desengaño del amor lascivo</hi>, written by
+  the Spanish author Gonzalo de Céspedes y Meneses and <ref target="https://www.ustc.ac.uk/editions/5023295">first published in Madrid in 1615</ref>. <hi rendition="rnd:italic">Poema
+   tràgico del español Gerardo</hi> was translated into English by Leonard Digges and published in
+  1622 as <hi rendition="rnd:italic">
+                  <ref target="http://estc.bl.uk/S107646">Gerardo, the Unfortunate Spaniard; or, a Pattern
+    for Lascivious Lovers</ref>
+               </hi>. </p>
+            <p>The play is very likely based on the translation, rather than on the Spanish text. As Robert
+  Kean Turner noted, the contents of the letter written by Alonzo Tiveria to Lopez as printed in the
+  folio edition is “identical” to the version that appears in the translation, except for a few
+  minor variants (Turner, 1996). </p>
+         </div>
+         <div type="section" xml:id="emdSpCu_intro_tsc_sec4">
+            <head>EARLY PERFORMANCE </head>
+            <p>
+               <hi rendition="rnd:italic">The Spanish Curate</hi> was first performed by The King’s Men in December 1622, the same year
+  the play was written. The play was popular before 1640, and after the re-opening of the theaters
+  in 1660, it was regularly performed. According to the <ref target="https://www.eighteenthcenturydrama.amdigital.co.uk/LondonStage/Database">London Stage
+   Database</ref>, the play is known to have been performed thirteen times between 1661 and 1783. </p>
+         </div>
+         <div type="section" xml:id="emdSpCu_intro_tsc_sec5">
+            <head>EARLY PUBLICATION </head>
+            <p>
+               <hi rendition="rnd:italic">The Spanish Curate</hi> was first published in <hi rendition="rnd:italic">Comedies and Tragedies Written by Francis
+   Beavmont And Iohn Fletcher Gentlemen</hi> (1647, Wing B1581), the first folio edition of plays in
+  the Beaumont and Fletcher canon. The copy of the 1647 folio that serves as the base text for this
+  edition contains annotations in a seventeenth-century hand. These notes appear in three plays,
+  including <hi rendition="rnd:italic">The Spanish Curate</hi>. The manuscript notes seem related to performance, as they
+  note upcoming entrances, the timing of those entrances, the ends of acts, and required props. For
+  more about the annotations, please refer to <ref target="https://openpublishing.psu.edu/digital-beaumont-fletcher-about-book">About the Book</ref>.
+  For a description of how these notes are handled in the encoding of the edition, please see <!--<ref target="/content/editorial-principles-tsc/">-->Editorial Principles: The Spanish Curate<!--</ref>-->. </p>
+            <!--<p>
+               <graphic url="/files/tsc-img1.png"/>
+            </p>-->
+            <p>The cross-hatched lines, seen above, mark a character’s entrance (3.4.13). </p>
+            <!--<p>
+               <graphic url="/files/tsc-img2.png"/>
+            </p>-->
+            <p>The manuscript note above reads “Henrique be ready” (1.1.100). These notes call attention to a
+  character’s upcoming entrance onto the stage. </p>
+            <!--<p>
+               <graphic url="/files/tsc-img3.png"/>
+            </p>-->
+            <p>The manuscript note above, which reads “Dance” denotes a dance which could occur at this point
+  in the scene (3.2.108). The 1679 folio inserts a song at this moment in the scene, which means the
+  annotator knew of the possible inclusion of a song that was omitted from the 1647 folio’s copy of
+   <hi rendition="rnd:italic">The Spanish Curate</hi>. </p>
+            <!--<p>
+               <graphic url="/files/tsc-img4.png"/>
+            </p>-->
+            <p>The manuscript mark above notes the end of Act 4 (4.7.104). </p>
+            <p>The second edition of <hi rendition="rnd:italic">The Spanish Curate</hi> appeared in the expanded second folio of
+  Beaumont and Fletcher’s plays, <hi rendition="rnd:italic">Fifty Comedies and Tragedies. Written by Francis Beaumont and
+   John Fletcher, Gentlemen</hi> (Wing B1582, 1679). While there are corrections to the spelling,
+  grammar, and stage directions in throughout second edition of <hi rendition="rnd:italic">The Spanish Curate</hi>, the most
+  noticeable changes are the addition of two songs within the playtext:</p>
+            <p>
+               <hi rendition="rnd:bold">Added between 2.4.49-2.4.50 in 1679 folio</hi>
+            </p>
+            <p>1<lb/> Dearest do not you delay me, <lb/> Since thou knowest I must be gone; <lb/> Wind and Tide
+  ’tis thought doth stay me, <lb/> But ’tis wind that must be blown <lb/> From that breath, whose
+  native smell <lb/> Indian Odours far excel. </p>
+            <p>2 <lb/> Oh then speak thou fairest fair, <lb/> Kill not him that vows to serve thee, <lb/> But
+  perfume this neighboring Air; <lb/> Else dull silence sure will starve me: <lb/> ’Tis a word
+  that’s quickly spoken, <lb/> Which being restrain’d a heart is broken. </p>
+            <lb/>
+            <p>
+               <hi rendition="rnd:bold">Added between 3.2.108-3.2.109 in 1679 folio</hi>
+            </p>
+            <p>1 <lb/> Let the Bells ring, and let the Boys Sing, <lb/> The young Lasses skip and play; <lb/>
+  Let the Cups go round, till round goes the ground, <lb/> Our Learned old Vicar will stay. </p>
+            <lb/>
+            <p>2 <lb/> Let the Pig turn merrily, merrily ah, <lb/> And let the fat Goose swim: <lb/> For
+  verily, verily, verily ah, <lb/> Our Vicar this day shall be trim. </p>
+            <lb/>
+            <p>3 <lb/> The stew’d Cock shall crow, Cock-a-loodle-loo, <lb/> A loud Cock-a-loodle shall he Crow;
+  <lb/> The Duck and the Drake, shall swim in a lake <lb/> Of Onions and Claret below. </p>
+            <lb/>
+            <p>4 <lb/> Our Wives shall be neat, to bring in our meat; <lb/> To thee our most noble adviser,
+  <lb/> Our pains shall be great, and Bottles shall sweat, <lb/> And we our selves will be wiser. </p>
+            <lb/>
+            <p>5 <lb/> We’ll labour and swinck, we’ll kiss and we’ll drink, <lb/> And Tithes shall come thicker
+  and thicker: <lb/> We’ll fall to the Plow, and get Children enough, <lb/> And thou shalt be
+  learned old Vicar. </p>
+            <lb/>
+            <p>The songs do not appear in the present edition. </p>
+            <p>
+               <hi rendition="rnd:italic">The Spanish Curate</hi> was published in eighteenth-century editions of Beaumont and
+  Fletcher’s Works (1711, 1750, 1778) and once as a stand-alone playbook (1718). </p>
+         </div>
+         <div type="section" xml:id="emdSpCu_intro_tsc_sec6">
+            <head>MAJOR THEMES </head>
+            <list>
+               <head>Class &amp; Labor:</head>
+               <item>Class identity is central to the plot of <hi rendition="rnd:italic">The Spanish Curate</hi>. Before Ascanio is
+    revealed to be Henrique’s illegitimate son, upper-class male characters comment on Ascanio’s
+    sweet and noble nature (1.1.47-1.1.59). When it is later revealed that he is of noble blood, at
+    least on his father’s side (3.3.64-105), his behavior seems more fitting for his newfound class. </item>
+               <item>Lopez and Diego, two men of the church, spend much of their time on stage complaining about
+    their work and how little there is to do and thus how little money they’re making (2.1. 55-61).
+    For example, they claim that due to all the men going to war, there have been no babies to
+    baptize (2.1.62-69). However, they use their positions as curate and sexton to their advantage
+    whenever they can. </item>
+               <item>Bartolus, a lawyer, is seen to employ false witnesses to help with Henrique’s case. However,
+    his success rate, probably due to his breaking of rules, is well-known in the community. These
+    characters establish a bad sense of work-ethic within the play. </item>
+               <item>Titles are used fairly consistently throughout the play. Violante and Amaranta are often
+    referred to as Ladies, while Henrique and Jamie often have the title “Don” attached to their
+    names. Some characters refer to others as “Sir” while other characters are called by their given
+    name. The servants (apart from Andrea and Egla), parishioners, and witnesses are both nameless
+    and title less. Considering how characters refer to one other can tell us a lot about the class
+    structure in the play. </item>
+            </list>
+            <list>
+               <head>Gender &amp; Family:</head>
+               <item>Amaranta and Bartolus’ relationship is presented as unhealthy. Bartolus insists on keeping
+    Amaranta at home, claiming that she is more beautiful that way because she is so rarely seen
+    that her presence becomes more valuable when she is out of the house (2.2.1-9) He fears that men
+    will attempt to seduce Amaranta, but quickly forgets about his fears when Leandro offers to pay
+    Bartolus to study with him. Bartolus, here, like in other moments of the play, is convinced by
+    money. Despite Bartolus’ fears, Amaranta is able to hold her own against Leandro’s plot to
+    seduce her, and at the end of the play, shows herself to be a faithful wife. </item>
+               <item>Another driving force in the plot is the revelation of Ascanio’s true parentage. Violante is
+    sure that because Henrique had a child before he married her, he came to their marriage bed less
+    able to produce a child (4.1.8-11). Before the truth is revealed, Violante cannot understand why
+    she and Henrique have not had children. Violante’s inability to conceive is reasoned, in the
+    play, to have to do with God and heaven, rather than any biological reason (1.3.1-7). At the end
+    of the play, when Violante’s scheme to murder her husband (5.1.87-94) is revealed the Assistant
+    warns the men on stage to not be weak in comparison to women, as they will surely suffer if they
+    do (5.3.154-155).</item>
+               <item>Amaranta and Violante are foils in this play. Everywhere that Violante is aggressive and
+    petty, Amaranta is patient and mild. However, both women are in relationships where their
+    partners seek to control them. The conclusion of the play states that there are wrong and right
+    women to marry. More specifically, makes the case that heterosexual relationships should be run
+    by men, as if women make the decisions, things can fall apart. In short, women tend to cause
+    issues in the relationship, not the men. </item>
+            </list>
+         </div>
+         <div type="section" xml:id="emdSpCu_intro_tsc_sec7">
+            <head>FURTHER READING</head>
+            <p>There is very little scholarship on <hi rendition="rnd:italic">The Spanish Curate</hi>. Articles that take <hi rendition="rnd:italic">The Spanish
+   Curate</hi> as a central focus mostly focus on questions of authorship, broadly speaking. For
+  example, Edward M. Wilson’s “Did John Fletcher Read Spanish?” uses the play as a way to study
+  Fletcher’s linguistic abilities, which Wilson believes were not developed to the point of being a
+  Spanish reader (Wilson 1948, 187). Jeffrey Kahan’s “<hi rendition="rnd:italic">The Double Falshood</hi> and <hi rendition="rnd:italic">The Spanish
+   Curate</hi>: A Further Fletcher Connection” considers the possibility that <hi rendition="rnd:italic">The Spanish
+   Curate</hi> could tell us something new about a lost Shakespeare play (Kahan 2007, 34-35). While
+  Kahan analyzes names and some of the plot in the short article, the general treatment of <hi rendition="rnd:italic">The
+   Spanish Curate</hi> is in service to Kahan’s argument on Double Falshood. In short, <hi rendition="rnd:italic">The Spanish
+   Curate</hi> has not garnered the same attention as other plays published in the 1647 folio. </p>
+            <p>An old-spelling edition of <hi rendition="rnd:italic">The Spanish Curate</hi>, edited by Robert Kean Turner, appears in
+   <hi rendition="rnd:italic">The Dramatic Works in the Beaumont and Fletcher Canon</hi>, vol. 10 (Cambridge University
+  Press, 1994), 295-424. </p>
+         </div>
+         <div type="section" xml:id="emdSpCu_intro_tsc_sec8">
+            <head>
+  REFERENCES
+  <lb/>
+            </head>
+            <p>
+  Hay, Cyrus. “The Shares of Fletcher and His Collaborators in the Beaumont and Fletcher Canon
+   (II).” <hi rendition="rnd:italic">Studies in Biography</hi>, Vol. 9, University of Virginia, 1957.
+  <lb/>
+            </p>
+            <p>
+  Kahan, Jeffry. “The Double Falshood and The Spanish Curate: A Further Fletcher Connection.”
+    <hi rendition="rnd:italic">ANQ</hi>. Vol 20, 2007, 34-36. 
+  <lb/>
+            </p>
+            <p>
+  Turner, Robert Kean. “Textual Introduction.” in <hi rendition="rnd:italic">The Dramatic Works in the Beaumont and
+    Fletcher Canon</hi>. ed. Fredson Bowers, Cambridge, 1996, 295. 
+  <lb/>
+            </p>
+            <p>
+  Wilson, Edward M. “Did John Fletcher Read Spanish?”. <hi rendition="rnd:italic">Philological Quarterly</hi>, Iowa
+   City, Vol. 27, 1948, 187-190. 
+  <lb/>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
